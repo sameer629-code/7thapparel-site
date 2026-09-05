@@ -1,11 +1,9 @@
-# Deploy the site to GitHub Pages.
+# Deploys the site to GitHub Pages on every push to main.
 #
-# DISABLED until someone turns it on: set Settings → Pages → Source → GitHub Actions.
-# GitHub Pages needs a public repository, or a paid plan for a private one.
-#
-# For a custom domain, uncomment the CNAME step below and point DNS at GitHub:
-#   A     @      185.199.108.153 / .109.153 / .110.153 / .111.153
-#   CNAME www    <account>.github.io
+# Custom domain is set by the CNAME file at the repo root (7thapparel.com).
+# DNS must point at GitHub:
+#   A      @      185.199.108.153 / .109.153 / .110.153 / .111.153
+#   CNAME  www    sameer629-code.github.io
 name: Deploy to Pages
 
 on:
@@ -30,9 +28,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      # - name: Set custom domain
-      #   run: echo "7thapparel.com" > CNAME
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
