@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Clothing Manufacturer for European Brands | 7th Apparel</title>
+<link rel="canonical" href="https://7thapparel.com/">
+<script>(function(){try{var p=location.pathname;if(/\.html$/.test(p)){var c=p.replace(/index\.html$/,'').replace(/\.html$/,'');if(c==='')c='/';history.replaceState(null,'',c+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="European clothing manufacturer with our own factory. Order from 10 pieces, no letter of credit, delivered to your door duty paid.">
 <link rel="icon" href="assets/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
@@ -284,9 +286,24 @@ nav a.logo{display:inline-flex;align-items:center;min-height:44px}
  .navcta{font-size:14px;padding:11px 16px}
 }
 @media(max-width:760px){
- .doors .grid,.trstats,.ocards,.ogrid,.vgrid.facts,.entities,.whygrid,.grid3,.grid2,.fgrid{grid-template-columns:1fr!important}
+ .trstats,.ocards,.ogrid,.vgrid.facts,.entities,.whygrid,.grid3,.grid2,.fgrid{grid-template-columns:1fr!important}
+ /* The two audience doors stay side by side at EVERY width — the choice between
+    "for brands" and "for teams" only reads as a choice when both are visible at once. */
+ .doors .grid{grid-template-columns:1fr 1fr!important;gap:12px}
+ .door{padding:22px 18px;border-top-width:4px}
+ .door h3{font-size:19px;line-height:1.18}
+ .door p{font-size:13.5px;line-height:1.5;margin:9px 0 18px}
+ .door .btn{width:100%;text-align:center;padding:11px 10px;font-size:12.5px;white-space:normal;line-height:1.3}
  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
  .tablewrap table{min-width:620px}
+}
+@media(max-width:420px){
+ .doors .grid{gap:9px}
+ .door{padding:17px 13px}
+ .door h3{font-size:16.5px}
+ .door p{font-size:12.5px;margin:8px 0 15px}
+ .door .mono{font-size:9.5px;letter-spacing:.08em}
+ .door .btn{padding:10px 7px;font-size:11.5px}
 }
 
 nav{display:flex;align-items:center;gap:16px;flex-wrap:nowrap}
@@ -335,15 +352,15 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 </style></head><body>
 <div id="loader"><svg viewBox="0 0 100 100" fill="none"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg></div>
 <header><div class="wrap"><nav>
-<a class="logo" href="index.html"><svg viewBox="0 0 100 100" fill="none"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>7th Apparel</a>
-<ul id="navlist"><li><a href="for-brands.html">For Brands</a></li><li><a href="for-teams.html">For Teams</a></li><li><a href="what-we-make.html">What we make</a></li><li><a href="our-factory.html">Our factory</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="faq.html">FAQ</a></li><li><a href="compliance.html">Compliance</a></li><li><a href="contact.html">Contact</a></li></ul>
-<button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><a class="btn" href="quote.html">Get a quote</a></nav></div></header>
+<a class="logo" href="/"><svg viewBox="0 0 100 100" fill="none"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>7th Apparel</a>
+<ul id="navlist"><li><a href="/for-brands">For Brands</a></li><li><a href="/for-teams">For Teams</a></li><li><a href="/what-we-make">What we make</a></li><li><a href="/our-factory">Our factory</a></li><li><a href="/how-it-works">How it works</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/faq">FAQ</a></li><li><a href="/compliance">Compliance</a></li><li><a href="/contact">Contact</a></li></ul>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><a class="btn" href="/quote">Get a quote</a></nav></div></header>
 
 <section class="hero"><div class="bgimg"><img id="heroimg" src="assets/factory_wide.jpg" alt="Our own production floor"></div>
 <div class="wrap inner"><div class="kicker">EUROPEAN FRONT DESK · OUR OWN PRODUCTION HOUSE</div>
 <h1 id="heroline"><span class="w"><span>When&nbsp;</span></span><span class="w"><span>your&nbsp;</span></span><span class="w"><span><em>brand</em>&nbsp;</span></span><span class="w"><span>syncs&nbsp;</span></span><span class="w"><span>with&nbsp;</span></span><span class="w"><span>our&nbsp;</span></span><span class="w"><span><em>production.</em></span></span></h1>
 <p>Ten pieces or millions — cut, sewn and finished in our own house, then delivered to your door with the customs work done for you. Knit, woven, denim, workwear, leather and towels &mdash; in conventional or 100% organic cotton. If it is cut and sewn, ask us.</p>
-<a class="btn" href="quote.html">Get a quote in 48 hours</a> &nbsp; <a class="btn ghost" href="#flow">See how it works ↓</a>
+<a class="btn" href="/quote">Get a quote in 48 hours</a> &nbsp; <a class="btn ghost" href="#flow">See how it works ↓</a>
 <ul class="heroproof"><li><b>146,500</b> pieces shipped since March 2025</li><li><b>11 of 13</b> orders are repeat business</li><li><b>From 10</b> pieces per style</li><li><b>KVK 91485452</b> · Sedex <b>ZC5000072720</b></li></ul></div>
 <svg class="threadline" viewBox="0 0 1400 120" preserveAspectRatio="none" fill="none"><path id="heroThread" d="M-20 90 C 300 20, 600 110, 900 55 S 1300 70, 1430 40" stroke="#E0A83C" stroke-width="2.5" stroke-dasharray="9 7"/></svg>
 <div class="marquee"><div class="track"><span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span><span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span></div></div>
@@ -351,8 +368,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 <h2 class="sr-only">What we do</h2><section class="doors"><div class="wrap"><div class="grid">
-<div class="door"><span class="mono" style="color:var(--gold)">FOR BRANDS</span><h3>You design it. We build it.</h3><p>Start with ten pieces to hold, a hundred to sell, or a hundred thousand to ship. We draw the tech pack with you, sample it in two to four weeks, and your designs stay yours in writing.</p><a class="btn" href="for-brands.html">Launch · Grow · Scale →</a></div>
-<div class="door l"><span class="mono" style="color:var(--lilac)">FOR TEAMS</span><h3>Not merch. Your own collection.</h3><p>Kit out a team, an event or a whole company — your label, your colours, and a fabric you choose from the options we put in front of you. Twenty hoodies for the office or two thousand uniforms for a chain.</p><a class="btn ghost" href="for-teams.html">Collection · Programme →</a></div>
+<div class="door"><span class="mono" style="color:var(--gold)">FOR BRANDS</span><h3>You design it. We build it.</h3><p>Start with ten pieces to hold, a hundred to sell, or a hundred thousand to ship. We draw the tech pack with you, sample it in two to four weeks, and your designs stay yours in writing.</p><a class="btn" href="/for-brands">Launch · Grow · Scale →</a></div>
+<div class="door l"><span class="mono" style="color:var(--lilac)">FOR TEAMS</span><h3>Not merch. Your own collection.</h3><p>Kit out a team, an event or a whole company — your label, your colours, and a fabric you choose from the options we put in front of you. Twenty hoodies for the office or two thousand uniforms for a chain.</p><a class="btn ghost" href="/for-teams">Collection · Programme →</a></div>
 </div></div></section>
 <section id="samplebox"><div class="wrap"><div class="sbox">
 <div class="sbleft">
@@ -360,7 +377,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
  <h2>Hold it before you spend anything.</h2>
  <p>Send us a brief and we make your style in the fabric you choose, with your label &mdash; a real garment off the same line that runs the hundred-thousand-piece programmes, not a printed blank.</p>
  <p><b>€50 per style, credited in full against your first order.</b> A sample genuinely costs us several hundred euros &mdash; a pattern maker drafts and grades it, a designer checks the tech pack, a sample tailor sews it on a machine that has stopped running bulk, and it flies to you by courier. We charge €50 because we would rather you held the garment than read a promise.</p>
- <a class="btn" href="quote.html">Start with a €50 sample &rarr;</a>
+ <a class="btn" href="/quote">Start with a €50 sample &rarr;</a>
 </div>
 <ul class="sblist">
  <li><b>2&ndash;4 weeks</b>Proto and fit samples, drafted on Gerber CAD</li>
@@ -433,7 +450,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
       <svg class="endmark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>
       <p class="s-line">This is not a plan. It is a track record.</p>
       <p class="s-sub">146,500 pieces · $820k+ delivered · UK · USA · Italy · 11 of 13 orders are repeat business</p>
-      <a class="btn" href="quote.html">Start with a €50 sample</a>
+      <a class="btn" href="/quote">Start with a €50 sample</a>
     </div></div>
 
   </div>
@@ -490,7 +507,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
   <article class="trcard"><header><h3>Stefana Marrini</h3><span class="flag">Italy</span></header><dl><div><dt>Product</dt><dd>3×3 twill workwear, woven label + rubber logo</dd></div><div><dt>Volume</dt><dd>10,000 pcs</dd></div><div><dt>Route</dt><dd>Direct · FOB Livorno</dd></div></dl><span class="pill">EU delivery</span></article>
   <article class="trcard"><header><h3>Style Wise</h3><span class="flag">United States</span></header><dl><div><dt>Product</dt><dd>Denim jackets — PFGD and poly-cotton twill</dd></div><div><dt>Volume</dt><dd>7,500 pcs across 3 orders</dd></div><div><dt>Route</dt><dd>Direct · FOB</dd></div></dl><span class="pill">Repeat buyer since 2025</span></article>
   <article class="trcard"><header><h3>Withered Tree, LLC</h3><span class="flag">United States</span></header><dl><div><dt>Product</dt><dd>2×2 twill trousers, 100% cotton PFGD</dd></div><div><dt>Volume</dt><dd>7,200 pcs</dd></div><div><dt>Route</dt><dd>via FPG buying house · Los Angeles</dd></div></dl><span class="pill">Active 2026</span></article>
-  <article class="trcard soon"><header><h3>Your brand</h3><span class="flag">Europe</span></header><dl><div><dt>Product</dt><dd>Whatever you have been sketching</dd></div><div><dt>Volume</dt><dd>Ten pieces, or millions</dd></div><div><dt>Route</dt><dd>EU invoice · DDP to your door</dd></div></dl><a class="pill cta" href="quote.html">Start with a €50 sample →</a></article>
+  <article class="trcard soon"><header><h3>Your brand</h3><span class="flag">Europe</span></header><dl><div><dt>Product</dt><dd>Whatever you have been sketching</dd></div><div><dt>Volume</dt><dd>Ten pieces, or millions</dd></div><div><dt>Route</dt><dd>EU invoice · DDP to your door</dd></div></dl><a class="pill cta" href="/quote">Start with a €50 sample →</a></article>
 </div>
 <div class="voices">
   <div class="vgrid facts">
@@ -574,12 +591,12 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
-<div class="wrap"><div class="cta"><div><h2>Tell us what you are making.</h2><p style="opacity:.85;margin:10px 0 0;font-size:16px">Ten pieces or ten thousand. Itemised quote in 48 hours, delivered to your door.</p></div><a class="btn" href="quote.html">Get a quote in 48 hours</a></div></div>
+<div class="wrap"><div class="cta"><div><h2>Tell us what you are making.</h2><p style="opacity:.85;margin:10px 0 0;font-size:16px">Ten pieces or ten thousand. Itemised quote in 48 hours, delivered to your door.</p></div><a class="btn" href="/quote">Get a quote in 48 hours</a></div></div>
 
 <footer><div class="wrap"><div class="fgrid">
 <div><b style="font-family:'Space Grotesk';color:#fff">7th Apparel</b><br>When your brand syncs with our production.<br><br>7th Apparel · KVK 91485452<br>vestiging 000057160791 · registered 2023<br>Amsterdam, Netherlands<br>Own production house: <a href="https://saeekamil.com/" target="_blank" rel="noopener noreferrer">Saee e Kamil (Pvt) Ltd</a></div>
-<div><b>Explore</b><br><a href="for-brands.html">For Brands</a><br><a href="for-teams.html">For Teams</a><br><a href="workwear.html">Workwear</a><br><a href="pricing.html">Pricing</a><br><a href="compliance.html">Compliance</a></div>
-<div><b>Contact</b><br><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">WhatsApp us</a><br><a href="quote.html">Quote in 48 hours</a></div>
+<div><b>Explore</b><br><a href="/for-brands">For Brands</a><br><a href="/for-teams">For Teams</a><br><a href="/workwear">Workwear</a><br><a href="/pricing">Pricing</a><br><a href="/compliance">Compliance</a></div>
+<div><b>Contact</b><br><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">WhatsApp us</a><br><a href="/quote">Quote in 48 hours</a></div>
 </div></div></footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
