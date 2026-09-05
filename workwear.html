@@ -1,0 +1,321 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Workwear Manufacturer — Hi-Vis, FR, Industrial, Medical | 7th Apparel</title><meta name="description" content="Custom workwear on our own lines: hi-vis, industrial, flame resistant, outdoor, medical and tactical. Your logo, delivered duty paid.">
+<link rel="icon" href="assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#2C2153;--lilac:#A88FD8;--pale:#C9B8EE;--bg:#F4F0FA;--dark:#1B1338;--gold:#E0A83C;--text:#3A3350}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.55}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;color:var(--purple);line-height:1.12;margin:0}
+.mono{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.4px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+header{background:var(--bg);border-bottom:1px solid #e2dcf0;position:sticky;top:0;z-index:50}
+nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
+.navlogo{height:56px;width:auto}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;font-weight:600;font-size:14.5px;flex-wrap:wrap}
+nav a{color:var(--purple);text-decoration:none}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--dark);font-weight:600;padding:12px 22px;border-radius:8px;text-decoration:none;font-size:15px}
+.btn.ghost{background:transparent;color:var(--purple);border:2px solid var(--purple)}
+.btn.purple{background:var(--purple);color:#fff}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:56px 0 44px}
+.hero h1{font-size:52px;letter-spacing:-1px}.hero p{font-size:18px;margin:18px 0 26px;max-width:520px}
+.hero .img{border-radius:14px;overflow:hidden;box-shadow:0 20px 50px rgba(44,33,83,.20)}.hero img{width:100%;display:block}
+.kicker{color:var(--gold);font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:1.5px;margin-bottom:12px}
+.proof{display:flex;background:var(--purple);color:var(--bg);border-radius:12px;overflow:hidden;margin:8px 0 56px}
+.proof div{flex:1;padding:16px 18px;border-right:1px solid rgba(255,255,255,.14)}
+.proof b{display:block;font-family:'Space Grotesk';font-size:22px;color:#fff}.proof span{font-size:12.5px;opacity:.85}
+section{padding:26px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:#fff;border-radius:12px;padding:26px;box-shadow:0 1px 0 #e2dcf0}
+.card h3{font-size:20px;margin-bottom:8px}.card p{font-size:14.5px;margin:8px 0 0}
+.card.accent{border-top:5px solid var(--gold)}.card.lilac{border-top:5px solid var(--lilac)}
+h2.sec{font-size:34px;margin:30px 0 20px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;font-size:14.5px}
+th{background:var(--purple);color:#fff;text-align:left;padding:12px 14px;font-family:'Space Grotesk'}
+td{padding:12px 14px;border-top:1px solid #eee9f8}
+.note{font-size:13px;color:#6b6285;margin-top:10px}
+.dark{background:var(--purple);border-radius:16px;color:var(--bg);padding:40px}.dark h2{color:#fff}.dark .step b{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:22px}
+.step{border-top:2px dashed var(--gold);padding-top:10px}.step b{font-family:'Space Grotesk';display:block;font-size:16px}.step span{font-size:12.5px;opacity:.85}
+footer{margin-top:50px;border-top:1px solid #e2dcf0;padding:34px 0 44px;font-size:13.5px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+footer a{color:var(--purple)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;border-radius:10px;display:block}
+input,select,textarea{width:100%;padding:12px;border:1px solid #d8d0ec;border-radius:8px;font-family:Inter;font-size:15px;margin:6px 0 16px;background:#fff}
+label{font-weight:600;color:var(--purple);font-size:14px}
+.cta{background:var(--purple);border-radius:16px;padding:40px;display:flex;justify-content:space-between;align-items:center;margin-top:40px}
+.cta h2{color:#fff;font-size:28px}
+@media(max-width:860px){.hero,.grid2,.grid3,.grid4,.fgrid{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.proof{flex-wrap:wrap}.proof div{min-width:45%}nav ul{display:none}.hero h1{font-size:38px}}
+
+/* ---- QA: focus, mobile nav, tap targets ---- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--purple);outline-offset:3px;border-radius:4px}
+.burger{display:none;background:none;border:0;padding:10px;cursor:pointer;width:44px;height:44px;flex-direction:column;justify-content:center;gap:5px}
+.burger span{display:block;height:2px;width:22px;background:var(--purple);transition:transform .25s,opacity .2s}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+footer a{display:inline-block;padding:11px 0;min-height:44px}
+nav a.logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--purple);text-decoration:none;display:inline-flex;align-items:center;gap:10px;min-height:44px}.logo svg{height:30px;width:30px;flex:none}
+.marquee{overflow:hidden}.hero .bgimg{overflow:hidden}
+.note{max-width:70ch;line-height:1.6}
+@media(max-width:1200px){
+ .burger{display:flex}
+ nav ul#navlist{display:none!important}
+ nav ul#navlist.open{display:flex!important;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--purple);border-top:1px solid rgba(255,255,255,.15);padding:8px 0;margin:0;list-style:none;z-index:120;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+ nav ul#navlist.open li{width:100%}
+ nav ul#navlist.open a{display:block;padding:15px 28px;min-height:48px;font-size:16px;color:#fff}
+ header nav{position:relative}
+}
+@media(max-width:760px){
+ .grid2,.grid3,.grid4,.fgrid,.steps{grid-template-columns:1fr!important}
+ .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .tablewrap table{min-width:620px}
+}
+
+.proofstrip{display:flex;flex-wrap:wrap;gap:10px 30px;padding:16px 0;margin:0 0 8px;border-bottom:1px solid rgba(44,33,83,.14);font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.05em;color:var(--purple);opacity:.85}
+.proofstrip b{color:var(--gold2,#8A6410)}
+@media(max-width:760px){.proofstrip{gap:6px 18px;font-size:10.5px}}
+
+.faq{border-bottom:1px solid rgba(44,33,83,.16);padding:0}
+.faq summary{cursor:pointer;padding:20px 40px 20px 0;font-family:'Space Grotesk',sans-serif;font-size:19px;color:var(--purple);position:relative;list-style:none;line-height:1.3}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";position:absolute;right:6px;top:18px;font-size:24px;color:var(--gold);font-weight:400;transition:transform .2s}
+.faq[open] summary:after{content:"−"}
+.faq summary:hover{color:#000}
+.faq div{padding:0 40px 24px 0}
+.faq p{margin:0;max-width:74ch;line-height:1.65;opacity:.88}
+
+.wwhero{display:grid;grid-template-columns:1.05fr 1fr;gap:38px;align-items:center;margin:10px 0 8px}
+.wwhero h1{font-size:clamp(32px,4.4vw,52px);margin:10px 0 16px}
+.wwhero .lead{font-size:17px;max-width:60ch;line-height:1.65}
+.wwhero img{width:100%;height:auto;border-radius:16px;box-shadow:0 20px 50px rgba(23,16,46,.22)}
+.wwcta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.wwstats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(44,33,83,.16);border:1px solid rgba(44,33,83,.16);border-radius:12px;overflow:hidden;margin:34px 0}
+.wwstats div{background:var(--bg,#F4F0FA);padding:20px 18px;text-align:center}
+.wwstats b{display:block;font-family:'Space Grotesk',sans-serif;font-size:26px;color:var(--purple)}
+.wwstats span{font-size:12px;opacity:.7;display:block;margin-top:4px}
+.wwgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;margin-top:22px}
+.wwc{border:1px solid rgba(44,33,83,.16);border-left:3px solid var(--gold);border-radius:12px;padding:22px}
+.wwc h3{font-size:21px;margin:0}
+.wwt{font-weight:600;margin:6px 0 10px;font-size:14.5px}
+.wwc p{font-size:14.5px;line-height:1.6;margin:0 0 12px}
+.wwspec{font-size:10.5px!important;letter-spacing:.06em;opacity:.65;margin:0!important}
+.wwsplit{display:grid;grid-template-columns:1fr 1.25fr;gap:34px;align-items:center;margin:44px 0}
+.wwsplit img{width:100%;height:auto;border-radius:14px}
+.wwgal{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:20px}
+.wwgal img{width:100%;height:230px;object-fit:cover;border-radius:12px;transition:transform .4s ease}
+.wwgal img:hover{transform:scale(1.02)}
+@media(max-width:860px){.wwhero,.wwsplit{grid-template-columns:1fr}.wwstats{grid-template-columns:repeat(2,1fr)}}
+
+.cwrap{margin-top:24px;background:var(--purple);border-radius:18px;padding:18px}
+.cstage{position:relative;display:flex;align-items:center;justify-content:center;background:#120E24;border-radius:12px;overflow:hidden;min-height:340px}
+.cstage img{max-width:100%;max-height:74vh;height:auto;display:block;border-radius:8px}
+.cnav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.28);background:rgba(23,16,46,.72);color:#fff;font-size:26px;line-height:1;cursor:pointer;backdrop-filter:blur(8px);transition:background .2s}
+.cnav:hover{background:var(--gold);color:#1B1338;border-color:var(--gold)}
+.cnav.prev{left:12px}.cnav.next{right:12px}
+.cbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:14px 4px 12px}
+.cbar .mono{color:#C9B8EE;font-size:11px;letter-spacing:.12em}
+.cbtns{display:flex;gap:10px;flex-wrap:wrap}
+.cbtns .btn{padding:10px 16px;font-size:14px;min-height:44px}
+.cbtns .ghost{color:#fff;border-color:rgba(255,255,255,.4)}
+.cstrip{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 6px;scrollbar-width:thin}
+.cthumb{flex:none;padding:0;border:2px solid transparent;border-radius:7px;background:none;cursor:pointer;line-height:0;opacity:.55;transition:opacity .2s,border-color .2s}
+.cthumb img{width:74px;height:auto;border-radius:5px;display:block}
+.cthumb:hover{opacity:.9}
+.cthumb[aria-current="true"]{opacity:1;border-color:var(--gold)}
+@media(max-width:700px){.cstage{min-height:240px}.cnav{width:40px;height:40px;font-size:22px}}
+
+nav{display:flex;align-items:center;gap:16px;flex-wrap:nowrap}
+nav .logo{flex:0 0 auto}
+nav ul#navlist{display:flex;flex:0 1 auto;flex-wrap:nowrap;justify-content:flex-end;align-items:center;gap:14px;margin:0 0 0 auto;padding:0;list-style:none}
+nav ul#navlist a{white-space:nowrap;font-size:14px}
+nav>a.btn,nav>a.navcta{flex:0 0 auto;white-space:nowrap;margin-left:4px}
+header .wrap{max-width:1320px}
+@media(max-width:1300px){nav ul#navlist{gap:12px}nav ul#navlist a{font-size:13.5px}}
+@media(max-width:1200px){nav ul#navlist{display:none!important}}
+
+header,nav{max-width:100%;overflow:visible}
+nav{min-width:0}
+@media(max-width:1200px){nav{gap:10px}}
+html,body{overflow-x:hidden;max-width:100%}
+
+/* ---- QA v16: tap targets + very small screens ---- */
+@media(max-width:820px){
+ .card a[href^="mailto:"],.card a[href^="tel:"],.card a[href^="https://wa.me"],
+ p a[href^="mailto:"],p a[href^="tel:"],p a[href^="https://wa.me"],
+ .person .mail a,.fok a{display:inline-block;padding:9px 0;min-height:40px;line-height:1.5}
+}
+@media(max-width:430px){
+ nav>a.btn,nav>a.navcta{font-size:13px;padding:11px 13px}
+ nav{gap:8px}
+ .logo{font-size:17px}
+ .logo svg{height:26px;width:26px}
+}
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:0;padding:12px 14px;min-width:74px;position:relative}
+ nav>a.btn:after,nav>a.navcta:after{content:"Quote";font-size:13px;font-weight:700;position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+ .wrap{padding:0 16px}
+}
+
+@media(max-width:820px){
+ .pp,.rp,.pill,.pill.cta,.film button,#pp,#rp{min-height:40px!important;padding:10px 16px!important;display:inline-flex!important;align-items:center;justify-content:center}
+ .note a,.trcard a,.vnote a,.filmnote a{display:inline-block;padding:8px 0;min-height:36px}
+}
+
+nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-height:1.15}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.pp,.rp,#pp,#rp,button.pp,button.rp{min-height:36px;padding:8px 16px;display:inline-flex;align-items:center;justify-content:center}
+.pill,.pill.cta{min-height:36px;padding:9px 16px;display:inline-flex;align-items:center}
+.person .mail a{display:inline-block;padding:8px 0;min-height:34px;line-height:1.4}
+</style></head><body>
+<header><div class="wrap"><nav><a class="logo" href="index.html"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg><span>7th Apparel</span></a><ul id="navlist"><li><a href="for-brands.html">For Brands</a></li><li><a href="for-teams.html">For Teams</a></li><li><a href="what-we-make.html">What we make</a></li><li><a href="our-factory.html">Our factory</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="faq.html">FAQ</a></li><li><a href="compliance.html">Compliance</a></li><li><a href="contact.html">Contact</a></li></ul><button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><a class="btn" href="quote.html">Get a quote</a></nav></div></header>
+<div class="wrap"><div class="proofstrip"><span><b>146,500</b> pieces shipped since March 2025</span><span>UK &middot; USA &middot; Italy</span><span><b>11 of 13</b> orders are repeat business</span><span>From <b>10</b> pieces per style</span></div><section class="wwhero">
+<div><div class="kicker">WORKWEAR</div>
+<h1>The category we are strongest in.</h1>
+<p class="lead">Our production house has specialised in workwear for years and supplies it to companies in Europe, the United States and at home. Hi-vis, industrial, flame-resistant, outdoor, medical and tactical &mdash; made to your logo, your colours and your size grading, with the reflective taping, embroidery and printing all done in-house.</p>
+<div class="wwcta"><a class="btn" href="quote.html">Get a workwear quote &rarr;</a> <a class="btn ghost" href="pricing.html">See price bands</a></div>
+</div>
+<img src="assets/ww-line.jpg" alt="Workwear in production on our sewing lines" width="1024" height="768" loading="eager" decoding="async">
+</section>
+
+<section class="wwstats">
+ <div><b>6</b><span>workwear families</span></div>
+ <div><b>50</b><span>pieces minimum per style</span></div>
+ <div><b>In-house</b><span>taping, embroidery, print</span></div>
+ <div><b>Sedex</b><span>ZC5000072720 · 4-pillar</span></div>
+</section>
+
+<section><h2 class="sec">What we make</h2>
+<div class="wwgrid"><article class="wwc"><h3>Hi-vis</h3><p class="wwt">Class 1 to 3 visibility, taped to order.</p><p>Taped coveralls and overalls, action-back overalls, premium cargo and biomotion track trousers, polyester mesh polos, X-taped utility shirts, holster work shorts, denim cargo taped shorts, fleece hoodies, quarter-zip jumpers, 5-in-1 rain jackets, long rain coats and vests.</p><p class="mono wwspec">POLY/COTTON TWILL 270 · PRESHRUNK TWILL 310 · FLEECE 300/270 · MESH 140 · TRICOT 120 GSM</p></article><article class="wwc"><h3>Industrial</h3><p class="wwt">The everyday uniform that has to survive the shift.</p><p>Coveralls with waist-zip opening, button-up and women's cut coveralls, solid-colour and gradient coveralls, bib and brace overalls, denim and jean overalls, cotton overalls, work shirts and trousers, hoodies, jumpers, jackets, coats and vests.</p><p class="mono wwspec">COTTON TWILL 210–245 · 98/2 COTTON-SPANDEX POPLIN 145–245 · 98/2 CARBON OXFORD 280 GSM</p></article><article class="wwc"><h3>Flame resistant</h3><p class="wwt">Where the garment is the last line of protection.</p><p>FR coveralls and overalls, FR shirts, FR trousers and FR jackets, built to the standard your site or insurer requires and sampled before you commit.</p><p class="mono wwspec">CERTIFIED FR FABRIC TO YOUR SPECIFICATION</p></article><article class="wwc"><h3>Outdoor &amp; rain</h3><p class="wwt">Dry, and still able to move.</p><p>Rain shirts, rain trousers, rain coats and jackets, and full rain suits. PU-coated oxford, taped seams, articulated cut, storm flaps and cuffs to spec.</p><p class="mono wwspec">POLYESTER OXFORD PU COATED 150D 110 GSM</p></article><article class="wwc"><h3>Medical</h3><p class="wwt">Clean, comfortable, laundered a hundred times.</p><p>Scrubs and lab coats in the weights and colours a hospital, clinic or lab specifies, with embroidered or printed identification and department colour-coding.</p><p class="mono wwspec">POLY-COTTON · CUSTOM COLOURS · EMBROIDERY IN-HOUSE</p></article><article class="wwc"><h3>Military &amp; tactical</h3><p class="wwt">Made to the specification supplied, without deviation.</p><p>Security and forces uniforms, personal uniforms and special combat trousers, produced to the pattern, fabric and finish given to us.</p><p class="mono wwspec">TO CUSTOMER SPECIFICATION</p></article></div>
+<p class="note">Every style is customisable &mdash; design, gender, colour, logo, size, fabric weight, printing and embroidery. These are the shapes we build most often, not a closed catalogue: if your specification is different, send it and we will quote it.</p>
+</section>
+
+<section class="wwsplit">
+ <img src="assets/ww-machinist.jpg" alt="Operator sewing a workwear garment" width="482" height="360" loading="lazy" decoding="async">
+ <div>
+  <h2 class="sec" style="margin-top:0">Fabric is never your problem</h2>
+  <p>You do not need a mill, a fabric agent or a minimum order of cloth. Tell us what the garment has to do &mdash; the weather, the shift length, the washing regime, the standard it must meet &mdash; and we source to that requirement.</p>
+  <p>Buying, dyeing, lab dips, shrinkage testing, labelling, printing, embroidery, packing and logistics all sit on our side of the line. Bring a swatch or a garment you already like and we will match it. Bring nothing and we will put options in front of you with a price per piece against each.</p>
+  <p class="mono">SOURCE · DYE · CUT · SEW · TAPE · EMBROIDER · PRINT · LABEL · PACK · SHIP</p>
+ </div>
+</section>
+
+<section><h2 class="sec">Inside the floor</h2>
+<div class="wwgal">
+ <img src="assets/ww-floor2.jpg" alt="Sewing floor in production" width="1024" height="768" loading="lazy" decoding="async">
+ <img src="assets/fabric.jpg" alt="Fabric store" width="480" height="360" loading="lazy" decoding="async">
+ <img src="assets/cutting.jpg" alt="Cutting table" width="482" height="360" loading="lazy" decoding="async">
+ <img src="assets/lines.jpg" alt="Sewing lines" width="480" height="360" loading="lazy" decoding="async">
+ <img src="assets/ww-tall.jpg" alt="Workwear order in progress" width="768" height="1024" loading="lazy" decoding="async">
+ <img src="assets/finished.jpg" alt="Finished garments ready to pack" width="323" height="576" loading="lazy" decoding="async">
+</div>
+<p class="note">Photographs from our own floor, not stock library images.</p></section>
+
+<section><h2 class="sec">How a workwear order runs</h2>
+<div class="grid4" style="margin-top:20px">
+ <div class="card"><span class="mono">01</span><h3>Specification</h3><p>Tell us the job the garment does and the standard it must meet. We come back with fabric options, a price per piece and a delivery date &mdash; within 48 hours.</p></div>
+ <div class="card"><span class="mono">02</span><h3>Sample</h3><p>One garment in your fabric, your colour, your logo, in 2&ndash;4 weeks for €50 &mdash; credited against your first order. Wear it, wash it, then decide.</p></div>
+ <div class="card"><span class="mono">03</span><h3>Production</h3><p>Cut, sewn, taped, embroidered and packed on our own lines. You see the order move through &mdash; no six weeks of silence.</p></div>
+ <div class="card"><span class="mono">04</span><h3>Delivered</h3><p>To your door, customs cleared and duties paid, on one European invoice in euros. You are not the importer.</p></div>
+</div></section>
+
+<section id="catalogue"><h2 class="sec">The full catalogue</h2>
+<p style="max-width:74ch">Twenty-six pages of what we actually build &mdash; every style with its fabric, weight and reference. Browse it here, or take the whole thing away as a PDF.</p>
+
+<div class="cwrap">
+ <div class="cstage">
+  <button class="cnav prev" id="cprev" aria-label="Previous page">&#8249;</button>
+  <img id="cpage" src="assets/catalogue/p01.jpg" alt="Workwear catalogue, page 1" width="900" height="1164">
+  <button class="cnav next" id="cnext" aria-label="Next page">&#8250;</button>
+ </div>
+ <div class="cbar">
+  <span class="mono" id="ccount">PAGE 1 OF 26</span>
+  <div class="cbtns">
+   <button class="btn ghost cplay" id="cplay">Play as slideshow</button>
+   <a class="btn" href="assets/Workwear_Catalogue.pdf" download>Download PDF</a>
+  </div>
+ </div>
+ <div class="cstrip" id="cstrip"><button class="cthumb" data-i="1" aria-label="Page 1"><img src="assets/catalogue/t01.jpg" alt="Catalogue page 1" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="2" aria-label="Page 2"><img src="assets/catalogue/t02.jpg" alt="Catalogue page 2" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="3" aria-label="Page 3"><img src="assets/catalogue/t03.jpg" alt="Catalogue page 3" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="4" aria-label="Page 4"><img src="assets/catalogue/t04.jpg" alt="Catalogue page 4" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="5" aria-label="Page 5"><img src="assets/catalogue/t05.jpg" alt="Catalogue page 5" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="6" aria-label="Page 6"><img src="assets/catalogue/t06.jpg" alt="Catalogue page 6" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="7" aria-label="Page 7"><img src="assets/catalogue/t07.jpg" alt="Catalogue page 7" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="8" aria-label="Page 8"><img src="assets/catalogue/t08.jpg" alt="Catalogue page 8" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="9" aria-label="Page 9"><img src="assets/catalogue/t09.jpg" alt="Catalogue page 9" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="10" aria-label="Page 10"><img src="assets/catalogue/t10.jpg" alt="Catalogue page 10" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="11" aria-label="Page 11"><img src="assets/catalogue/t11.jpg" alt="Catalogue page 11" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="12" aria-label="Page 12"><img src="assets/catalogue/t12.jpg" alt="Catalogue page 12" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="13" aria-label="Page 13"><img src="assets/catalogue/t13.jpg" alt="Catalogue page 13" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="14" aria-label="Page 14"><img src="assets/catalogue/t14.jpg" alt="Catalogue page 14" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="15" aria-label="Page 15"><img src="assets/catalogue/t15.jpg" alt="Catalogue page 15" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="16" aria-label="Page 16"><img src="assets/catalogue/t16.jpg" alt="Catalogue page 16" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="17" aria-label="Page 17"><img src="assets/catalogue/t17.jpg" alt="Catalogue page 17" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="18" aria-label="Page 18"><img src="assets/catalogue/t18.jpg" alt="Catalogue page 18" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="19" aria-label="Page 19"><img src="assets/catalogue/t19.jpg" alt="Catalogue page 19" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="20" aria-label="Page 20"><img src="assets/catalogue/t20.jpg" alt="Catalogue page 20" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="21" aria-label="Page 21"><img src="assets/catalogue/t21.jpg" alt="Catalogue page 21" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="22" aria-label="Page 22"><img src="assets/catalogue/t22.jpg" alt="Catalogue page 22" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="23" aria-label="Page 23"><img src="assets/catalogue/t23.jpg" alt="Catalogue page 23" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="24" aria-label="Page 24"><img src="assets/catalogue/t24.jpg" alt="Catalogue page 24" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="25" aria-label="Page 25"><img src="assets/catalogue/t25.jpg" alt="Catalogue page 25" loading="lazy" width="190" height="246"></button><button class="cthumb" data-i="26" aria-label="Page 26"><img src="assets/catalogue/t26.jpg" alt="Catalogue page 26" loading="lazy" width="190" height="246"></button></div>
+</div>
+</section><div class="cta"><div><h2>Kitting out a workforce?</h2><p style="opacity:.85;margin:10px 0 0;font-size:16px">Send the specification &mdash; or a photo of what your people wear now. Itemised quote in 48 hours.</p></div><a class="btn" href="quote.html">Get a workwear quote</a></div></div>
+<footer><div class="wrap"><div class="fgrid">
+<div><b style="font-family:'Space Grotesk';color:var(--purple)">7th Apparel</b><br>When your brand syncs with our production.<br><br>7th Apparel · KVK 91485452<br>vestiging 000057160791 · registered 2023<br>Amsterdam, Netherlands<br>Own production house: <a href="https://saeekamil.com/" target="_blank" rel="noopener noreferrer">Saee e Kamil (Pvt) Ltd</a></div>
+<div><b>Explore</b><br><a href="for-brands.html">For Brands</a><br><a href="for-teams.html">For Teams</a><br><a href="workwear.html">Workwear</a><br><a href="pricing.html">Pricing</a><br><a href="compliance.html">Compliance</a><br><a href="our-factory.html">Our production house</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact &amp; our story</a></div>
+<div><b>Contact</b><br><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">WhatsApp us</a><br><a href="quote.html">Quote in 48 hours</a><br><br></div>
+</div></div></footer>
+<script>
+/* ---- in-page anchor links ----
+   Fragment navigation is a no-op inside a srcdoc/about: frame, so every #anchor
+   link dies in the embedded preview. Handling it in JS works everywhere and also
+   lets us offset for the fixed header, which the native jump does not. */
+(function(){
+ document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a');
+  if(!a) return;
+  var h=a.getAttribute('href')||'';
+  if(h.length<2||h.charAt(0)!=='#') return;
+  var t=document.getElementById(h.slice(1));
+  if(!t) return;
+  e.preventDefault();
+  var hd=document.querySelector('header');
+  var off=(hd?hd.getBoundingClientRect().height:0)+12;
+  var y=t.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop)-off;
+  var soft=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{ window.scrollTo({top:y,behavior:soft?'smooth':'auto'}); }catch(err){ window.scrollTo(0,y); }
+  try{ history.replaceState(null,'',h); }catch(err){}
+ },false);
+})();
+</script>
+
+<script>
+/* burger-toggle */
+(function(){
+ var b=document.getElementById('burger'), l=document.getElementById('navlist');
+ if(!b||!l) return;
+ b.addEventListener('click',function(e){
+  e.preventDefault(); e.stopPropagation();
+  var open=l.classList.toggle('open');
+  b.setAttribute('aria-expanded',open?'true':'false');
+ });
+ l.addEventListener('click',function(e){ if(e.target.closest('a')){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+ document.addEventListener('keydown',function(e){ if(e.key==='Escape'){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+})();
+</script>
+
+<script>
+/* ---- catalogue browser ---- */
+(function(){
+ var N=26, i=1, timer=null;
+ var img=document.getElementById('cpage'), cnt=document.getElementById('ccount'),
+     strip=document.getElementById('cstrip'), play=document.getElementById('cplay');
+ if(!img) return;
+ var thumbs=[].slice.call(strip.querySelectorAll('.cthumb'));
+ function pad(n){return (n<10?'0':'')+n;}
+ function show(n,scroll){
+  i=((n-1+N)%N)+1;
+  img.src='assets/catalogue/p'+pad(i)+'.jpg';
+  img.alt='Workwear catalogue, page '+i;
+  cnt.textContent='PAGE '+i+' OF '+N;
+  thumbs.forEach(function(t,k){t.setAttribute('aria-current', k+1===i?'true':'false');});
+  if(scroll!==false&&thumbs[i-1]) thumbs[i-1].scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});
+ }
+ document.getElementById('cprev').addEventListener('click',function(){stop();show(i-1);});
+ document.getElementById('cnext').addEventListener('click',function(){stop();show(i+1);});
+ thumbs.forEach(function(t){t.addEventListener('click',function(){stop();show(+t.dataset.i,false);});});
+ document.addEventListener('keydown',function(e){
+  var box=document.getElementById('catalogue');
+  if(!box) return;
+  var r=box.getBoundingClientRect();
+  if(r.top>window.innerHeight||r.bottom<0) return;
+  if(e.key==='ArrowLeft'){stop();show(i-1);} if(e.key==='ArrowRight'){stop();show(i+1);}
+ });
+ function stop(){ if(timer){clearInterval(timer);timer=null;play.textContent='Play as slideshow';} }
+ play.addEventListener('click',function(){
+  if(timer) return stop();
+  play.textContent='Pause';
+  timer=setInterval(function(){show(i+1);},2600);
+ });
+ show(1,false);
+})();
+</script>
+</body></html>

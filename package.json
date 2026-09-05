@@ -1,0 +1,18 @@
+{
+  "name": "7thapparel-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "7th Apparel marketing site — static HTML, no build step",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node tests/qa-responsive.js && node tests/qa-deep.js && node tests/qa-functional.js",
+    "test:responsive": "node tests/qa-responsive.js",
+    "test:deep": "node tests/qa-deep.js",
+    "test:functional": "node tests/qa-functional.js",
+    "preview": "python3 scripts/bundle.py"
+  },
+  "devDependencies": {
+    "gsap": "3.12.5",
+    "playwright": "^1.47.0"
+  }
+}

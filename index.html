@@ -1,0 +1,714 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clothing Manufacturer for European Brands | 7th Apparel</title>
+<meta name="description" content="European clothing manufacturer with our own factory. Order from 10 pieces, no letter of credit, delivered to your door duty paid.">
+<link rel="icon" href="assets/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--deep:#17102E;--purple:#2C2153;--panel:#221847;--lilac:#A88FD8;--pale:#C9B8EE;--bg:#F4F0FA;--gold:#E0A83C;--eyelet:#1B1338}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--deep);color:var(--bg);line-height:1.55;overflow-x:hidden}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.08;margin:0}
+.mono{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.6px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+a{color:inherit}
+/* loader */
+#loader{position:fixed;inset:0;background:var(--deep);z-index:200;display:flex;align-items:center;justify-content:center;transition:opacity .5s,visibility .5s}
+#loader.done{opacity:0;visibility:hidden}
+#loader svg{width:120px}
+#loader path,#loader line{stroke-dasharray:600;stroke-dashoffset:600;animation:draw 1.1s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(23,16,46,.72);backdrop-filter:blur(14px);border-bottom:1px solid rgba(168,143,216,.18)}
+nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+nav .logo{font-family:'Space Grotesk';font-weight:700;font-size:20px;color:#fff;text-decoration:none;display:flex;align-items:center;gap:10px}
+nav .logo svg{height:34px;width:auto}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-weight:600;font-size:14px}
+nav ul a{text-decoration:none;opacity:.85}nav ul a:hover{opacity:1;color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--eyelet);font-weight:600;padding:12px 22px;border-radius:8px;text-decoration:none;font-size:15px;cursor:pointer;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--bg);border:1.5px solid var(--lilac)}
+/* hero */
+.hero{min-height:100vh;display:grid;align-items:center;position:relative;padding-top:80px}
+.hero .bgimg{position:absolute;inset:0;overflow:hidden;z-index:0}
+.hero .bgimg img{width:100%;height:100%;object-fit:cover;opacity:.55;transform:scale(1.08)}
+.hero .bgimg:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(23,16,46,.94) 0%,rgba(23,16,46,.82) 42%,rgba(23,16,46,.42) 72%,rgba(23,16,46,.72) 100%)}
+.hero .inner{position:relative;z-index:2;padding:60px 0 120px}
+.kicker{color:var(--gold);font-family:'IBM Plex Mono';font-size:13px;letter-spacing:2px;margin-bottom:18px}
+.hero h1{font-size:clamp(44px,7vw,84px);color:#fff;letter-spacing:-1.5px;max-width:900px}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom}
+.hero h1 .w span{display:inline-block;transform:translateY(110%)}
+.hero h1 em{font-style:normal;color:var(--lilac)}
+.hero p{font-size:19px;max-width:560px;margin:26px 0 34px;opacity:.9}
+.threadline{position:absolute;left:0;right:0;bottom:70px;z-index:1;width:100%;height:120px}
+.marquee{position:absolute;bottom:0;left:0;right:0;border-top:1px solid rgba(168,143,216,.2);padding:14px 0;overflow:hidden;white-space:nowrap;z-index:3;background:rgba(23,16,46,.5)}
+.marquee .track{display:inline-block;animation:mq 28s linear infinite}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee span{font-family:'IBM Plex Mono';font-size:13px;letter-spacing:1.5px;opacity:.75;margin-right:56px}
+.marquee b{color:var(--gold)}
+/* problem */
+.problem{padding:130px 0 60px;text-align:center}
+.problem h2{font-size:clamp(30px,4.5vw,52px);color:#fff;max-width:880px;margin:0 auto}
+.problem h2 .strike{color:var(--lilac);position:relative;white-space:nowrap}
+.problem h2 .strike i{position:absolute;left:0;right:0;top:54%;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left}
+.problem p{opacity:.8;max-width:640px;margin:22px auto 0;font-size:17px}
+/* flow */
+#flow{padding:40px 0 20px;width:100%}
+.pin-spacer{width:100%!important}
+#flow h2{font-size:clamp(30px,4vw,46px);color:#fff;text-align:center;margin-bottom:8px}
+#flow .sub{text-align:center;opacity:.75;margin-bottom:30px}
+.flowbox{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:20px;padding:34px 30px 24px;position:relative;overflow:hidden}
+.flowbox svg{width:100%;height:auto;display:block}
+.station text{font-family:'Space Grotesk';font-weight:700}
+.flowlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+.flowlabels div{font-size:13px;opacity:0;transform:translateY(10px)}
+.flowlabels b{display:block;font-family:'Space Grotesk';font-size:15px;color:var(--pale)}
+/* process */
+.process{padding:120px 0}
+.process h2{font-size:clamp(30px,4vw,46px);color:#fff;margin-bottom:40px}
+.psteps{position:relative;display:grid;grid-template-columns:60px 1fr;gap:0}
+.pline{position:absolute;left:29px;top:0;bottom:0;width:2px}
+.pline .fill{width:100%;height:100%;background:linear-gradient(180deg,var(--gold),var(--lilac));transform-origin:top;transform:scaleY(0)}
+.pline .base{position:absolute;inset:0;border-left:2px dashed rgba(168,143,216,.35)}
+.pstep{grid-column:2;padding:0 0 46px 34px;opacity:.25;transform:translateX(14px);transition:opacity .4s,transform .4s}
+.pstep.on{opacity:1;transform:none}
+.pstep .dot{position:absolute;left:21px;width:18px;height:18px;border-radius:50%;background:var(--deep);border:3px solid var(--lilac);margin-top:4px}
+.pstep.on .dot{background:var(--gold);border-color:var(--gold)}
+.pstep h3{font-size:22px;color:#fff}
+.pstep p{margin:6px 0 0;opacity:.8;max-width:640px;font-size:15.5px}
+.pstep .mono{color:var(--gold)}
+/* outcomes */
+.outcomes{padding:40px 0 90px}
+.ogrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.ocard{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:14px;padding:26px;text-align:center}
+.ocard b{font-family:'Space Grotesk';font-size:42px;color:#fff;display:block}
+.ocard span{font-size:13.5px;opacity:.8}
+.ocard b em{font-style:normal;color:var(--gold)}
+/* doors */
+.doors{padding:20px 0 90px}
+.doors .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.door{background:var(--panel);border-radius:16px;padding:38px;border-top:5px solid var(--gold);opacity:0;transform:translateY(24px)}
+.door.l{border-top-color:var(--lilac)}
+.door h3{font-size:28px;color:#fff}.door p{opacity:.85;margin:12px 0 24px}
+/* cta + footer */
+.cta{background:linear-gradient(135deg,var(--purple),#3A2B6E);border-radius:20px;padding:52px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:80px}
+.cta h2{color:#fff;font-size:32px}
+footer{border-top:1px solid rgba(168,143,216,.2);padding:36px 0 46px;font-size:13.5px;opacity:.85}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+footer a{color:var(--pale)}
+@media(max-width:860px){.ogrid,.doors .grid,.fgrid,.flowlabels{grid-template-columns:1fr 1fr}.cta{flex-direction:column;text-align:center}nav ul{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero h1 .w span{transform:none}.pstep{opacity:1;transform:none}.door{opacity:1;transform:none}.flowlabels div{opacity:1;transform:none}}
+
+/* ---- film ---- */
+#film{padding:96px 0 40px}
+.filmh{font-size:clamp(28px,3.8vw,46px);color:#fff;margin:10px 0 22px;letter-spacing:-.5px}
+.stage{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:radial-gradient(130% 130% at 22% 0%,#2E2260 0%,#191233 55%,#120C25 100%);border:1px solid rgba(168,143,216,.28);box-shadow:0 34px 80px rgba(0,0,0,.5)}
+.scenes{position:absolute;inset:0}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .55s ease;padding:5% 6% 9%}
+.scene.on{opacity:1}
+.s-in{text-align:center;max-width:86%;transform:translateY(14px);transition:transform .75s cubic-bezier(.16,1,.3,1)}
+.scene.on .s-in{transform:none}
+.s-line{font-family:'Space Grotesk',sans-serif;font-size:clamp(19px,3.1vw,40px);color:#fff;margin:26px 0 8px;line-height:1.14;letter-spacing:-.4px}
+.s-sub{font-size:clamp(11px,1.35vw,17px);color:var(--pale);opacity:.82;margin:0;max-width:44ch;margin-inline:auto}
+.art{display:flex;align-items:center;justify-content:center;min-height:clamp(70px,13vw,150px)}
+/* scene 0 lamp + sketch */
+.lamp{position:relative}
+.lamp .glow{position:absolute;width:min(300px,38vw);height:min(300px,38vw);border-radius:50%;background:radial-gradient(circle,rgba(224,168,60,.20) 0%,transparent 68%);opacity:0}
+.scene.on .lamp .glow{animation:fi 1.4s ease forwards}
+.lamp svg{width:min(280px,36vw);height:auto;position:relative}
+.dw{stroke-dasharray:260;stroke-dashoffset:260}
+.scene.on .dw{animation:dr 1.9s ease forwards}
+.scene.on .dw.d2{animation-delay:.7s}
+@keyframes dr{to{stroke-dashoffset:0}}
+/* scene 1 mails */
+.mails{gap:min(16px,2vw)}
+.mails i{font-style:normal;font-size:clamp(18px,2.6vw,34px);color:var(--pale);opacity:0;transform:translateY(14px)}
+.scene.on .mails i{animation:mfly .5s ease forwards}
+.scene.on .mails i:nth-child(2){animation-delay:.1s}.scene.on .mails i:nth-child(3){animation-delay:.2s}
+.scene.on .mails i:nth-child(4){animation-delay:.3s;animation-name:mgone}.scene.on .mails i:nth-child(5){animation-delay:.4s;animation-name:mgone}.scene.on .mails i:nth-child(6){animation-delay:.5s;animation-name:mgone}
+@keyframes mfly{to{opacity:.95;transform:none}}
+@keyframes mgone{60%{opacity:.9;transform:none}100%{opacity:.18;transform:translateY(-6px)}}
+/* scene 2 silence */
+.quiet .dots{display:flex;gap:12px}
+.quiet i{width:clamp(9px,1.3vw,14px);height:clamp(9px,1.3vw,14px);border-radius:50%;background:var(--lilac);opacity:.25}
+.scene.on .quiet i{animation:pulse 1.5s ease-in-out infinite}
+.scene.on .quiet i:nth-child(2){animation-delay:.25s}.scene.on .quiet i:nth-child(3){animation-delay:.5s}
+@keyframes pulse{0%,100%{opacity:.18}50%{opacity:.6}}
+/* scene 3 mark */
+.mark7{width:min(110px,13vw);height:auto}
+.mark7 .stitch{stroke-dasharray:200;stroke-dashoffset:200}
+.scene.on .mark7 .stitch{animation:dr 1.1s ease forwards}
+.mark7 .cross{stroke-dasharray:80;stroke-dashoffset:80}
+.scene.on .mark7 .cross{animation:dr .5s .9s ease forwards}
+/* scene 4 map */
+.maprow{gap:min(22px,2.6vw)}
+.pin{font-family:'Space Grotesk',sans-serif;font-size:clamp(11px,1.5vw,19px);color:#fff;letter-spacing:.08em;display:flex;flex-direction:column;gap:4px;max-width:15ch}
+.pin em{font-style:normal;font-size:.58em;color:var(--pale);opacity:.72;letter-spacing:.02em;line-height:1.35}
+.thread{position:relative;width:min(190px,20vw);height:2px;background:rgba(168,143,216,.28)}
+.thread i{position:absolute;inset:0;background:var(--gold);transform:scaleX(0);transform-origin:left}
+.scene.on .thread i{animation:sx 1.3s .3s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes sx{to{transform:scaleX(1)}}
+/* scene 5 range */
+.range{gap:min(20px,2.4vw);font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,5.4vw,66px);color:#fff;align-items:center}
+.range .from{color:var(--gold)}
+.range .dash{width:min(70px,8vw);height:3px;background:var(--lilac);opacity:.5;transform:scaleX(0);transform-origin:left}
+.scene.on .range .dash{animation:sx .6s .3s ease forwards}
+.range .to{opacity:0}
+.scene.on .range .to{animation:fi .5s .8s ease forwards}
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chips span{border:1px solid rgba(168,143,216,.4);border-radius:999px;padding:9px 16px;font-family:'IBM Plex Mono',monospace;font-size:clamp(10px,1.15vw,14px);color:var(--pale);opacity:0;transform:translateY(8px);animation-fill-mode:forwards}
+.scene.on .chips span{animation:cin .45s ease forwards}
+.scene.on .chips span:nth-child(2){animation-delay:.12s}.scene.on .chips span:nth-child(3){animation-delay:.24s}
+.scene.on .chips span:nth-child(4){animation-delay:.36s}.scene.on .chips span:nth-child(5){animation-delay:.48s}
+@keyframes cin{to{opacity:1;transform:none}}
+.chips.cat span{border-color:var(--gold);color:var(--gold)}
+.chips.cat span:last-child{background:var(--gold);color:#1B1338;font-weight:600}
+/* scene 8 box */
+.box{position:relative;flex-direction:column;gap:0}
+.parcel{width:clamp(46px,7vw,86px);height:clamp(34px,5.2vw,64px);background:linear-gradient(180deg,#C9B8EE,#A88FD8);border-radius:5px;position:relative;transform:translateY(-70px);opacity:0}
+.parcel:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:5px;margin-left:-2.5px;background:var(--gold);opacity:.85}
+.scene.on .parcel{animation:drop .9s cubic-bezier(.34,1.4,.64,1) .2s forwards}
+@keyframes drop{to{transform:none;opacity:1}}
+.floor{width:clamp(90px,14vw,170px);height:2px;background:rgba(168,143,216,.35);margin-top:10px}
+.end .endmark{width:min(74px,9vw);height:auto;margin-bottom:6px}
+.end .btn{margin-top:22px}
+@keyframes fi{to{opacity:1}}
+.bar2{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:12px 18px;background:linear-gradient(180deg,rgba(18,12,37,0),rgba(18,12,37,.92))}
+.bar2 button{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;background:transparent;border:1px solid rgba(168,143,216,.5);color:var(--pale);border-radius:6px;padding:6px 12px;cursor:pointer}
+.bar2 button:hover{border-color:var(--gold);color:var(--gold)}
+.prog{flex:1;height:3px;background:rgba(168,143,216,.22);border-radius:2px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--gold)}
+.tc{color:var(--pale);opacity:.7;font-size:11px}
+.filmnote{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--lilac);opacity:.75;margin-top:14px}
+/* ---- track record ---- */
+#track{padding:90px 0 30px}
+.trh{font-size:clamp(28px,3.6vw,44px);color:#fff;margin:10px 0 12px}
+.trsub{max-width:660px;opacity:.85;margin:0 0 30px}
+.trstats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(168,143,216,.22);border:1px solid rgba(168,143,216,.22);border-radius:12px;overflow:hidden;margin-bottom:30px}
+.trstats div{background:var(--deep);padding:18px 16px}
+.trstats b{display:block;font-family:'Space Grotesk',sans-serif;font-size:clamp(20px,2.4vw,30px);color:#fff}
+.trstats span{font-size:12.5px;opacity:.75}
+.trgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.trcard{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px}
+.trcard header{position:static;background:none;backdrop-filter:none;border:0;border-bottom:1px solid rgba(168,143,216,.2);display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:0 0 12px}
+.trcard h3{font-size:19px;color:#fff}
+.flag{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--lilac);letter-spacing:.06em;white-space:nowrap}
+.trcard dl{margin:0;display:flex;flex-direction:column;gap:10px;flex:1}
+.trcard dt{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--lilac);opacity:.8;margin-bottom:2px}
+.trcard dd{margin:0;font-size:14px;line-height:1.45}
+.pill{align-self:flex-start;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.05em;background:rgba(224,168,60,.14);color:var(--gold);border:1px solid rgba(224,168,60,.35);border-radius:999px;padding:5px 11px}
+.trcard.soon{border-style:dashed;background:transparent}
+.pill.cta{text-decoration:none;background:var(--gold);color:#1B1338;border-color:var(--gold);font-weight:600}
+.voices{margin-top:34px}
+.vbanner{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;color:#E0A83C;background:rgba(224,168,60,.1);border:1px dashed rgba(224,168,60,.5);border-radius:8px;padding:9px 14px;margin-bottom:16px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vgrid blockquote{margin:0;background:transparent;border-left:2px solid var(--lilac);padding:4px 0 4px 18px}
+.vgrid p{margin:0 0 10px;font-size:15px;line-height:1.55;color:#fff;opacity:.92}
+.vgrid footer{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.05em;color:var(--lilac);opacity:.85}
+
+/* ---- voices as facts ---- */
+.vgrid.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vfact{border-left:2px solid var(--gold);padding:2px 0 2px 18px}
+.vfact b{display:block;font-family:'Space Grotesk',sans-serif;font-size:clamp(22px,2.6vw,32px);color:#fff;margin-bottom:6px}
+.vfact p{margin:0;font-size:14.5px;line-height:1.55;opacity:.85}
+.vnote{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;color:var(--lilac);opacity:.7;margin:20px 0 0}
+/* ---- group / entities ---- */
+#group{padding:90px 0 30px}
+.grh{font-size:clamp(28px,3.6vw,44px);color:#fff;margin:10px 0 14px;max-width:20ch}
+.grsub{max-width:70ch;opacity:.86;margin:0 0 34px;font-size:17px}
+.entities{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:64px}
+.ent{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:16px;padding:28px;border-top:4px solid var(--gold)}
+.ent.p{border-top-color:var(--lilac)}
+.entflag{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;color:var(--lilac);margin-bottom:12px}
+.ent h3{font-size:26px;color:#fff}
+.enttrade{font-size:14px;opacity:.75;margin:4px 0 20px}
+.ent dl{margin:0 0 18px;display:flex;flex-direction:column;gap:11px}
+.ent dl>div{display:grid;grid-template-columns:0.85fr 1.15fr;gap:14px;border-bottom:1px solid rgba(168,143,216,.16);padding-bottom:10px}
+.ent dt{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--lilac);opacity:.85;padding-top:2px}
+.ent dd{margin:0;font-size:14px;line-height:1.45;color:#fff;opacity:.94}
+.entnote{font-size:13px;opacity:.72;margin:0;font-style:italic}
+.whyh{font-size:clamp(24px,3vw,34px);color:#fff;margin:0 0 10px}
+.whysub{max-width:68ch;opacity:.84;margin:0 0 26px}
+.whygrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.why{background:rgba(44,33,83,.5);border:1px solid rgba(168,143,216,.2);border-radius:14px;padding:22px}
+.why .mono{color:var(--gold);font-size:12px;letter-spacing:.1em}
+.why h3.whyh4,.why h4{font-family:'Space Grotesk',sans-serif;font-size:18px;color:#fff;margin:10px 0 8px;line-height:1.2}
+.why p{margin:0;font-size:14px;line-height:1.55;opacity:.85}
+.why.accent{border-color:rgba(224,168,60,.45);background:rgba(224,168,60,.07)}
+@media(max-width:900px){.entities,.whygrid,.vgrid.facts{grid-template-columns:1fr}.ent dl>div{grid-template-columns:1fr}}
+
+/* ---- sister (retired) ---- */
+#sister{padding:40px 0 20px}
+.sisterbox{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:16px;padding:34px}
+.sisterbox h3{font-size:26px;color:#fff;margin:8px 0 12px}
+.sisterbox p{opacity:.86;margin:0 0 20px;max-width:56ch}
+.sisterfacts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:13.5px}
+.sisterfacts li{border-bottom:1px solid rgba(168,143,216,.18);padding-bottom:11px}
+.sisterfacts b{display:block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--lilac);margin-bottom:3px}
+@media(max-width:900px){.trgrid,.vgrid{grid-template-columns:1fr}.trstats{grid-template-columns:repeat(2,1fr)}.sisterbox{grid-template-columns:1fr}}
+
+
+
+.heroproof{list-style:none;display:flex;flex-wrap:wrap;gap:10px 26px;margin:30px 0 0;padding:0;font-size:13.5px;max-width:760px}
+.heroproof li{position:relative;padding-left:14px;opacity:.9}
+.heroproof li:before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.heroproof b{color:#fff;font-weight:600}
+@media(max-width:760px){.heroproof{gap:8px 18px;font-size:12.5px}}
+
+#samplebox{padding:20px 0 60px}
+.sbox{display:grid;grid-template-columns:1.25fr 1fr;gap:38px;background:linear-gradient(135deg,rgba(224,168,60,.13),rgba(168,143,216,.08));border:1px solid rgba(224,168,60,.42);border-radius:20px;padding:40px}
+.sbox h2{font-size:clamp(26px,3.2vw,38px);color:#fff;margin:10px 0 14px}
+.sbox p{opacity:.88;max-width:56ch;margin:0 0 16px}
+.sblist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;align-self:center}
+.sblist li{font-size:14px;line-height:1.5;opacity:.86;border-left:2px solid var(--gold);padding-left:16px}
+.sblist b{display:block;font-family:'Space Grotesk',sans-serif;font-size:16px;color:#fff;margin-bottom:3px;opacity:1}
+@media(max-width:860px){.sbox{grid-template-columns:1fr;padding:28px}}
+
+/* ---- QA: focus, mobile nav, tap targets ---- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.burger{display:none;background:none;border:0;padding:10px;cursor:pointer;width:44px;height:44px;flex-direction:column;justify-content:center;gap:5px}
+.burger span{display:block;height:2px;width:22px;background:var(--pale);transition:transform .25s,opacity .2s}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+footer a{display:inline-block;padding:11px 0;min-height:44px}
+nav a.logo{display:inline-flex;align-items:center;min-height:44px}
+.marquee{overflow:hidden}.hero .bgimg{overflow:hidden}
+@media(max-width:1200px){
+ .burger{display:flex}
+ nav ul#navlist{display:none!important}
+ nav ul#navlist.open{display:flex!important;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--purple);border-top:1px solid rgba(168,143,216,.25);border-bottom:1px solid rgba(168,143,216,.25);padding:8px 0;margin:0;list-style:none;z-index:120;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+ nav ul#navlist.open li{width:100%}
+ nav ul#navlist.open a{display:block;padding:15px 28px;min-height:48px;font-size:16px}
+ header nav{position:relative}
+ .navcta{font-size:14px;padding:11px 16px}
+}
+@media(max-width:760px){
+ .doors .grid,.trstats,.ocards,.ogrid,.vgrid.facts,.entities,.whygrid,.grid3,.grid2,.fgrid{grid-template-columns:1fr!important}
+ .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .tablewrap table{min-width:620px}
+}
+
+nav{display:flex;align-items:center;gap:16px;flex-wrap:nowrap}
+nav .logo{flex:0 0 auto}
+nav ul#navlist{display:flex;flex:0 1 auto;flex-wrap:nowrap;justify-content:flex-end;align-items:center;gap:14px;margin:0 0 0 auto;padding:0;list-style:none}
+nav ul#navlist a{white-space:nowrap;font-size:14px}
+nav>a.btn,nav>a.navcta{flex:0 0 auto;white-space:nowrap;margin-left:4px}
+header .wrap{max-width:1320px}
+@media(max-width:1300px){nav ul#navlist{gap:12px}nav ul#navlist a{font-size:13.5px}}
+@media(max-width:1200px){nav ul#navlist{display:none!important}}
+
+header,nav{max-width:100%;overflow:visible}
+nav{min-width:0}
+@media(max-width:1200px){nav{gap:10px}}
+html,body{overflow-x:hidden;max-width:100%}
+
+/* ---- QA v16: tap targets + very small screens ---- */
+@media(max-width:820px){
+ .card a[href^="mailto:"],.card a[href^="tel:"],.card a[href^="https://wa.me"],
+ p a[href^="mailto:"],p a[href^="tel:"],p a[href^="https://wa.me"],
+ .person .mail a,.fok a{display:inline-block;padding:9px 0;min-height:40px;line-height:1.5}
+}
+@media(max-width:430px){
+ nav>a.btn,nav>a.navcta{font-size:13px;padding:11px 13px}
+ nav{gap:8px}
+ .logo{font-size:17px}
+ .logo svg{height:26px;width:26px}
+}
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:0;padding:12px 14px;min-width:74px;position:relative}
+ nav>a.btn:after,nav>a.navcta:after{content:"Quote";font-size:13px;font-weight:700;position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+ .wrap{padding:0 16px}
+}
+
+@media(max-width:820px){
+ .pp,.rp,.pill,.pill.cta,.film button,#pp,#rp{min-height:40px!important;padding:10px 16px!important;display:inline-flex!important;align-items:center;justify-content:center}
+ .note a,.trcard a,.vnote a,.filmnote a{display:inline-block;padding:8px 0;min-height:36px}
+}
+
+nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-height:1.15}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.pp,.rp,#pp,#rp,button.pp,button.rp{min-height:36px;padding:8px 16px;display:inline-flex;align-items:center;justify-content:center}
+.pill,.pill.cta{min-height:36px;padding:9px 16px;display:inline-flex;align-items:center}
+.person .mail a{display:inline-block;padding:8px 0;min-height:34px;line-height:1.4}
+</style></head><body>
+<div id="loader"><svg viewBox="0 0 100 100" fill="none"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg></div>
+<header><div class="wrap"><nav>
+<a class="logo" href="index.html"><svg viewBox="0 0 100 100" fill="none"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>7th Apparel</a>
+<ul id="navlist"><li><a href="for-brands.html">For Brands</a></li><li><a href="for-teams.html">For Teams</a></li><li><a href="what-we-make.html">What we make</a></li><li><a href="our-factory.html">Our factory</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="faq.html">FAQ</a></li><li><a href="compliance.html">Compliance</a></li><li><a href="contact.html">Contact</a></li></ul>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><a class="btn" href="quote.html">Get a quote</a></nav></div></header>
+
+<section class="hero"><div class="bgimg"><img id="heroimg" src="assets/factory_wide.jpg" alt="Our own production floor"></div>
+<div class="wrap inner"><div class="kicker">EUROPEAN FRONT DESK · OUR OWN PRODUCTION HOUSE</div>
+<h1 id="heroline"><span class="w"><span>When&nbsp;</span></span><span class="w"><span>your&nbsp;</span></span><span class="w"><span><em>brand</em>&nbsp;</span></span><span class="w"><span>syncs&nbsp;</span></span><span class="w"><span>with&nbsp;</span></span><span class="w"><span>our&nbsp;</span></span><span class="w"><span><em>production.</em></span></span></h1>
+<p>Ten pieces or millions — cut, sewn and finished in our own house, then delivered to your door with the customs work done for you. Knit, woven, denim, workwear, leather and towels &mdash; in conventional or 100% organic cotton. If it is cut and sewn, ask us.</p>
+<a class="btn" href="quote.html">Get a quote in 48 hours</a> &nbsp; <a class="btn ghost" href="#flow">See how it works ↓</a>
+<ul class="heroproof"><li><b>146,500</b> pieces shipped since March 2025</li><li><b>11 of 13</b> orders are repeat business</li><li><b>From 10</b> pieces per style</li><li><b>KVK 91485452</b> · Sedex <b>ZC5000072720</b></li></ul></div>
+<svg class="threadline" viewBox="0 0 1400 120" preserveAspectRatio="none" fill="none"><path id="heroThread" d="M-20 90 C 300 20, 600 110, 900 55 S 1300 70, 1430 40" stroke="#E0A83C" stroke-width="2.5" stroke-dasharray="9 7"/></svg>
+<div class="marquee"><div class="track"><span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span><span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span></div></div>
+</section>
+
+
+<h2 class="sr-only">What we do</h2><section class="doors"><div class="wrap"><div class="grid">
+<div class="door"><span class="mono" style="color:var(--gold)">FOR BRANDS</span><h3>You design it. We build it.</h3><p>Start with ten pieces to hold, a hundred to sell, or a hundred thousand to ship. We draw the tech pack with you, sample it in two to four weeks, and your designs stay yours in writing.</p><a class="btn" href="for-brands.html">Launch · Grow · Scale →</a></div>
+<div class="door l"><span class="mono" style="color:var(--lilac)">FOR TEAMS</span><h3>Not merch. Your own collection.</h3><p>Kit out a team, an event or a whole company — your label, your colours, and a fabric you choose from the options we put in front of you. Twenty hoodies for the office or two thousand uniforms for a chain.</p><a class="btn ghost" href="for-teams.html">Collection · Programme →</a></div>
+</div></div></section>
+<section id="samplebox"><div class="wrap"><div class="sbox">
+<div class="sbleft">
+ <div class="kicker">THE EASIEST WAY TO START</div>
+ <h2>Hold it before you spend anything.</h2>
+ <p>Send us a brief and we make your style in the fabric you choose, with your label &mdash; a real garment off the same line that runs the hundred-thousand-piece programmes, not a printed blank.</p>
+ <p><b>€50 per style, credited in full against your first order.</b> A sample genuinely costs us several hundred euros &mdash; a pattern maker drafts and grades it, a designer checks the tech pack, a sample tailor sews it on a machine that has stopped running bulk, and it flies to you by courier. We charge €50 because we would rather you held the garment than read a promise.</p>
+ <a class="btn" href="quote.html">Start with a €50 sample &rarr;</a>
+</div>
+<ul class="sblist">
+ <li><b>2&ndash;4 weeks</b>Proto and fit samples, drafted on Gerber CAD</li>
+ <li><b>No tech pack needed</b>A sketch or a garment you want matched is enough &mdash; we draw the tech pack with you</li>
+ <li><b>Refunded</b>The €50 comes off your first bulk invoice. Extra round if you need one: €50</li>
+ <li><b>Yours in writing</b>Your designs, patterns and blocks stay yours. We will sign your NDA or send you ours</li>
+</ul>
+</div></div></section>
+<section id="film"><div class="wrap">
+<div class="kicker">THE FILM · 35 SECONDS</div>
+<h2 class="filmh">Why getting clothes made is so hard — and what we removed</h2>
+<div class="stage" id="stage" role="region" aria-label="7th Apparel story film">
+  <div class="scenes" id="scenes">
+
+    <div class="scene" data-s="0"><div class="s-in">
+      <div class="art lamp"><span class="glow"></span><svg viewBox="0 0 220 130" fill="none" aria-hidden="true"><path class="dw" d="M40 108 C 52 60, 74 44, 96 62 C 118 80, 128 46, 150 40" stroke="#E0A83C" stroke-width="2.4" stroke-linecap="round"/><path class="dw d2" d="M56 116 C 74 96, 96 100, 112 88" stroke="#A88FD8" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <p class="s-line">You have the design. Getting it made is the hard part.</p>
+      <p class="s-sub">That is where most brands lose their money, their margin and their nerve.</p>
+    </div></div>
+
+    <div class="scene" data-s="1"><div class="s-in">
+      <div class="art mails"><i>✉</i><i>✉</i><i>✉</i><i>✉</i><i>✉</i><i>✉</i></div>
+      <p class="s-line">First the agent. Then the trading house.</p>
+      <p class="s-sub">Then the factory that actually sews it — three layers, each taking a cut.</p>
+    </div></div>
+
+    <div class="scene" data-s="2"><div class="s-in">
+      <div class="art quiet"><span class="dots"><i></i><i></i><i></i></span></div>
+      <p class="s-line">Every layer adds a margin and a week.</p>
+      <p class="s-sub">By the time your brief reaches a machine, it has been retyped four times.</p>
+    </div></div>
+
+    <div class="scene" data-s="3"><div class="s-in">
+      <svg class="mark7" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path class="stitch" d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line class="cross" x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>
+      <p class="s-line">And nobody is accountable.</p>
+      <p class="s-sub">The agent blames the factory. The factory blames the fabric. You blame yourself.</p>
+    </div></div>
+
+    <div class="scene" data-s="4"><div class="s-in">
+      <div class="art maprow"><span class="pin">UITHOORN<em>your contract, your invoice, your manager</em></span><span class="thread"><i></i></span><span class="pin">LAHORE<em>cutting, sewing, finishing, packing</em></span></div>
+      <p class="s-line">Then the bank asks for a letter of credit.</p>
+      <p class="s-sub">Your cash is locked up for months before a single piece is cut.</p>
+    </div></div>
+
+    <div class="scene" data-s="5"><div class="s-in">
+      <div class="art range"><span class="from">10</span><span class="dash"></span><span class="to" id="rangeTo">100,000</span></div>
+      <p class="s-line">So we removed the middle.</p>
+      <p class="s-sub">One company. Our own floor. Nothing between your brief and the cutting table.</p>
+    </div></div>
+
+    <div class="scene" data-s="6"><div class="s-in">
+      <div class="chips cat"><span>Knit</span><span>Woven</span><span>Denim</span><span>Workwear</span><span>Leather</span></div>
+      <p class="s-line">You talk to the people who make it.</p>
+      <p class="s-sub">Ask for a line photo, a swatch, a measurement — it comes from the floor, not a sales desk.</p>
+    </div></div>
+
+    <div class="scene" data-s="7"><div class="s-in">
+      <div class="chips proof"><span>146,500 pieces shipped</span><span>$820k+ delivered</span><span>UK · USA · Italy</span><span>100% repeat buyers</span></div>
+      <p class="s-line">Ten pieces, or millions.</p>
+      <p class="s-sub">Start small, prove the style, then scale it on our own capacity.</p>
+    </div></div>
+
+    <div class="scene" data-s="8"><div class="s-in">
+      <div class="art box"><span class="parcel"></span><span class="floor"></span></div>
+      <p class="s-line">One invoice. In euros. Delivered to your door.</p>
+      <p class="s-sub">No letter of credit. No customs broker. No importing. That part is ours.</p>
+    </div></div>
+
+    <div class="scene" data-s="9"><div class="s-in end">
+      <svg class="endmark" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg>
+      <p class="s-line">This is not a plan. It is a track record.</p>
+      <p class="s-sub">146,500 pieces · $820k+ delivered · UK · USA · Italy · 11 of 13 orders are repeat business</p>
+      <a class="btn" href="quote.html">Start with a €50 sample</a>
+    </div></div>
+
+  </div>
+  <div class="bar2"><button id="pp" aria-label="Play or pause the film">Pause</button><button id="rp" aria-label="Replay the film">Replay</button><div class="prog"><i id="pf"></i></div><span class="tc mono" id="tc">0:00</span></div>
+</div>
+<p class="filmnote"></p>
+</div></section>
+
+<section class="problem wrap"><h2>Designing it is the easy part.<br>Getting it <span class="strike">made<i></i></span> is where brands stall.</h2>
+<p>Most factories won't quote under a thousand pieces. Agents add a margin and lose your emails. Samples take a season to arrive. We took the middle out: one partner, two homes, your name on the label — from ten pieces up.</p></section>
+
+<section id="flow"><div class="wrap"><h2>One thread, door to door</h2><div class="sub mono">SCROLL — WATCH THE ORDER TRAVEL</div>
+<div class="flowbox"><svg id="flowsvg" viewBox="0 0 1200 300" fill="none">
+<path id="flowpath" d="M90 150 C 260 60, 340 60, 450 140 S 700 240, 810 150 S 1020 60, 1110 140" stroke="rgba(168,143,216,.35)" stroke-width="2" stroke-dasharray="7 7"/>
+<path id="flowfill" d="M90 150 C 260 60, 340 60, 450 140 S 700 240, 810 150 S 1020 60, 1110 140" stroke="#E0A83C" stroke-width="3"/>
+<g class="station" id="st1"><circle cx="90" cy="150" r="34" fill="#17102E" stroke="#A88FD8" stroke-width="3"/><text x="90" y="156" text-anchor="middle" fill="#C9B8EE" font-size="15">YOU</text></g>
+<g class="station" id="st2"><circle cx="450" cy="140" r="34" fill="#17102E" stroke="#A88FD8" stroke-width="3"/><text x="450" y="134" text-anchor="middle" fill="#C9B8EE" font-size="13">NL</text><text x="450" y="152" text-anchor="middle" fill="#C9B8EE" font-size="11">UITHOORN</text></g>
+<g class="station" id="st3"><circle cx="810" cy="150" r="34" fill="#17102E" stroke="#A88FD8" stroke-width="3"/><text x="810" y="144" text-anchor="middle" fill="#C9B8EE" font-size="13">PK</text><text x="810" y="162" text-anchor="middle" fill="#C9B8EE" font-size="11">LAHORE</text></g>
+<g class="station" id="st4"><circle cx="1110" cy="140" r="34" fill="#17102E" stroke="#A88FD8" stroke-width="3"/><text x="1110" y="146" text-anchor="middle" fill="#C9B8EE" font-size="12">DOOR</text></g>
+<circle id="packet" cx="90" cy="150" r="9" fill="#E0A83C"/>
+</svg>
+<div class="flowlabels"><div id="fl1"><b>Your brand</b>A sketch, a tech pack, or just the idea. One brief starts the thread.</div>
+<div id="fl2"><b>Amsterdam · contract &amp; care</b>Dutch-law contract, itemised quote in 48 h, development &amp; sampling coordination, quality gate.</div>
+<div id="fl3"><b>Our floor · the making</b>Our own production house: cut, sew, finish, pack. Inline QC, AQL 2.5 final inspection.</div>
+<div id="fl4"><b>Your door</b>DDP delivered — duties, customs and shipping handled. Claims settled in NL. Reorder with one message.</div></div>
+</div></div></section>
+
+<section class="process"><div class="wrap"><h2>Six steps. Zero mystery.</h2>
+<div class="psteps"><div class="pline"><div class="base"></div><div class="fill" id="plinefill"></div></div>
+<div class="pstep"><div class="dot"></div><h3>1 · Brief</h3><p>Send what you have — a sketch, a tech pack, a sample you love. <span class="mono">DAY 0</span></p></div>
+<div class="pstep"><div class="dot"></div><h3>2 · Quote</h3><p>Itemised: fabric, making, decoration, freight, duties. One DDP number. <span class="mono">48 HOURS</span></p></div>
+<div class="pstep"><div class="dot"></div><h3>3 · Sample</h3><p>Proto and fit samples. Sample €50 per style, refunded on your first bulk order. <span class="mono">3–4 WEEKS</span></p></div>
+<div class="pstep"><div class="dot"></div><h3>4 · Approve</h3><p>Nothing is cut before you sign off the pre-production sample. <span class="mono">YOUR CALL</span></p></div>
+<div class="pstep"><div class="dot"></div><h3>5 · Production</h3><p>Cut-to-pack in our own house, inline QC, AQL 2.5 final inspection. <span class="mono">6–8 WEEKS</span></p></div>
+<div class="pstep"><div class="dot"></div><h3>6 · Delivered</h3><p>Sea or air, DDP to your door — dates quoted door-to-door upfront. <span class="mono">14–17 WKS FROM BRIEF</span></p></div>
+</div></div></section>
+
+<section class="outcomes"><div class="wrap"><div class="ogrid">
+<div class="ocard"><b><em data-count="146500">146,500</em></b><span>pieces shipped since March 2025</span></div>
+<div class="ocard"><b><em data-count="100"></em>%</b><span>of orders from repeat buyers (13 of 13)</span></div>
+<div class="ocard"><b><em data-count="10"></em> days</b><span>max for proto &amp; fit samples</span></div>
+<div class="ocard"><b><em data-count="3">3</em> markets</b><span>UK · USA · EU, shipped and repeat-ordered</span></div>
+</div></div></section>
+
+
+<section id="track"><div class="wrap">
+<div class="kicker">TRACK RECORD</div>
+<h2 class="trh">Who we already make for</h2>
+<p class="trsub">Every order below was cut, sewn and finished in our own house and shipped between March 2025 and August 2026 &mdash; the period since the European company began taking orders. Three of the five buyers have come back and reordered — eleven of the thirteen orders are repeat business. The floor itself has been running since 2011, and buyers who come back typically triple the size of what they first ordered.</p>
+<div class="trstats"><div><b>2011</b><span>making garments since</span></div><div><b>146,500</b><span>pieces shipped since Mar 2025</span></div><div><b>$820k+</b><span>order value delivered</span></div><div><b>3&times;</b><span>buyers grow their order size</span></div><div><b>3 of 5</b><span>buyers have reordered</span></div></div>
+<div class="trgrid">
+  <article class="trcard"><header><h3>YJM</h3><span class="flag">United States</span></header><dl><div><dt>Product</dt><dd>Men's 380 GSM fleece hoodies, 4 colourways</dd></div><div><dt>Volume</dt><dd>100,000 pcs across 2 orders</dd></div><div><dt>Route</dt><dd>via FPG buying house · FOB Los Angeles</dd></div></dl><span class="pill">Repeat buyer since 2025</span></article>
+  <article class="trcard"><header><h3>Innocent Clothing</h3><span class="flag">United Kingdom</span></header><dl><div><dt>Product</dt><dd>12 oz denim, stretch denim, cotton and lycra jersey tees</dd></div><div><dt>Volume</dt><dd>21,800 pcs across 6 orders</dd></div><div><dt>Route</dt><dd>Direct · CIF / FOB Glasgow</dd></div></dl><span class="pill">Repeat buyer since 2025</span></article>
+  <article class="trcard"><header><h3>Stefana Marrini</h3><span class="flag">Italy</span></header><dl><div><dt>Product</dt><dd>3×3 twill workwear, woven label + rubber logo</dd></div><div><dt>Volume</dt><dd>10,000 pcs</dd></div><div><dt>Route</dt><dd>Direct · FOB Livorno</dd></div></dl><span class="pill">EU delivery</span></article>
+  <article class="trcard"><header><h3>Style Wise</h3><span class="flag">United States</span></header><dl><div><dt>Product</dt><dd>Denim jackets — PFGD and poly-cotton twill</dd></div><div><dt>Volume</dt><dd>7,500 pcs across 3 orders</dd></div><div><dt>Route</dt><dd>Direct · FOB</dd></div></dl><span class="pill">Repeat buyer since 2025</span></article>
+  <article class="trcard"><header><h3>Withered Tree, LLC</h3><span class="flag">United States</span></header><dl><div><dt>Product</dt><dd>2×2 twill trousers, 100% cotton PFGD</dd></div><div><dt>Volume</dt><dd>7,200 pcs</dd></div><div><dt>Route</dt><dd>via FPG buying house · Los Angeles</dd></div></dl><span class="pill">Active 2026</span></article>
+  <article class="trcard soon"><header><h3>Your brand</h3><span class="flag">Europe</span></header><dl><div><dt>Product</dt><dd>Whatever you have been sketching</dd></div><div><dt>Volume</dt><dd>Ten pieces, or millions</dd></div><div><dt>Route</dt><dd>EU invoice · DDP to your door</dd></div></dl><a class="pill cta" href="quote.html">Start with a €50 sample →</a></article>
+</div>
+<div class="voices">
+  <div class="vgrid facts">
+    <div class="vfact"><b>11 of 13</b><p>Eleven of the thirteen orders we have taken since March 2025 are repeat business from a buyer who had already worked with us. Nobody has left after a first order.</p></div>
+    <div class="vfact"><b>100,000 pcs</b><p>The largest single relationship — two fleece programmes for the same US buyer, both delivered on the sailing date we quoted.</p></div>
+    <div class="vfact"><b>3&times; bigger</b><p>Buyers arrive with a trial order and scale it. Where a buyer has reordered, the follow-up is typically around three times the size of the first &mdash; the reason we take a ten-piece run seriously.</p></div>
+  </div>
+  <p class="vnote">Buyer names published with each customer's permission. Order data as recorded March 2025 &ndash; August 2026.</p>
+</div>
+</div></section>
+
+<section id="group"><div class="wrap">
+<div class="kicker">ONE GROUP, TWO DOORS</div>
+<h2 class="grh">Making since 2011. In Europe since 2023.</h2>
+<p class="grsub">7th Apparel is not a trading house that found a factory. It is the European arm of the factory &mdash; same owners, same floor, same people who have been cutting and sewing since 2011. What is new is the Dutch end, and that is the part that makes it easy to buy from us.</p>
+
+<div class="entities">
+  <article class="ent">
+    <div class="entflag">NETHERLANDS &middot; YOUR COUNTERPARTY</div>
+    <h3>7th Apparel</h3>
+    <p class="enttrade">Dutch registered company &middot; your counterparty on every order</p>
+    <dl>
+      <div><dt>KVK number</dt><dd>91485452</dd></div>
+      <div><dt>Vestigingsnummer</dt><dd>000057160791</dd></div>
+      <div><dt>Registered</dt><dd>26 September 2023</dd></div>
+      <div><dt>Registered name</dt><dd>Currently shown as <b>7thstreet</b> &mdash; name change to 7th Apparel in progress. Same KVK number throughout.</dd></div>
+      <div><dt>Based</dt><dd>Amsterdam, Netherlands</dd></div>
+      <div><dt>You get</dt><dd>EU invoice &middot; euro payment &middot; a named account manager in Europe</dd></div>
+    </dl>
+    <p class="entnote">Look us up in the KVK Handelsregister before you send a single euro. We would rather you did.</p>
+  </article>
+
+  <article class="ent p">
+    <div class="entflag">OUR PRODUCTION HOUSE</div>
+    <h3>Saee e Kamil (Pvt) Ltd</h3>
+    <p class="enttrade">our own production house &mdash; Pakistan</p>
+    <dl>
+      <div><dt>Registration</dt><dd>8690900</dd></div>
+      <div><dt>Incorporated</dt><dd>21 October 2020 &middot; denim unit 2021</dd></div>
+      <div><dt>Making garments since</dt><dd>2011 &mdash; incorporated as a private limited company in 2020</dd></div>
+      <div><dt>Sedex member</dt><dd>ZC5000072720 &middot; 4-pillar scope</dd></div>
+      <div><dt>The floor</dt><dd>~1,500 m&sup2; across three units &middot; hundreds of machines &middot; three production lines</dd></div>
+      <div><dt>Fabric</dt><dd>Sapphire &middot; US Denim &middot; organic cotton qualities</dd></div>
+    </dl>
+    <a class="btn ghost" href="https://saeekamil.com/" target="_blank" rel="noopener noreferrer">Visit saeekamil.com &rarr;</a>
+  </article>
+</div>
+
+<h3 class="whyh">What our European desk takes off yours</h3>
+<p class="whysub">The sewing is rarely what stops a brand buying from Asia. It is everything wrapped around it &mdash; the bank guarantees, the freight, the customs entry, and not knowing who you are really dealing with. Ordering through our European company removes all of it, and you still get the factory rather than a middleman's markup.</p>
+<div class="whygrid">
+  <div class="why"><span class="mono">01</span><h3 class="whyh4">No letter of credit</h3><p>An LC ties up your cash for months, costs bank fees at both ends, and dies on a typo. You are buying from a Dutch company, so you get an invoice on agreed terms &mdash; 50/40/10, with the last 10% held until you have inspected the goods.</p></div>
+  <div class="why"><span class="mono">02</span><h3 class="whyh4">A company you can look up</h3><p>You order from a registered European business with a public company number, a real address and people you can meet &mdash; not an inbox that answers at three in the morning. If something needs sorting out, it gets sorted out here.</p></div>
+  <div class="why"><span class="mono">03</span><h3 class="whyh4">We are the importer, not you</h3><p>DDP to your door. Export documents, freight, customs clearance, duty and import VAT are ours to handle. No EORI to arrange, no broker to appoint, no container sitting in Rotterdam waiting for a signature.</p></div>
+  <div class="why"><span class="mono">04</span><h3 class="whyh4">Paid in euros, like any supplier</h3><p>One EUR invoice, one bank transfer inside Europe. No currency exposure, no correspondent-bank delays, no payment disappearing through three intermediaries on its way to Asia.</p></div>
+  <div class="why"><span class="mono">05</span><h3 class="whyh4">Same group, not a broker</h3><p>The European company and the factory have the same owners. Nobody is adding an agent's margin between your tech pack and the cutting table, and nobody can lose your file between two firms.</p></div>
+  <div class="why accent"><span class="mono">&mdash;</span><h3 class="whyh4">What you still get</h3><p>Direct access to the floor. Ask for a line photo, a fabric swatch, an inline measurement &mdash; it comes from the people making your order, not from a sales desk relaying a question.</p></div>
+</div>
+</div></section>
+
+<section id="edge"><div class="wrap">
+<div class="kicker">WHY IT MATTERS AT YOUR END</div>
+<h2 class="grh">Order small. Move fast when it works.</h2>
+<p class="grsub">Most brands lose money twice on the same mistake &mdash; once by over-ordering a style that never sells, and once by under-ordering the one that does and then waiting four months for more. A floor this size, owned by us rather than rented by the order, is what fixes both.</p>
+
+<div class="whygrid">
+  <div class="why accent"><span class="mono">THE ARGUMENT</span><h3 class="whyh4">Don't bet the season on a guess</h3><p>Start at ten pieces. Test the fit, the fabric, the price on your own customers. Commit real money only to what has already sold &mdash; and keep your cash in the business instead of in a warehouse.</p></div>
+  <div class="why"><span class="mono">SPARE CAPACITY</span><h3 class="whyh4">If it hits, we can chase it</h3><p>We deliberately hold headroom on the lines. When a style takes off, a repeat run starts within days rather than queueing behind somebody else's programme &mdash; because it is our floor, and we decide what goes on it.</p></div>
+  <div class="why"><span class="mono">THE FLOOR</span><h3 class="whyh4">Roughly 1,500 m&sup2;, hundreds of machines</h3><p>Three units, three production lines, and a machine park deep enough to run knit, woven, denim, workwear and leather at the same time. 50,000&ndash;100,000 pieces a month, and it scales into the millions over a year.</p></div>
+</div>
+
+<h3 class="whyh" style="margin-top:56px">You can watch it being made</h3>
+<p class="whysub">The usual experience of offshore manufacturing is silence for six weeks and then a container. We run the floor on a digital tracking system, and we open it to you &mdash; because the fastest way to earn trust is to stop asking for it.</p>
+<div class="whygrid">
+  <div class="why"><span class="mono">01</span><h3 class="whyh4">Live order status</h3><p>See where your order actually is &mdash; fabric in, cutting, sewing, finishing, packing &mdash; instead of waiting for someone to answer an email about it.</p></div>
+  <div class="why"><span class="mono">02</span><h3 class="whyh4">Tagged at finishing</h3><p>Units are tagged as they come off finishing, so the count you are told is the count that physically exists. No rounding, no optimistic estimates.</p></div>
+  <div class="why"><span class="mono">03</span><h3 class="whyh4">Photographed, not described</h3><p>Photo and measurement data captured against the order, so you can check the real garment against your spec while there is still time to change something.</p></div>
+  <div class="why"><span class="mono">04</span><h3 class="whyh4">Problems surface early</h3><p>If a fabric lot is late or a measurement drifts, you hear it that week &mdash; not on the day the shipment was supposed to land.</p></div>
+</div>
+</div></section>
+
+
+
+<div class="wrap"><div class="cta"><div><h2>Tell us what you are making.</h2><p style="opacity:.85;margin:10px 0 0;font-size:16px">Ten pieces or ten thousand. Itemised quote in 48 hours, delivered to your door.</p></div><a class="btn" href="quote.html">Get a quote in 48 hours</a></div></div>
+
+<footer><div class="wrap"><div class="fgrid">
+<div><b style="font-family:'Space Grotesk';color:#fff">7th Apparel</b><br>When your brand syncs with our production.<br><br>7th Apparel · KVK 91485452<br>vestiging 000057160791 · registered 2023<br>Amsterdam, Netherlands<br>Own production house: <a href="https://saeekamil.com/" target="_blank" rel="noopener noreferrer">Saee e Kamil (Pvt) Ltd</a></div>
+<div><b>Explore</b><br><a href="for-brands.html">For Brands</a><br><a href="for-teams.html">For Teams</a><br><a href="workwear.html">Workwear</a><br><a href="pricing.html">Pricing</a><br><a href="compliance.html">Compliance</a></div>
+<div><b>Contact</b><br><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">WhatsApp us</a><br><a href="quote.html">Quote in 48 hours</a></div>
+</div></div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+var _ld=function(){var l=document.getElementById('loader');if(l)l.classList.add('done');};window.addEventListener('load',function(){setTimeout(_ld,1150);});setTimeout(_ld,1200);
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(window.gsap&&!rm){gsap.registerPlugin(ScrollTrigger);
+gsap.to('#heroline .w span',{y:0,duration:.9,stagger:.07,ease:'expo.out',delay:1.15});
+gsap.from('.hero p,.hero .btn,.hero .kicker',{opacity:0,y:16,duration:.7,stagger:.08,delay:1.5});
+gsap.to('#heroimg',{scale:1.0,duration:8,ease:'none'});
+const th=document.getElementById('heroThread');const L=th.getTotalLength();
+gsap.fromTo(th,{strokeDasharray:L,strokeDashoffset:L},{strokeDashoffset:0,duration:2.2,ease:'power2.inOut',delay:1.4});
+gsap.to('.problem .strike i',{scaleX:1,duration:.6,ease:'power2.out',scrollTrigger:{trigger:'.problem',start:'top 60%'}});
+/* FLOW — pinned scrub */
+const fp=document.getElementById('flowfill');const FL=fp.getTotalLength();
+gsap.set(fp,{strokeDasharray:FL,strokeDashoffset:FL});
+const tl=gsap.timeline({scrollTrigger:{trigger:'#flow',start:'top 78%',end:'bottom 55%',scrub:.8,invalidateOnRefresh:true}});
+tl.to(fp,{strokeDashoffset:0,ease:'none',duration:4})
+  .to('#packet',{motionPath:null,ease:'none',duration:0},0);
+/* move packet along path manually */
+const path=document.getElementById('flowpath');const PL=path.getTotalLength();const packet=document.getElementById('packet');
+tl.eventCallback('onUpdate',null);
+ScrollTrigger.create({trigger:'#flow',start:'top 78%',end:'bottom 55%',scrub:.8,invalidateOnRefresh:true,onUpdate:s=>{const p=path.getPointAtLength(PL*s.progress);packet.setAttribute('cx',p.x);packet.setAttribute('cy',p.y);}});
+[['#st1','#fl1',0],['#st2','#fl2',.33],['#st3','#fl3',.66],['#st4','#fl4',.95]].forEach(([st,fl,at])=>{
+ tl.to(st+' circle',{attr:{stroke:'#E0A83C'},scale:1,duration:.25},at*4)
+   .to(fl,{opacity:1,y:0,duration:.3},at*4);});
+/* process line */
+gsap.to('#plinefill',{scaleY:1,ease:'none',scrollTrigger:{trigger:'.psteps',start:'top 70%',end:'bottom 55%',scrub:.6}});
+document.querySelectorAll('.pstep').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 68%',onEnter:()=>el.classList.add('on'),onLeaveBack:()=>el.classList.remove('on')});});
+/* counters */
+document.querySelectorAll('[data-count]').forEach(el=>{const end=+el.dataset.count;const o={v:0};
+ ScrollTrigger.create({trigger:el,start:'top 85%',once:true,onEnter:()=>gsap.to(o,{v:end,duration:1.4,ease:'power2.out',onUpdate:()=>el.textContent=Math.round(o.v)})});});
+/* doors */
+gsap.to('.door',{opacity:1,y:0,duration:.6,stagger:.15,ease:'power2.out',scrollTrigger:{trigger:'.doors',start:'top 75%'}});
+window.addEventListener('load',()=>ScrollTrigger.refresh());setTimeout(()=>ScrollTrigger.refresh(),600);setTimeout(()=>ScrollTrigger.refresh(),1800);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>ScrollTrigger.refresh());let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>ScrollTrigger.refresh(),200);});
+}else{document.querySelectorAll('#heroline .w span').forEach(s=>s.style.transform='none');document.querySelectorAll('.flowlabels div,.door,.pstep').forEach(e=>{e.style.opacity=1;e.style.transform='none';e.classList.add('on')});document.querySelectorAll('[data-count]').forEach(el=>el.textContent=el.dataset.count);}
+</script><script>
+/* ---- film player ---- */
+(function(){
+ var scenes=[].slice.call(document.querySelectorAll('.scene'));
+ if(!scenes.length) return;
+ var DUR=[3400,3400,2900,3300,3600,3300,3500,3700,3400,4600];
+ var TOTAL=DUR.reduce(function(a,b){return a+b;},0);
+ var i=0,t0=null,raf=null,playing=true,before=0;
+ var pf=document.getElementById('pf'),tc=document.getElementById('tc'),pp=document.getElementById('pp'),rp=document.getElementById('rp');
+ function show(n){scenes.forEach(function(s,k){s.classList.toggle('on',k===n);});}
+ function fmt(ms){var s=Math.floor(ms/1000);return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
+ function tick(ts){
+   if(!t0)t0=ts;
+   var inS=ts-t0;
+   if(inS>=DUR[i]){before+=DUR[i];i=(i+1)%scenes.length;if(i===0)before=0;t0=ts;show(i);inS=0;}
+   var tot=before+inS;
+   pf.style.width=(tot/TOTAL*100)+'%';tc.textContent=fmt(tot);
+   if(playing)raf=requestAnimationFrame(tick);
+ }
+ function play(){playing=true;pp.textContent='Pause';t0=null;raf=requestAnimationFrame(tick);}
+ function pause(){playing=false;pp.textContent='Play';if(raf)cancelAnimationFrame(raf);}
+ pp.addEventListener('click',function(){playing?pause():play();});
+ rp.addEventListener('click',function(){i=0;before=0;t0=null;show(0);if(!playing)play();});
+ show(0);
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){
+   scenes.forEach(function(s){s.classList.add('on');s.style.position='relative';s.style.opacity=1;});
+   document.querySelector('.stage').style.aspectRatio='auto';document.querySelector('.bar2').style.display='none';
+ } else { play(); }
+})();
+</script>
+
+<script>
+/* ---- reveal failsafe: content must never depend on an animation running ---- */
+(function(){
+ function reveal(){
+  document.querySelectorAll('#heroline .w span').forEach(function(e){e.style.transform='none';});
+  document.querySelectorAll('.hero p,.hero .btn,.hero .kicker').forEach(function(e){e.style.opacity=1;e.style.transform='none';});
+  document.querySelectorAll('.flowlabels div,.door,.pstep,.trcard,.vfact,.ent,.why').forEach(function(e){e.style.opacity=1;e.style.transform='none';e.classList.add('on');});
+  document.querySelectorAll('[data-count]').forEach(function(e){if(!e.textContent.trim())e.textContent=e.dataset.count;});
+  var l=document.getElementById('loader'); if(l) l.classList.add('done');
+ }
+ function check(){
+  var sp=document.querySelector('#heroline .w span');
+  if(!sp) return;
+  var t=getComputedStyle(sp).transform;
+  // still pushed out of view => the intro never ran
+  if(t&&t!=='none'&&t!=='matrix(1, 0, 0, 1, 0, 0)') reveal();
+  var p=document.querySelector('.hero p');
+  if(p&&parseFloat(getComputedStyle(p).opacity)<0.9) reveal();
+ }
+ setTimeout(check,2600); setTimeout(check,5000);
+ document.addEventListener('visibilitychange',function(){if(!document.hidden)setTimeout(check,1200);});
+})();
+</script>
+
+<script>
+/* ---- in-page anchor links ----
+   Fragment navigation is a no-op inside a srcdoc/about: frame, so every #anchor
+   link dies in the embedded preview. Handling it in JS works everywhere and also
+   lets us offset for the fixed header, which the native jump does not. */
+(function(){
+ document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a');
+  if(!a) return;
+  var h=a.getAttribute('href')||'';
+  if(h.length<2||h.charAt(0)!=='#') return;
+  var t=document.getElementById(h.slice(1));
+  if(!t) return;
+  e.preventDefault();
+  var hd=document.querySelector('header');
+  var off=(hd?hd.getBoundingClientRect().height:0)+12;
+  var y=t.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop)-off;
+  var soft=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{ window.scrollTo({top:y,behavior:soft?'smooth':'auto'}); }catch(err){ window.scrollTo(0,y); }
+  try{ history.replaceState(null,'',h); }catch(err){}
+ },false);
+})();
+</script>
+
+<script>
+/* burger-toggle */
+(function(){
+ var b=document.getElementById('burger'), l=document.getElementById('navlist');
+ if(!b||!l) return;
+ b.addEventListener('click',function(e){
+  e.preventDefault(); e.stopPropagation();
+  var open=l.classList.toggle('open');
+  b.setAttribute('aria-expanded',open?'true':'false');
+ });
+ l.addEventListener('click',function(e){ if(e.target.closest('a')){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+ document.addEventListener('keydown',function(e){ if(e.key==='Escape'){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+})();
+</script>
+
+</body></html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get a Quote in 48 Hours — 7th Apparel</title><meta name="description" content="Itemised quote within 48 hours. Tell us what you're making.">
+<link rel="icon" href="assets/favicon.png"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#2C2153;--lilac:#A88FD8;--pale:#C9B8EE;--bg:#F4F0FA;--dark:#1B1338;--gold:#E0A83C;--text:#3A3350}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.55}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;color:var(--purple);line-height:1.12;margin:0}
+.mono{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.4px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+header{background:var(--bg);border-bottom:1px solid #e2dcf0;position:sticky;top:0;z-index:50}
+nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
+.navlogo{height:56px;width:auto}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;font-weight:600;font-size:14.5px;flex-wrap:wrap}
+nav a{color:var(--purple);text-decoration:none}nav a:hover{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--dark);font-weight:600;padding:12px 22px;border-radius:8px;text-decoration:none;font-size:15px}
+.btn.ghost{background:transparent;color:var(--purple);border:2px solid var(--purple)}
+.btn.purple{background:var(--purple);color:#fff}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:56px 0 44px}
+.hero h1{font-size:52px;letter-spacing:-1px}.hero p{font-size:18px;margin:18px 0 26px;max-width:520px}
+.hero .img{border-radius:14px;overflow:hidden;box-shadow:0 20px 50px rgba(44,33,83,.20)}.hero img{width:100%;display:block}
+.kicker{color:var(--gold);font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:1.5px;margin-bottom:12px}
+.proof{display:flex;background:var(--purple);color:var(--bg);border-radius:12px;overflow:hidden;margin:8px 0 56px}
+.proof div{flex:1;padding:16px 18px;border-right:1px solid rgba(255,255,255,.14)}
+.proof b{display:block;font-family:'Space Grotesk';font-size:22px;color:#fff}.proof span{font-size:12.5px;opacity:.85}
+section{padding:26px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:#fff;border-radius:12px;padding:26px;box-shadow:0 1px 0 #e2dcf0}
+.card h3{font-size:20px;margin-bottom:8px}.card p{font-size:14.5px;margin:8px 0 0}
+.card.accent{border-top:5px solid var(--gold)}.card.lilac{border-top:5px solid var(--lilac)}
+h2.sec{font-size:34px;margin:30px 0 20px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;font-size:14.5px}
+th{background:var(--purple);color:#fff;text-align:left;padding:12px 14px;font-family:'Space Grotesk'}
+td{padding:12px 14px;border-top:1px solid #eee9f8}
+.note{font-size:13px;color:#6b6285;margin-top:10px}
+.dark{background:var(--purple);border-radius:16px;color:var(--bg);padding:40px}.dark h2{color:#fff}.dark .step b{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:22px}
+.step{border-top:2px dashed var(--gold);padding-top:10px}.step b{font-family:'Space Grotesk';display:block;font-size:16px}.step span{font-size:12.5px;opacity:.85}
+footer{margin-top:50px;border-top:1px solid #e2dcf0;padding:34px 0 44px;font-size:13.5px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+footer a{color:var(--purple)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;border-radius:10px;display:block}
+input,select,textarea{width:100%;padding:12px;border:1px solid #d8d0ec;border-radius:8px;font-family:Inter;font-size:15px;margin:6px 0 16px;background:#fff}
+label{font-weight:600;color:var(--purple);font-size:14px}
+.cta{background:var(--purple);border-radius:16px;padding:40px;display:flex;justify-content:space-between;align-items:center;margin-top:40px}
+.cta h2{color:#fff;font-size:28px}
+@media(max-width:860px){.hero,.grid2,.grid3,.grid4,.fgrid{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.proof{flex-wrap:wrap}.proof div{min-width:45%}nav ul{display:none}.hero h1{font-size:38px}}
+
+/* ---- QA: focus, mobile nav, tap targets ---- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--purple);outline-offset:3px;border-radius:4px}
+.burger{display:none;background:none;border:0;padding:10px;cursor:pointer;width:44px;height:44px;flex-direction:column;justify-content:center;gap:5px}
+.burger span{display:block;height:2px;width:22px;background:var(--purple);transition:transform .25s,opacity .2s}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+footer a{display:inline-block;padding:11px 0;min-height:44px}
+nav a.logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--purple);text-decoration:none;display:inline-flex;align-items:center;gap:10px;min-height:44px}.logo svg{height:30px;width:30px;flex:none}
+.marquee{overflow:hidden}.hero .bgimg{overflow:hidden}
+.note{max-width:70ch;line-height:1.6}
+@media(max-width:1200px){
+ .burger{display:flex}
+ nav ul#navlist{display:none!important}
+ nav ul#navlist.open{display:flex!important;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--purple);border-top:1px solid rgba(255,255,255,.15);padding:8px 0;margin:0;list-style:none;z-index:120;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+ nav ul#navlist.open li{width:100%}
+ nav ul#navlist.open a{display:block;padding:15px 28px;min-height:48px;font-size:16px;color:#fff}
+ header nav{position:relative}
+}
+@media(max-width:760px){
+ .grid2,.grid3,.grid4,.fgrid,.steps{grid-template-columns:1fr!important}
+ .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .tablewrap table{min-width:620px}
+}
+
+.fstep{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--purple);border-bottom:1px solid rgba(44,33,83,.18);padding-bottom:8px;margin:26px 0 14px}
+.fstep:first-child{margin-top:0}
+.fstep b{display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;background:var(--gold);color:#1B1338;border-radius:50%;margin-right:8px}
+.fhint{font-size:13px;opacity:.72;margin:-6px 0 14px;line-height:1.5}
+.opt{font-weight:400;opacity:.65}
+.chk{display:flex!important;align-items:flex-start;gap:10px;font-size:14px;margin:18px 0;font-weight:400}
+.chk input{width:auto!important;margin:2px 0 0;min-height:auto}
+.ferr{color:#B3261E;font-size:14px;margin-top:12px}
+.fok{margin-top:20px;padding:20px;background:rgba(224,168,60,.12);border:1px solid rgba(224,168,60,.5);border-radius:12px}
+.fok h3{font-size:19px;margin-bottom:8px}
+.fok textarea{width:100%;margin:12px 0;font-family:'IBM Plex Mono',monospace;font-size:12px}
+form input,form select,form textarea{min-height:46px}
+
+.proofstrip{display:flex;flex-wrap:wrap;gap:10px 30px;padding:16px 0;margin:0 0 8px;border-bottom:1px solid rgba(44,33,83,.14);font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.05em;color:var(--purple);opacity:.85}
+.proofstrip b{color:var(--gold2,#8A6410)}
+@media(max-width:760px){.proofstrip{gap:6px 18px;font-size:10.5px}}
+
+nav{display:flex;align-items:center;gap:16px;flex-wrap:nowrap}
+nav .logo{flex:0 0 auto}
+nav ul#navlist{display:flex;flex:0 1 auto;flex-wrap:nowrap;justify-content:flex-end;align-items:center;gap:14px;margin:0 0 0 auto;padding:0;list-style:none}
+nav ul#navlist a{white-space:nowrap;font-size:14px}
+nav>a.btn,nav>a.navcta{flex:0 0 auto;white-space:nowrap;margin-left:4px}
+header .wrap{max-width:1320px}
+@media(max-width:1300px){nav ul#navlist{gap:12px}nav ul#navlist a{font-size:13.5px}}
+@media(max-width:1200px){nav ul#navlist{display:none!important}}
+
+header,nav{max-width:100%;overflow:visible}
+nav{min-width:0}
+@media(max-width:1200px){nav{gap:10px}}
+html,body{overflow-x:hidden;max-width:100%}
+
+/* ---- QA v16: tap targets + very small screens ---- */
+@media(max-width:820px){
+ .card a[href^="mailto:"],.card a[href^="tel:"],.card a[href^="https://wa.me"],
+ p a[href^="mailto:"],p a[href^="tel:"],p a[href^="https://wa.me"],
+ .person .mail a,.fok a{display:inline-block;padding:9px 0;min-height:40px;line-height:1.5}
+}
+@media(max-width:430px){
+ nav>a.btn,nav>a.navcta{font-size:13px;padding:11px 13px}
+ nav{gap:8px}
+ .logo{font-size:17px}
+ .logo svg{height:26px;width:26px}
+}
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:0;padding:12px 14px;min-width:74px;position:relative}
+ nav>a.btn:after,nav>a.navcta:after{content:"Quote";font-size:13px;font-weight:700;position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+ .wrap{padding:0 16px}
+}
+
+@media(max-width:820px){
+ .pp,.rp,.pill,.pill.cta,.film button,#pp,#rp{min-height:40px!important;padding:10px 16px!important;display:inline-flex!important;align-items:center;justify-content:center}
+ .note a,.trcard a,.vnote a,.filmnote a{display:inline-block;padding:8px 0;min-height:36px}
+}
+
+nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-height:1.15}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.pp,.rp,#pp,#rp,button.pp,button.rp{min-height:36px;padding:8px 16px;display:inline-flex;align-items:center;justify-content:center}
+.pill,.pill.cta{min-height:36px;padding:9px 16px;display:inline-flex;align-items:center}
+.person .mail a{display:inline-block;padding:8px 0;min-height:34px;line-height:1.4}
+</style></head><body>
+<header><div class="wrap"><nav><a class="logo" href="index.html"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><line x1="8" y1="60" x2="76" y2="60" stroke="#E0A83C" stroke-width="4" stroke-linecap="round"/></svg><span>7th Apparel</span></a><ul id="navlist"><li><a href="for-brands.html">For Brands</a></li><li><a href="for-teams.html">For Teams</a></li><li><a href="what-we-make.html">What we make</a></li><li><a href="our-factory.html">Our factory</a></li><li><a href="how-it-works.html">How it works</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="faq.html">FAQ</a></li><li><a href="compliance.html">Compliance</a></li><li><a href="contact.html">Contact</a></li></ul><button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><a class="btn" href="quote.html">Get a quote</a></nav></div></header>
+<div class="wrap"><div class="proofstrip"><span><b>146,500</b> pieces shipped since March 2025</span><span>UK &middot; USA &middot; Italy</span><span><b>11 of 13</b> orders are repeat business</span><span>From <b>10</b> pieces per style</span></div>
+<section><div class="kicker">QUOTE</div><h1 style="font-size:42px">Tell us what you're making.</h1>
+<p style="max-width:700px;font-size:17px">A person reads this, not a queue &mdash; you get a reply the same working day and an itemised quote within 48 hours. Ten pieces or ten thousand, both are welcome. You do not need a finished tech pack to start; a sketch and a rough quantity are enough for us to come back with real numbers.</p></section>
+<h2 class="sr-only">Send us your brief</h2><section class="grid2"><div class="card">
+<form id="briefform" novalidate>
+<p class="fstep"><b>1</b> What are you making?</p>
+<label for="q-cat">Category</label>
+<select id="q-cat" name="category"><option>Knitwear — tees, polos, fleece, hoodies</option><option>Cotton woven — shirts, trousers, dresses</option><option>Denim — jeans, jackets, shorts</option><option>Workwear — hi-vis, industrial, FR, medical, tactical</option><option>Leather — jackets, bags, accessories</option><option>Towels &amp; terry</option><option>Trousers, cargos, shorts or joggers</option><option>Coveralls, overalls or uniforms</option><option>Sports kits</option><option>Organic cotton programme</option><option>Not sure yet</option></select>
+
+<label for="q-qty">How many, per style?</label>
+<select id="q-qty" name="qty"><option>10–99 — capsule / first drop</option><option>100–300</option><option>300–1,000</option><option>1,000–5,000</option><option>5,000+</option><option>Team or company kit — under 150</option><option>Team or company kit — 150 to 500</option><option>Team or company kit — 500+</option></select>
+
+<label for="q-tp">Do you have a tech pack?</label>
+<select id="q-tp" name="techpack"><option>Yes, ready to send</option><option>Partly — sketches and references</option><option>No — help me make one (included in the €50 sample fee)</option></select>
+
+<label for="q-when">When do you need it?</label>
+<select id="q-when" name="when"><option>Next 6 weeks — urgent</option><option>2–3 months</option><option>3–6 months</option><option>Still planning</option></select>
+
+<label for="q-country">Delivery country</label>
+<input id="q-country" name="country" autocomplete="country-name" placeholder="Netherlands, France, Sweden…">
+<p class="fhint">We need this to quote the right delivery terms and the duty line.</p>
+
+<p class="fstep"><b>2</b> Where do we send the quote?</p>
+<label for="q-name">Your name</label><input id="q-name" name="name" autocomplete="name" required>
+<label for="q-co">Company or brand</label><input id="q-co" name="company" autocomplete="organization">
+<label for="q-email">Email</label><input id="q-email" type="email" name="email" autocomplete="email" required>
+<label for="q-phone">Phone or WhatsApp <span class="opt">— optional, but it is faster</span></label><input id="q-phone" name="phone" autocomplete="tel">
+
+<label for="q-msg">Anything else we should know</label>
+<textarea id="q-msg" name="message" rows="4" placeholder="Fabrics, colourways, decoration, a garment you want matched…"></textarea>
+<p class="fhint">Have a tech pack, sketches or reference photos? Send the brief first — we reply the same working day and you can attach everything to that reply.</p>
+
+<label class="chk"><input type="checkbox" id="q-gdpr" name="consent" required> <span>I agree that 7th Apparel may use these details to answer my enquiry.</span></label>
+
+<button class="btn" type="submit" style="border:0;cursor:pointer;min-height:48px">Send the brief &rarr;</button>
+<p class="ferr" id="ferr" hidden></p>
+<div class="fok" id="fok" hidden>
+  <h3>Brief received. Thank you.</h3>
+  <p>If nothing happened, copy the brief below and send it to <a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a> — it reaches the same place.</p>
+  <textarea id="fcopy" rows="10" readonly></textarea>
+  <button class="btn ghost" type="button" id="fcopybtn" style="cursor:pointer;min-height:44px">Copy the brief</button>
+</div>
+</form></div>
+<div><div class="card"><h3>Rather talk?</h3><p><b>Phone or WhatsApp</b><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">Open WhatsApp &rarr;</a></p><p><b>Or email</b><br><a href="mailto:sameer.shahzad@7thapparel.com"><b>sameer.shahzad@7thapparel.com</b></a><br>Existing orders: <a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br>Amsterdam, Netherlands<br><span class="mono">7TH APPAREL &middot; KVK 91485452</span></p></div><br>
+<div class="card"><h3>What happens next</h3><p><b>1.</b> We confirm we have understood the brief &mdash; same working day.<br><b>2.</b> Itemised quote with a door-to-door date &mdash; within 48 hours.<br><b>3.</b> If it works for you, development starts and your sample follows in 2&ndash;4 weeks for €50, refunded against your first order.</p></div><br>
+<div class="card"><h3>Good to know</h3><p>Sampling is €50 per style and comes straight back to you on your first bulk order. Your designs stay yours — standard terms, not an NDA you have to ask for. Payment 50/40/10, so you hold 10% until you have inspected delivery.</p></div></div></section></div>
+<footer><div class="wrap"><div class="fgrid">
+<div><b style="font-family:'Space Grotesk';color:var(--purple)">7th Apparel</b><br>When your brand syncs with our production.<br><br>7th Apparel · KVK 91485452<br>vestiging 000057160791 · registered 2023<br>Amsterdam, Netherlands<br>Own production house: <a href="https://saeekamil.com/" target="_blank" rel="noopener noreferrer">Saee e Kamil (Pvt) Ltd</a></div>
+<div><b>Explore</b><br><a href="for-brands.html">For Brands</a><br><a href="for-teams.html">For Teams</a><br><a href="workwear.html">Workwear</a><br><a href="pricing.html">Pricing</a><br><a href="compliance.html">Compliance</a><br><a href="our-factory.html">Our production house</a><br><a href="faq.html">FAQ</a><br><a href="contact.html">Contact &amp; our story</a></div>
+<div><b>Contact</b><br><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br><a href="tel:+31684660186">+31 6 84 66 01 86</a><br><a href="https://wa.me/31684660186" target="_blank" rel="noopener noreferrer">WhatsApp us</a><br><a href="quote.html">Quote in 48 hours</a><br><br></div>
+</div></div></footer>
+<script>
+/* ---- in-page anchor links ----
+   Fragment navigation is a no-op inside a srcdoc/about: frame, so every #anchor
+   link dies in the embedded preview. Handling it in JS works everywhere and also
+   lets us offset for the fixed header, which the native jump does not. */
+(function(){
+ document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a');
+  if(!a) return;
+  var h=a.getAttribute('href')||'';
+  if(h.length<2||h.charAt(0)!=='#') return;
+  var t=document.getElementById(h.slice(1));
+  if(!t) return;
+  e.preventDefault();
+  var hd=document.querySelector('header');
+  var off=(hd?hd.getBoundingClientRect().height:0)+12;
+  var y=t.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop)-off;
+  var soft=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{ window.scrollTo({top:y,behavior:soft?'smooth':'auto'}); }catch(err){ window.scrollTo(0,y); }
+  try{ history.replaceState(null,'',h); }catch(err){}
+ },false);
+})();
+</script>
+
+<script>
+/* ---- brief form ----
+   Posts to FormSubmit, which emails every submission to NOTIFY below.
+   No account, no API key. The first submission triggers a one-time
+   confirmation email to that address — click the link in it once and
+   every later submission arrives automatically.
+   If the network call fails for any reason, we fall back to opening the
+   visitor's mail client with the brief pre-filled, so a lead is never lost. */
+(function(){
+ var NOTIFY = 'smrshhzd@gmail.com';           // where submissions are emailed
+ var ENDPOINT = 'https://formsubmit.co/ajax/' + NOTIFY;
+ var TO = 'sameer.shahzad@7thapparel.com';    // fallback mailto + shown to the visitor
+
+ var f=document.getElementById('briefform'); if(!f) return;
+ var err=document.getElementById('ferr'), ok=document.getElementById('fok'),
+     copy=document.getElementById('fcopy'), btn=f.querySelector('button[type=submit]');
+ function val(id){var e=document.getElementById(id);return e?(e.value||'').trim():'';}
+ function fail(m){err.textContent=m;err.hidden=false;err.scrollIntoView({block:'center',behavior:'smooth'});}
+
+ f.addEventListener('submit',function(e){
+  e.preventDefault(); err.hidden=true;
+  if(!val('q-name')) return fail('Please add your name so we know who we are replying to.');
+  var em=val('q-email');
+  if(!em||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) return fail('Please check the email address — that is where the quote goes.');
+  if(!document.getElementById('q-gdpr').checked) return fail('Please tick the consent box so we may reply to you.');
+
+  var data={
+   'Category':val('q-cat'), 'Quantity':val('q-qty'), 'Tech pack':val('q-tp'),
+   'Timing':val('q-when'), 'Delivery country':val('q-country')||'not given',
+   'Name':val('q-name'), 'Company':val('q-co')||'-', 'Email':em,
+   'Phone / WhatsApp':val('q-phone')||'-', 'Notes':val('q-msg')||'-',
+   '_subject':'New brief — '+val('q-cat')+' — '+val('q-qty')+(val('q-co')?' — '+val('q-co'):''),
+   '_template':'table', '_captcha':'false', '_replyto':em
+  };
+
+  var lines=[]; for(var k in data){ if(k.charAt(0)!=='_') lines.push(k.toUpperCase()+': '+data[k]); }
+  var body=lines.join('\n'), subj=data._subject;
+  if(copy) copy.value='To: '+TO+'\nSubject: '+subj+'\n\n'+body;
+
+  btn.disabled=true; var label=btn.textContent; btn.textContent='Sending…';
+
+  function done(sent){
+   btn.disabled=false; btn.textContent=label;
+   ok.hidden=false;
+   ok.querySelector('h3').textContent = sent ? 'Brief received. Thank you.' : 'Your mail app should be opening.';
+   ok.querySelector('p').innerHTML = sent
+    ? 'We reply the same working day, and your itemised quote follows within 48 hours. If you have a tech pack, sketches or reference photos, reply to that email and attach them.'
+    : 'If nothing happened, copy the brief below and send it to <a href="mailto:'+TO+'">'+TO+'</a> — it reaches the same place.';
+   ok.scrollIntoView({block:'center',behavior:'smooth'});
+   if(sent){ f.reset(); }
+  }
+
+  fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
+   .then(function(r){ return r.ok ? r.json() : Promise.reject(r.status); })
+   .then(function(){ done(true); })
+   .catch(function(){
+     try{ window.location.href='mailto:'+TO+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body); }catch(x){}
+     done(false);
+   });
+ });
+
+ var cb=document.getElementById('fcopybtn');
+ if(cb) cb.addEventListener('click',function(){
+  copy.select();
+  try{ document.execCommand('copy'); cb.textContent='Copied'; setTimeout(function(){cb.textContent='Copy the brief';},2000);}catch(x){}
+ });
+})();
+</script>
+
+<script>
+/* burger-toggle */
+(function(){
+ var b=document.getElementById('burger'), l=document.getElementById('navlist');
+ if(!b||!l) return;
+ b.addEventListener('click',function(e){
+  e.preventDefault(); e.stopPropagation();
+  var open=l.classList.toggle('open');
+  b.setAttribute('aria-expanded',open?'true':'false');
+ });
+ l.addEventListener('click',function(e){ if(e.target.closest('a')){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+ document.addEventListener('keydown',function(e){ if(e.key==='Escape'){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+})();
+</script>
+</body></html>
