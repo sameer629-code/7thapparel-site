@@ -1,5 +1,6 @@
 # large binaries — host these, do not version them
-assets/Workwear_Catalogue.pdf
+# (the catalogue is now a 3.5MB PDF built from the page images already in
+#  assets/catalogue/, so it is versioned — the 29MB original was not)
 *.mov
 *.wav
 
