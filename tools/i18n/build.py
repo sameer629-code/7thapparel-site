@@ -188,13 +188,28 @@ def set_head(html, lang, page, dark):
               '<meta property="og:locale" content="%s"></head>' % C.OGLOC[lang], 1)
     html = re.sub(r'<link rel="alternate" hreflang="[^"]*" href="[^"]*">', "", html)
     html = html.replace("</head>", C.head_links(lang, page) + "</head>", 1)
-    html = html.replace("</style>", C.css(dark) + "</style>", 1)
+    html = html.replace("</style>", C.css(dark, lang) + "</style>", 1)
     if lang == "en":
         html = html.replace("</head>", C.detect_script(page) + "</head>", 1)
     return html
 
 
+def shorten_nav(html, lang):
+    """Swap in short nav labels inside <ul id="navlist"> only."""
+    short = C.NAV_SHORT.get(lang)
+    if not short: return html
+    m = re.search(r'<ul id="navlist">.*?</ul>', html, re.S)
+    if not m: raise Missing("no navlist for " + lang)
+    block = m.group(0)
+    for href, label in short.items():
+        pat = r'(<a href="/%s%s"[^>]*>)[^<]*(</a>)' % (lang, href)
+        block, n = re.subn(pat, lambda mm: mm.group(1) + label + mm.group(2), block)
+        if not n: raise Missing("nav label %s not found for %s" % (href, lang))
+    return html[:m.start()] + block + html[m.end():]
+
+
 def set_body(html, lang, page):
+    html = shorten_nav(html, lang)
     sw = C.switcher(lang, page)
     m = re.search(r'<a class="btn" href="[^"]*quote"[^>]*>', html)
     if not m: raise Missing("no nav CTA on %s/%s" % (lang, page))

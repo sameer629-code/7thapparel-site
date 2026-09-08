@@ -11,6 +11,19 @@ PAGES  = ["index","about","compliance","contact","faq","for-brands","for-teams",
 CODE   = {"en":"EN","nl":"NL","de":"DE","pl":"PL","fr":"FR"}
 OGLOC  = {"en":"en_GB","nl":"nl_NL","de":"de_DE","pl":"pl_PL","fr":"fr_FR"}
 ARIA   = {"en":"Language","nl":"Taal","de":"Sprache","pl":"Język","fr":"Langue"}
+# The width at which the nav row collapses to the burger. Translated labels are
+# longer than English, so they need more room before the row stops fitting.
+# Measured, not guessed: intrinsic nav width is en 1108, pl 1169, nl 1223,
+# de 1271, fr 1287 against 1320px of available row at the widest.
+BREAKPOINT = {"en": 1280, "nl": 1376, "de": 1376, "pl": 1376, "fr": 1376}
+
+# Nav labels only — the page copy keeps the full phrase. French runs long enough
+# that two labels would push the row past 1320px on any screen.
+NAV_SHORT = {
+    "fr": {"/what-we-make": "Nos fabrications",
+           "/how-it-works": "Notre m\u00e9thode"},
+}
+
 # Banner: [sentence, call to action, dismiss]
 HINT = {
  "nl":["Deze site is ook in het Nederlands beschikbaar.","Naar het Nederlands","Nee, dank u"],
@@ -49,10 +62,11 @@ def _chev(stroke):
             " viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='" + stroke +
             "' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\")")
 
-def css(dark_header):
+def css(dark_header, lang="en"):
     fg, bd, chev = ("#E6DDF8", "rgba(200,184,238,.42)", _chev("%23C9B8EE")) if dark_header \
               else ("#2C2153", "#cfc4e8",               _chev("%232C2153"))
-    return """
+    bp = BREAKPOINT.get(lang, 1280)
+    return ("""
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -78,8 +92,27 @@ def css(dark_header):
  text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
 .langhint p{margin:0 0 9px}
 @media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+/* ---- the nav row has to hold one more control now, and translated labels are
+   longer than English, so the collapse point moves and the row tightens ---- */
+@media(max-width:%dpx){
+ .burger{display:flex}
+ nav ul#navlist{display:none!important}
+ nav ul#navlist.open{display:flex!important;position:absolute;top:100%%;left:0;right:0;
+  flex-direction:column;gap:0;background:var(--purple);border-top:1px solid rgba(255,255,255,.15);
+  padding:8px 0;margin:0;list-style:none;z-index:120;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+ nav ul#navlist.open li{width:100%%}
+ nav ul#navlist.open a{display:block;padding:15px 28px;min-height:48px;font-size:16px;color:#fff}
+ header nav{position:relative}
+}
+@media(min-width:%dpx){
+ nav{gap:12px}
+ nav ul#navlist{gap:10px}
+ nav ul#navlist a{font-size:13px}
+ nav>a.btn,nav>a.navcta{padding:12px 15px;font-size:13.5px}
+ .langsel{padding:10px 21px 10px 8px;font-size:12px}
+}
 /*i18n-end*/
-""" % (chev, bd, fg, fg)
+""" % (chev, bd, fg, fg, bp, bp + 1))
 
 # ---------------------------------------------------------------- scripts
 # Runs in <head> on English pages only, before anything paints, so there is no flash.
