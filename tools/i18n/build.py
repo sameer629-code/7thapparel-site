@@ -154,6 +154,12 @@ def strip_i18n(html):
     html = re.sub(r'<div class="langwrap">.*?</div>', "", html, flags=re.S)
     html = html.replace('<div class="langhint" id="langhint"></div>', "")
     html = re.sub(r'<script data-i18n="1">.*?</script>', "", html, flags=re.S)
+    while True:  # innermost first, so a nested pair from an earlier bug unwinds too
+        new = re.sub(r'<span class="ctaLong">((?:(?!<span class="ctaLong">).)*?)</span>'
+                     r'<span class="ctaShort">[^<]*</span>',
+                     lambda m: m.group(1), html, flags=re.S)
+        if new == html: break
+        html = new
     html = re.sub(r'<link rel="alternate" hreflang="[^"]*" href="[^"]*">', "", html)
     return html
 

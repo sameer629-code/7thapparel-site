@@ -110,12 +110,19 @@ def css(dark_header, lang="en"):
  .ctaShort{display:inline}
  nav>a.btn,nav>a.navcta{padding:12px 14px;font-size:13.5px}
 }
-/* the old 360px rule replaced the label with the English word "Quote" */
-@media(max-width:360px){
- nav>a.btn,nav>a.navcta{font-size:13px!important;padding:12px 12px;min-width:0}
- nav>a.btn:after,nav>a.navcta:after{content:none!important}
+/* Small phones. Also cancels the old 360px rule, which replaced the button
+   label with the English word "Quote" whatever the page language. Values
+   measured at 320/360/375 rather than guessed. */
+@media(max-width:380px){
+ header .wrap{padding-left:12px;padding-right:12px}
  nav{gap:6px}
- .logo{font-size:15px}
+ nav a.logo{font-size:14px;gap:6px}
+ nav a.logo svg{height:22px;width:22px}
+ .burger{width:38px;padding:8px}
+ .langsel{padding:9px 16px 9px 6px;font-size:11px;min-height:36px;
+  background-position:right 4px center}
+ nav>a.btn,nav>a.navcta{font-size:12.5px!important;padding:11px 11px;min-width:0}
+ nav>a.btn:after,nav>a.navcta:after{content:none!important}
 }
 /* ---- the nav row has to hold one more control now, and translated labels are
    longer than English, so the collapse point moves and the row tightens ---- */
