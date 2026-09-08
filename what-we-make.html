@@ -163,6 +163,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
+
+
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -188,6 +190,12 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
  text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
 .langhint p{margin:0 0 9px}
 @media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+/* ---- links in body copy that no rule ever coloured, so they fell back to the
+   browser's default blue. :where() holds specificity at zero, so any rule that
+   does style a link still wins — including the gold ones on dark panels. ---- */
+:where(p,li,td,dd,figcaption) :where(a:not([class])){color:#6E56A4;
+ text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:1px}
+:where(p,li,td,dd,figcaption) :where(a:not([class]):hover){color:#8A6410}
 /* ---- phones: the header now carries one more control, so the quote button
    drops to a single word and everything else gives up a few pixels ---- */
 .ctaShort{display:none}
