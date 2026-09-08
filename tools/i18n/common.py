@@ -24,6 +24,11 @@ NAV_SHORT = {
            "/how-it-works": "Notre m\u00e9thode"},
 }
 
+# The quote button carries a full sentence in every language. On a phone the
+# header also has to hold a logo, a burger and the switcher, so below 520px the
+# button swaps to a single word.
+CTA_SHORT = {"en":"Quote","nl":"Offerte","de":"Angebot","pl":"Wycena","fr":"Devis"}
+
 # Banner: [sentence, call to action, dismiss]
 HINT = {
  "nl":["Deze site is ook in het Nederlands beschikbaar.","Naar het Nederlands","Nee, dank u"],
@@ -92,6 +97,26 @@ def css(dark_header, lang="en"):
  text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
 .langhint p{margin:0 0 9px}
 @media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+/* ---- phones: the header now carries one more control, so the quote button
+   drops to a single word and everything else gives up a few pixels ---- */
+.ctaShort{display:none}
+@media(max-width:520px){
+ nav{gap:7px}
+ .logo{font-size:16px}
+ .logo svg{height:25px;width:25px}
+ .langsel{padding:9px 18px 9px 7px;font-size:11.5px;min-height:38px;
+  background-position:right 5px center;background-size:8px 5px}
+ .ctaLong{display:none}
+ .ctaShort{display:inline}
+ nav>a.btn,nav>a.navcta{padding:12px 14px;font-size:13.5px}
+}
+/* the old 360px rule replaced the label with the English word "Quote" */
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:13px!important;padding:12px 12px;min-width:0}
+ nav>a.btn:after,nav>a.navcta:after{content:none!important}
+ nav{gap:6px}
+ .logo{font-size:15px}
+}
 /* ---- the nav row has to hold one more control now, and translated labels are
    longer than English, so the collapse point moves and the row tightens ---- */
 @media(max-width:%dpx){

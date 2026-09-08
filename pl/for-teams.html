@@ -176,6 +176,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
+
+
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -201,6 +203,26 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
  text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
 .langhint p{margin:0 0 9px}
 @media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+/* ---- phones: the header now carries one more control, so the quote button
+   drops to a single word and everything else gives up a few pixels ---- */
+.ctaShort{display:none}
+@media(max-width:520px){
+ nav{gap:7px}
+ .logo{font-size:16px}
+ .logo svg{height:25px;width:25px}
+ .langsel{padding:9px 18px 9px 7px;font-size:11.5px;min-height:38px;
+  background-position:right 5px center;background-size:8px 5px}
+ .ctaLong{display:none}
+ .ctaShort{display:inline}
+ nav>a.btn,nav>a.navcta{padding:12px 14px;font-size:13.5px}
+}
+/* the old 360px rule replaced the label with the English word "Quote" */
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:13px!important;padding:12px 12px;min-width:0}
+ nav>a.btn:after,nav>a.navcta:after{content:none!important}
+ nav{gap:6px}
+ .logo{font-size:15px}
+}
 /* ---- the nav row has to hold one more control now, and translated labels are
    longer than English, so the collapse point moves and the row tightens ---- */
 @media(max-width:1376px){
@@ -222,7 +244,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 }
 /*i18n-end*/
 </style><script>(function(){try{var S={nl:1,de:1,pl:1,fr:1},p=location.pathname;if(/^\/(nl|de|pl|fr)(\/|$)/.test(p))return;if(/[?&]lang=/.test(location.search))return;var s=null;try{s=localStorage.getItem('7a_lang')}catch(e){}var k=null;if(s){if(s==='en')return;if(S[s])k=s}else{var L=navigator.languages||[navigator.language||''];for(var i=0;i<L.length;i++){var c=(L[i]||'').slice(0,2).toLowerCase();if(c==='en')break;if(S[c]){k=c;break}}}if(!k)return;var r=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');r=(r==='/')?'':r.replace(/^\//,'');location.replace('/'+k+'/'+r+location.search+location.hash)}catch(e){}})();</script><link rel="alternate" hreflang="en" href="https://7thapparel.com/for-teams"><link rel="alternate" hreflang="nl" href="https://7thapparel.com/nl/for-teams"><link rel="alternate" hreflang="de" href="https://7thapparel.com/de/for-teams"><link rel="alternate" hreflang="pl" href="https://7thapparel.com/pl/for-teams"><link rel="alternate" hreflang="fr" href="https://7thapparel.com/fr/for-teams"><link rel="alternate" hreflang="x-default" href="https://7thapparel.com/for-teams"></head><body>
-<header><div class="wrap"><nav><a class="logo" href="/pl"><svg aria-hidden="true" fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg><span>7th Apparel</span></a><ul id="navlist"><li><a href="/pl/for-brands">Dla marek</a></li><li><a href="/pl/for-teams" style="color:#8A6410;font-weight:600">Dla firm</a></li><li><a href="/pl/what-we-make">Co produkujemy</a></li><li><a href="/pl/our-factory">Nasza fabryka</a></li><li><a href="/pl/our-story">Nasza historia</a></li><li><a href="/pl/how-it-works">Jak to działa</a></li><li><a href="/pl/pricing">Cennik</a></li><li><a href="/pl/faq">FAQ</a></li><li><a href="/pl/compliance">Zgodność</a></li><li><a href="/pl/contact">Kontakt</a></li></ul><button aria-controls="navlist" aria-expanded="false" aria-label="Menu" class="burger" id="burger"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Język"><option value="/for-teams" data-l="en">EN</option><option value="/nl/for-teams" data-l="nl">NL</option><option value="/de/for-teams" data-l="de">DE</option><option value="/pl/for-teams" data-l="pl" selected>PL</option><option value="/fr/for-teams" data-l="fr">FR</option></select></div><a class="btn" href="/pl/quote">Poproś o wycenę</a></nav></div></header>
+<header><div class="wrap"><nav><a class="logo" href="/pl"><svg aria-hidden="true" fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg><span>7th Apparel</span></a><ul id="navlist"><li><a href="/pl/for-brands">Dla marek</a></li><li><a href="/pl/for-teams" style="color:#8A6410;font-weight:600">Dla firm</a></li><li><a href="/pl/what-we-make">Co produkujemy</a></li><li><a href="/pl/our-factory">Nasza fabryka</a></li><li><a href="/pl/our-story">Nasza historia</a></li><li><a href="/pl/how-it-works">Jak to działa</a></li><li><a href="/pl/pricing">Cennik</a></li><li><a href="/pl/faq">FAQ</a></li><li><a href="/pl/compliance">Zgodność</a></li><li><a href="/pl/contact">Kontakt</a></li></ul><button aria-controls="navlist" aria-expanded="false" aria-label="Menu" class="burger" id="burger"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Język"><option value="/for-teams" data-l="en">EN</option><option value="/nl/for-teams" data-l="nl">NL</option><option value="/de/for-teams" data-l="de">DE</option><option value="/pl/for-teams" data-l="pl" selected>PL</option><option value="/fr/for-teams" data-l="fr">FR</option></select></div><a class="btn" href="/pl/quote"><span class="ctaLong">Poproś o wycenę</span><span class="ctaShort">Wycena</span></a></nav></div></header>
 <div class="wrap"><div class="proofstrip"><span><b>146,500</b> sztuk wysłanych od marca 2025</span><span>UK · USA · Włochy</span><span><b>11 z 13</b> zamówień to zamówienia powtórne</span><span>Od <b>10</b> sztuk na model</span></div>
 <section><div class="kicker">DLA FIRM</div><h1 style="font-size:42px">Nie gadżety. Własna kolekcja.</h1>
 <p style="max-width:720px;font-size:17px">T-shirty, polówki, bluzy z kapturem, komplety i uniformy krojone i szyte z tkaniny i w kolorach, które Państwo wybiorą, z Państwa metką — a nie nadrukowane na tym samym gotowcu, którego używa konkurencja. Dwadzieścia sztuk dla małego zespołu albo dwa tysiące dla sieci. Datę dostawy potwierdzamy przed zamówieniem i jej dotrzymujemy.</p></section>

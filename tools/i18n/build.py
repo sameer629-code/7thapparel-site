@@ -211,9 +211,13 @@ def shorten_nav(html, lang):
 def set_body(html, lang, page):
     html = shorten_nav(html, lang)
     sw = C.switcher(lang, page)
-    m = re.search(r'<a class="btn" href="[^"]*quote"[^>]*>', html)
+    m = re.search(r'<a class="btn" href="[^"]*quote"[^>]*>(.*?)</a>', html, re.S)
     if not m: raise Missing("no nav CTA on %s/%s" % (lang, page))
-    html = html[:m.start()] + sw + html[m.start():]
+    label = m.group(1)
+    cta = (html[m.start():m.start(1)]
+           + '<span class="ctaLong">%s</span><span class="ctaShort">%s</span>'
+             % (label, C.CTA_SHORT[lang]) + "</a>")
+    html = html[:m.start()] + sw + cta + html[m.end():]
     tail = C.switch_script()
     if lang == "en":
         tail = C.HINT_EL + tail + C.hint_script(page)
