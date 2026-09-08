@@ -18,3 +18,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# i18n working files
+tools/i18n/*.tar.gz
+tools/i18n/chunks/

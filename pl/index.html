@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Producent odzieży dla marek europejskich | 7th Apparel</title>
+<meta content="pl_PL" property="og:locale"/><link href="https://7thapparel.com/pl/" rel="canonical"/>
+<script>(function(){try{var p=location.pathname;if(/\.html$/.test(p)){var c=p.replace(/index\.html$/,'').replace(/\.html$/,'');if(c==='')c='/';history.replaceState(null,'',c+location.search+location.hash);}}catch(e){}})();</script>
+<meta content="Europejski producent odzieży z własną fabryką. Zamówienia od 10 sztuk, bez akredytywy, dostawa pod drzwi z opłaconym cłem." name="description"/>
+<link href="/assets/favicon.png" rel="icon"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;600&amp;family=IBM+Plex+Mono&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{--deep:#17102E;--purple:#2C2153;--panel:#221847;--lilac:#A88FD8;--pale:#C9B8EE;--bg:#F4F0FA;--gold:#E0A83C;--eyelet:#1B1338}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--deep);color:var(--bg);line-height:1.55;overflow-x:hidden}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.08;margin:0}
+.mono{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.6px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+a{color:inherit}
+/* loader */
+#loader{position:fixed;inset:0;background:var(--deep);z-index:200;display:flex;align-items:center;justify-content:center;transition:opacity .5s,visibility .5s}
+#loader.done{opacity:0;visibility:hidden}
+#loader svg{width:120px}
+#loader path,#loader line{stroke-dasharray:600;stroke-dashoffset:600;animation:draw 1.1s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(23,16,46,.72);backdrop-filter:blur(14px);border-bottom:1px solid rgba(168,143,216,.18)}
+nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+nav .logo{font-family:'Space Grotesk';font-weight:700;font-size:20px;color:#fff;text-decoration:none;display:flex;align-items:center;gap:10px}
+nav .logo svg{height:34px;width:auto}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-weight:600;font-size:14px}
+nav ul a{text-decoration:none;opacity:.85}nav ul a:hover{opacity:1;color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--eyelet);font-weight:600;padding:12px 22px;border-radius:8px;text-decoration:none;font-size:15px;cursor:pointer;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--bg);border:1.5px solid var(--lilac)}
+/* hero */
+.hero{min-height:100vh;display:grid;align-items:center;position:relative;padding-top:80px}
+.hero .bgimg{position:absolute;inset:0;overflow:hidden;z-index:0}
+.hero .bgimg img{width:100%;height:100%;object-fit:cover;opacity:.55;transform:scale(1.08)}
+.hero .bgimg:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(23,16,46,.94) 0%,rgba(23,16,46,.82) 42%,rgba(23,16,46,.42) 72%,rgba(23,16,46,.72) 100%)}
+.hero .inner{position:relative;z-index:2;padding:60px 0 120px}
+.kicker{color:var(--gold);font-family:'IBM Plex Mono';font-size:13px;letter-spacing:2px;margin-bottom:18px}
+.hero h1{font-size:clamp(44px,7vw,84px);color:#fff;letter-spacing:-1.5px;max-width:900px}
+.hero h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom}
+.hero h1 .w span{display:inline-block;transform:translateY(110%)}
+.hero h1 em{font-style:normal;color:var(--lilac)}
+.hero p{font-size:19px;max-width:560px;margin:26px 0 34px;opacity:.9}
+.threadline{position:absolute;left:0;right:0;bottom:70px;z-index:1;width:100%;height:120px}
+.marquee{position:absolute;bottom:0;left:0;right:0;border-top:1px solid rgba(168,143,216,.2);padding:14px 0;overflow:hidden;white-space:nowrap;z-index:3;background:rgba(23,16,46,.5)}
+.marquee .track{display:inline-block;animation:mq 28s linear infinite}
+@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee span{font-family:'IBM Plex Mono';font-size:13px;letter-spacing:1.5px;opacity:.75;margin-right:56px}
+.marquee b{color:var(--gold)}
+/* problem */
+.problem{padding:130px 0 60px;text-align:center}
+.problem h2{font-size:clamp(30px,4.5vw,52px);color:#fff;max-width:880px;margin:0 auto}
+.problem h2 .strike{color:var(--lilac);position:relative;white-space:nowrap}
+.problem h2 .strike i{position:absolute;left:0;right:0;top:54%;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left}
+.problem p{opacity:.8;max-width:640px;margin:22px auto 0;font-size:17px}
+/* flow */
+#flow{padding:40px 0 20px;width:100%}
+.pin-spacer{width:100%!important}
+#flow h2{font-size:clamp(30px,4vw,46px);color:#fff;text-align:center;margin-bottom:8px}
+#flow .sub{text-align:center;opacity:.75;margin-bottom:30px}
+.flowbox{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:20px;padding:34px 30px 24px;position:relative;overflow:hidden}
+.flowbox svg{width:100%;height:auto;display:block}
+.station text{font-family:'Space Grotesk';font-weight:700}
+.flowlabels{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+.flowlabels div{font-size:13px;opacity:0;transform:translateY(10px)}
+.flowlabels b{display:block;font-family:'Space Grotesk';font-size:15px;color:var(--pale)}
+/* process */
+.process{padding:120px 0}
+.process h2{font-size:clamp(30px,4vw,46px);color:#fff;margin-bottom:40px}
+.psteps{position:relative;display:grid;grid-template-columns:60px 1fr;gap:0}
+.pline{position:absolute;left:29px;top:0;bottom:0;width:2px}
+.pline .fill{width:100%;height:100%;background:linear-gradient(180deg,var(--gold),var(--lilac));transform-origin:top;transform:scaleY(0)}
+.pline .base{position:absolute;inset:0;border-left:2px dashed rgba(168,143,216,.35)}
+.pstep{grid-column:2;padding:0 0 46px 34px;opacity:.25;transform:translateX(14px);transition:opacity .4s,transform .4s}
+.pstep.on{opacity:1;transform:none}
+.pstep .dot{position:absolute;left:21px;width:18px;height:18px;border-radius:50%;background:var(--deep);border:3px solid var(--lilac);margin-top:4px}
+.pstep.on .dot{background:var(--gold);border-color:var(--gold)}
+.pstep h3{font-size:22px;color:#fff}
+.pstep p{margin:6px 0 0;opacity:.8;max-width:640px;font-size:15.5px}
+.pstep .mono{color:var(--gold)}
+/* outcomes */
+.outcomes{padding:40px 0 90px}
+.ogrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.ocard{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:14px;padding:26px;text-align:center}
+.ocard b{font-family:'Space Grotesk';font-size:42px;color:#fff;display:block}
+.ocard span{font-size:13.5px;opacity:.8}
+.ocard b em{font-style:normal;color:var(--gold)}
+/* doors */
+.doors{padding:20px 0 90px}
+.doors .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.door{background:var(--panel);border-radius:16px;padding:38px;border-top:5px solid var(--gold);opacity:0;transform:translateY(24px)}
+.door.l{border-top-color:var(--lilac)}
+.door h3{font-size:28px;color:#fff}.door p{opacity:.85;margin:12px 0 24px}
+/* cta + footer */
+.cta{background:linear-gradient(135deg,var(--purple),#3A2B6E);border-radius:20px;padding:52px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:80px}
+.cta h2{color:#fff;font-size:32px}
+footer{border-top:1px solid rgba(168,143,216,.2);padding:36px 0 46px;font-size:13.5px;opacity:.85}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+footer a{color:var(--pale)}
+@media(max-width:860px){.ogrid,.doors .grid,.fgrid,.flowlabels{grid-template-columns:1fr 1fr}.cta{flex-direction:column;text-align:center}nav ul{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero h1 .w span{transform:none}.pstep{opacity:1;transform:none}.door{opacity:1;transform:none}.flowlabels div{opacity:1;transform:none}}
+
+/* ---- film ---- */
+#film{padding:96px 0 40px}
+.filmh{font-size:clamp(28px,3.8vw,46px);color:#fff;margin:10px 0 22px;letter-spacing:-.5px}
+.stage{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:radial-gradient(130% 130% at 22% 0%,#2E2260 0%,#191233 55%,#120C25 100%);border:1px solid rgba(168,143,216,.28);box-shadow:0 34px 80px rgba(0,0,0,.5)}
+.scenes{position:absolute;inset:0}
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .55s ease;padding:5% 6% 9%}
+.scene.on{opacity:1}
+.s-in{text-align:center;max-width:86%;transform:translateY(14px);transition:transform .75s cubic-bezier(.16,1,.3,1)}
+.scene.on .s-in{transform:none}
+.s-line{font-family:'Space Grotesk',sans-serif;font-size:clamp(19px,3.1vw,40px);color:#fff;margin:26px 0 8px;line-height:1.14;letter-spacing:-.4px}
+.s-sub{font-size:clamp(11px,1.35vw,17px);color:var(--pale);opacity:.82;margin:0;max-width:44ch;margin-inline:auto}
+.art{display:flex;align-items:center;justify-content:center;min-height:clamp(70px,13vw,150px)}
+/* scene 0 lamp + sketch */
+.lamp{position:relative}
+.lamp .glow{position:absolute;width:min(300px,38vw);height:min(300px,38vw);border-radius:50%;background:radial-gradient(circle,rgba(224,168,60,.20) 0%,transparent 68%);opacity:0}
+.scene.on .lamp .glow{animation:fi 1.4s ease forwards}
+.lamp svg{width:min(280px,36vw);height:auto;position:relative}
+.dw{stroke-dasharray:260;stroke-dashoffset:260}
+.scene.on .dw{animation:dr 1.9s ease forwards}
+.scene.on .dw.d2{animation-delay:.7s}
+@keyframes dr{to{stroke-dashoffset:0}}
+/* scene 1 mails */
+.mails{gap:min(16px,2vw)}
+.mails i{font-style:normal;font-size:clamp(18px,2.6vw,34px);color:var(--pale);opacity:0;transform:translateY(14px)}
+.scene.on .mails i{animation:mfly .5s ease forwards}
+.scene.on .mails i:nth-child(2){animation-delay:.1s}.scene.on .mails i:nth-child(3){animation-delay:.2s}
+.scene.on .mails i:nth-child(4){animation-delay:.3s;animation-name:mgone}.scene.on .mails i:nth-child(5){animation-delay:.4s;animation-name:mgone}.scene.on .mails i:nth-child(6){animation-delay:.5s;animation-name:mgone}
+@keyframes mfly{to{opacity:.95;transform:none}}
+@keyframes mgone{60%{opacity:.9;transform:none}100%{opacity:.18;transform:translateY(-6px)}}
+/* scene 2 silence */
+.quiet .dots{display:flex;gap:12px}
+.quiet i{width:clamp(9px,1.3vw,14px);height:clamp(9px,1.3vw,14px);border-radius:50%;background:var(--lilac);opacity:.25}
+.scene.on .quiet i{animation:pulse 1.5s ease-in-out infinite}
+.scene.on .quiet i:nth-child(2){animation-delay:.25s}.scene.on .quiet i:nth-child(3){animation-delay:.5s}
+@keyframes pulse{0%,100%{opacity:.18}50%{opacity:.6}}
+/* scene 3 mark */
+.mark7{width:min(110px,13vw);height:auto}
+.mark7 .stitch{stroke-dasharray:200;stroke-dashoffset:200}
+.scene.on .mark7 .stitch{animation:dr 1.1s ease forwards}
+.mark7 .cross{stroke-dasharray:80;stroke-dashoffset:80}
+.scene.on .mark7 .cross{animation:dr .5s .9s ease forwards}
+/* scene 4 map */
+.maprow{gap:min(22px,2.6vw)}
+.pin{font-family:'Space Grotesk',sans-serif;font-size:clamp(11px,1.5vw,19px);color:#fff;letter-spacing:.08em;display:flex;flex-direction:column;gap:4px;max-width:15ch}
+.pin em{font-style:normal;font-size:.58em;color:var(--pale);opacity:.72;letter-spacing:.02em;line-height:1.35}
+.thread{position:relative;width:min(190px,20vw);height:2px;background:rgba(168,143,216,.28)}
+.thread i{position:absolute;inset:0;background:var(--gold);transform:scaleX(0);transform-origin:left}
+.scene.on .thread i{animation:sx 1.3s .3s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes sx{to{transform:scaleX(1)}}
+/* scene 5 range */
+.range{gap:min(20px,2.4vw);font-family:'Space Grotesk',sans-serif;font-size:clamp(26px,5.4vw,66px);color:#fff;align-items:center}
+.range .from{color:var(--gold)}
+.range .dash{width:min(70px,8vw);height:3px;background:var(--lilac);opacity:.5;transform:scaleX(0);transform-origin:left}
+.scene.on .range .dash{animation:sx .6s .3s ease forwards}
+.range .to{opacity:0}
+.scene.on .range .to{animation:fi .5s .8s ease forwards}
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chips span{border:1px solid rgba(168,143,216,.4);border-radius:999px;padding:9px 16px;font-family:'IBM Plex Mono',monospace;font-size:clamp(10px,1.15vw,14px);color:var(--pale);opacity:0;transform:translateY(8px);animation-fill-mode:forwards}
+.scene.on .chips span{animation:cin .45s ease forwards}
+.scene.on .chips span:nth-child(2){animation-delay:.12s}.scene.on .chips span:nth-child(3){animation-delay:.24s}
+.scene.on .chips span:nth-child(4){animation-delay:.36s}.scene.on .chips span:nth-child(5){animation-delay:.48s}
+@keyframes cin{to{opacity:1;transform:none}}
+.chips.cat span{border-color:var(--gold);color:var(--gold)}
+.chips.cat span:last-child{background:var(--gold);color:#1B1338;font-weight:600}
+/* scene 8 box */
+.box{position:relative;flex-direction:column;gap:0}
+.parcel{width:clamp(46px,7vw,86px);height:clamp(34px,5.2vw,64px);background:linear-gradient(180deg,#C9B8EE,#A88FD8);border-radius:5px;position:relative;transform:translateY(-70px);opacity:0}
+.parcel:after{content:"";position:absolute;left:50%;top:0;bottom:0;width:5px;margin-left:-2.5px;background:var(--gold);opacity:.85}
+.scene.on .parcel{animation:drop .9s cubic-bezier(.34,1.4,.64,1) .2s forwards}
+@keyframes drop{to{transform:none;opacity:1}}
+.floor{width:clamp(90px,14vw,170px);height:2px;background:rgba(168,143,216,.35);margin-top:10px}
+.end .endmark{width:min(74px,9vw);height:auto;margin-bottom:6px}
+.end .btn{margin-top:22px}
+@keyframes fi{to{opacity:1}}
+.bar2{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:12px 18px;background:linear-gradient(180deg,rgba(18,12,37,0),rgba(18,12,37,.92))}
+.bar2 button{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;background:transparent;border:1px solid rgba(168,143,216,.5);color:var(--pale);border-radius:6px;padding:6px 12px;cursor:pointer}
+.bar2 button:hover{border-color:var(--gold);color:var(--gold)}
+.prog{flex:1;height:3px;background:rgba(168,143,216,.22);border-radius:2px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--gold)}
+.tc{color:var(--pale);opacity:.7;font-size:11px}
+.filmnote{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--lilac);opacity:.75;margin-top:14px}
+/* ---- track record ---- */
+#track{padding:90px 0 30px}
+.trh{font-size:clamp(28px,3.6vw,44px);color:#fff;margin:10px 0 12px}
+.trsub{max-width:660px;opacity:.85;margin:0 0 30px}
+.trstats{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(168,143,216,.22);border:1px solid rgba(168,143,216,.22);border-radius:12px;overflow:hidden;margin-bottom:30px}
+.trstats div{background:var(--deep);padding:18px 16px}
+.trstats b{display:block;font-family:'Space Grotesk',sans-serif;font-size:clamp(20px,2.4vw,30px);color:#fff}
+.trstats span{font-size:12.5px;opacity:.75}
+.trgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.trcard{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px}
+.trcard header{position:static;background:none;backdrop-filter:none;border:0;border-bottom:1px solid rgba(168,143,216,.2);display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:0 0 12px}
+.trcard h3{font-size:19px;color:#fff}
+.flag{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--lilac);letter-spacing:.06em;white-space:nowrap}
+.trcard dl{margin:0;display:flex;flex-direction:column;gap:10px;flex:1}
+.trcard dt{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--lilac);opacity:.8;margin-bottom:2px}
+.trcard dd{margin:0;font-size:14px;line-height:1.45}
+.pill{align-self:flex-start;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.05em;background:rgba(224,168,60,.14);color:var(--gold);border:1px solid rgba(224,168,60,.35);border-radius:999px;padding:5px 11px}
+.trcard.soon{border-style:dashed;background:transparent}
+.pill.cta{text-decoration:none;background:var(--gold);color:#1B1338;border-color:var(--gold);font-weight:600}
+.voices{margin-top:34px}
+.vbanner{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.06em;color:#E0A83C;background:rgba(224,168,60,.1);border:1px dashed rgba(224,168,60,.5);border-radius:8px;padding:9px 14px;margin-bottom:16px}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vgrid blockquote{margin:0;background:transparent;border-left:2px solid var(--lilac);padding:4px 0 4px 18px}
+.vgrid p{margin:0 0 10px;font-size:15px;line-height:1.55;color:#fff;opacity:.92}
+.vgrid footer{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.05em;color:var(--lilac);opacity:.85}
+
+/* ---- voices as facts ---- */
+.vgrid.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.vfact{border-left:2px solid var(--gold);padding:2px 0 2px 18px}
+.vfact b{display:block;font-family:'Space Grotesk',sans-serif;font-size:clamp(22px,2.6vw,32px);color:#fff;margin-bottom:6px}
+.vfact p{margin:0;font-size:14.5px;line-height:1.55;opacity:.85}
+.vnote{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;color:var(--lilac);opacity:.92;margin:20px 0 0}
+/* ---- group / entities ---- */
+#group{padding:90px 0 30px}
+.grh{font-size:clamp(28px,3.6vw,44px);color:#fff;margin:10px 0 14px;max-width:20ch}
+.grsub{max-width:70ch;opacity:.86;margin:0 0 34px;font-size:17px}
+.entities{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:64px}
+.ent{background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:16px;padding:28px;border-top:4px solid var(--gold)}
+.ent.p{border-top-color:var(--lilac)}
+.entflag{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;color:var(--lilac);margin-bottom:12px}
+.ent h3{font-size:26px;color:#fff}
+.enttrade{font-size:14px;opacity:.75;margin:4px 0 20px}
+.ent dl{margin:0 0 18px;display:flex;flex-direction:column;gap:11px}
+.ent dl>div{display:grid;grid-template-columns:0.85fr 1.15fr;gap:14px;border-bottom:1px solid rgba(168,143,216,.16);padding-bottom:10px}
+.ent dt{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;color:var(--lilac);opacity:.85;padding-top:2px}
+.ent dd{margin:0;font-size:14px;line-height:1.45;color:#fff;opacity:.94}
+.entnote{font-size:13px;opacity:.72;margin:0;font-style:italic}
+.whyh{font-size:clamp(24px,3vw,34px);color:#fff;margin:0 0 10px}
+.whysub{max-width:68ch;opacity:.84;margin:0 0 26px}
+.whygrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.why{background:rgba(44,33,83,.5);border:1px solid rgba(168,143,216,.2);border-radius:14px;padding:22px}
+.why .mono{color:var(--gold);font-size:12px;letter-spacing:.1em}
+.why h3.whyh4,.why h4{font-family:'Space Grotesk',sans-serif;font-size:18px;color:#fff;margin:10px 0 8px;line-height:1.2}
+.why p{margin:0;font-size:14px;line-height:1.55;opacity:.85}
+.why.accent{border-color:rgba(224,168,60,.45);background:rgba(224,168,60,.07)}
+@media(max-width:900px){.entities,.whygrid,.vgrid.facts{grid-template-columns:1fr}.ent dl>div{grid-template-columns:1fr}}
+
+/* ---- sister (retired) ---- */
+#sister{padding:40px 0 20px}
+.sisterbox{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;background:var(--panel);border:1px solid rgba(168,143,216,.22);border-radius:16px;padding:34px}
+.sisterbox h3{font-size:26px;color:#fff;margin:8px 0 12px}
+.sisterbox p{opacity:.86;margin:0 0 20px;max-width:56ch}
+.sisterfacts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;font-size:13.5px}
+.sisterfacts li{border-bottom:1px solid rgba(168,143,216,.18);padding-bottom:11px}
+.sisterfacts b{display:block;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--lilac);margin-bottom:3px}
+@media(max-width:900px){.trgrid,.vgrid{grid-template-columns:1fr}.trstats{grid-template-columns:repeat(2,1fr)}.sisterbox{grid-template-columns:1fr}}
+
+
+
+.heroproof{list-style:none;display:flex;flex-wrap:wrap;gap:10px 26px;margin:30px 0 0;padding:0;font-size:13.5px;max-width:760px}
+.heroproof li{position:relative;padding-left:14px;opacity:.9}
+.heroproof li:before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.heroproof b{color:#fff;font-weight:600}
+@media(max-width:760px){.heroproof{gap:8px 18px;font-size:12.5px}}
+
+#samplebox{padding:20px 0 60px}
+.sbox{display:grid;grid-template-columns:1.25fr 1fr;gap:38px;background:linear-gradient(135deg,rgba(224,168,60,.13),rgba(168,143,216,.08));border:1px solid rgba(224,168,60,.42);border-radius:20px;padding:40px}
+.sbox h2{font-size:clamp(26px,3.2vw,38px);color:#fff;margin:10px 0 14px}
+.sbox p{opacity:.88;max-width:56ch;margin:0 0 16px}
+.sblist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;align-self:center}
+.sblist li{font-size:14px;line-height:1.5;opacity:.86;border-left:2px solid var(--gold);padding-left:16px}
+.sblist b{display:block;font-family:'Space Grotesk',sans-serif;font-size:16px;color:#fff;margin-bottom:3px;opacity:1}
+@media(max-width:860px){.sbox{grid-template-columns:1fr;padding:28px}}
+
+/* ---- QA: focus, mobile nav, tap targets ---- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.burger{display:none;background:none;border:0;padding:10px;cursor:pointer;width:44px;height:44px;flex-direction:column;justify-content:center;gap:5px}
+.burger span{display:block;height:2px;width:22px;background:var(--pale);transition:transform .25s,opacity .2s}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+footer a{display:inline-block;padding:11px 0;min-height:44px}
+nav a.logo{display:inline-flex;align-items:center;min-height:44px}
+.marquee{overflow:hidden}.hero .bgimg{overflow:hidden}
+@media(max-width:1200px){
+ .burger{display:flex}
+ nav ul#navlist{display:none!important}
+ nav ul#navlist.open{display:flex!important;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--purple);border-top:1px solid rgba(168,143,216,.25);border-bottom:1px solid rgba(168,143,216,.25);padding:8px 0;margin:0;list-style:none;z-index:120;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+ nav ul#navlist.open li{width:100%}
+ nav ul#navlist.open a{display:block;padding:15px 28px;min-height:48px;font-size:16px}
+ header nav{position:relative}
+ .navcta{font-size:14px;padding:11px 16px}
+}
+@media(max-width:760px){
+ .trstats,.ocards,.ogrid,.vgrid.facts,.entities,.whygrid,.grid3,.grid2,.fgrid{grid-template-columns:1fr!important}
+ /* The two audience doors stay side by side at EVERY width — the choice between
+    "for brands" and "for teams" only reads as a choice when both are visible at once. */
+ .doors .grid{grid-template-columns:1fr 1fr!important;gap:12px}
+ .door{padding:22px 18px;border-top-width:4px}
+ .door h3{font-size:19px;line-height:1.18}
+ .door p{font-size:13.5px;line-height:1.5;margin:9px 0 18px}
+ .door .btn{width:100%;text-align:center;padding:11px 10px;font-size:12.5px;white-space:normal;line-height:1.3}
+ .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ .tablewrap table{min-width:620px}
+}
+@media(max-width:420px){
+ .doors .grid{gap:9px}
+ .door{padding:17px 13px}
+ .door h3{font-size:16.5px}
+ .door p{font-size:12.5px;margin:8px 0 15px}
+ .door .mono{font-size:9.5px;letter-spacing:.08em}
+ .door .btn{padding:10px 7px;font-size:11.5px}
+}
+
+nav{display:flex;align-items:center;gap:16px;flex-wrap:nowrap}
+nav .logo{flex:0 0 auto}
+nav ul#navlist{display:flex;flex:0 1 auto;flex-wrap:nowrap;justify-content:flex-end;align-items:center;gap:14px;margin:0 0 0 auto;padding:0;list-style:none}
+nav ul#navlist a{white-space:nowrap;font-size:14px}
+nav>a.btn,nav>a.navcta{flex:0 0 auto;white-space:nowrap;margin-left:4px}
+header .wrap{max-width:1320px}
+@media(max-width:1300px){nav ul#navlist{gap:12px}nav ul#navlist a{font-size:13.5px}}
+@media(max-width:1200px){nav ul#navlist{display:none!important}}
+
+header,nav{max-width:100%;overflow:visible}
+nav{min-width:0}
+@media(max-width:1200px){nav{gap:10px}}
+html,body{overflow-x:hidden;max-width:100%}
+
+/* ---- QA v16: tap targets + very small screens ---- */
+@media(max-width:820px){
+ .card a[href^="mailto:"],.card a[href^="tel:"],.card a[href^="https://wa.me"],
+ p a[href^="mailto:"],p a[href^="tel:"],p a[href^="https://wa.me"],
+ .person .mail a,.fok a{display:inline-block;padding:9px 0;min-height:40px;line-height:1.5}
+}
+@media(max-width:430px){
+ nav>a.btn,nav>a.navcta{font-size:13px;padding:11px 13px}
+ nav{gap:8px}
+ .logo{font-size:17px}
+ .logo svg{height:26px;width:26px}
+}
+@media(max-width:360px){
+ nav>a.btn,nav>a.navcta{font-size:0;padding:12px 14px;min-width:74px;position:relative}
+ nav>a.btn:after,nav>a.navcta:after{content:"Quote";font-size:13px;font-weight:700;position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+ .wrap{padding:0 16px}
+}
+
+@media(max-width:820px){
+ .pp,.rp,.pill,.pill.cta,.film button,#pp,#rp{min-height:40px!important;padding:10px 16px!important;display:inline-flex!important;align-items:center;justify-content:center}
+ .note a,.trcard a,.vnote a,.filmnote a{display:inline-block;padding:8px 0;min-height:36px}
+}
+
+nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-height:1.15}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.pp,.rp,#pp,#rp,button.pp,button.rp{min-height:36px;padding:8px 16px;display:inline-flex;align-items:center;justify-content:center}
+.pill,.pill.cta{min-height:36px;padding:9px 16px;display:inline-flex;align-items:center}
+.person .mail a{display:inline-block;padding:8px 0;min-height:34px;line-height:1.4}
+
+/* ---- WhatsApp: always reachable, never in the way ---- */
+.wa{position:fixed;right:20px;bottom:20px;z-index:90;display:inline-flex;align-items:center;gap:10px;
+ background:#25D366;color:#08301A;text-decoration:none;font-weight:600;font-size:14.5px;
+ padding:13px 19px 13px 15px;border-radius:999px;
+ box-shadow:0 6px 16px rgba(0,0,0,.32),0 2px 5px rgba(0,0,0,.24);
+ border:1px solid rgba(255,255,255,.28);
+ transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.wa:hover,.wa:focus-visible{background:#1FBE5A;transform:translateY(-2px);
+ box-shadow:0 10px 24px rgba(0,0,0,.4),0 3px 7px rgba(0,0,0,.26);color:#08301A}
+.wa:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wa svg{width:23px;height:23px;flex:0 0 auto;display:block}
+.wa span{white-space:nowrap;letter-spacing:.01em}
+/* On phones the label costs more than it gives — icon only, thumb-sized. */
+@media(max-width:820px){
+ .wa{right:14px;bottom:14px;padding:0;width:56px;height:56px;justify-content:center;border-radius:50%}
+ .wa span{display:none}
+ .wa svg{width:29px;height:29px}
+}
+@media(prefers-reduced-motion:reduce){.wa{transition:none}.wa:hover,.wa:focus-visible{transform:none}}
+@media print{.wa{display:none}}
+
+/* ---- language switcher (added by tools/i18n/build.py) ---- */
+.langwrap{flex:0 0 auto;display:flex;align-items:center}
+.langsel{appearance:none;-webkit-appearance:none;-moz-appearance:none;
+ background-color:transparent;background-image:url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23C9B8EE' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;
+ background-position:right 8px center;background-size:9px 6px;
+ border:1.5px solid rgba(200,184,238,.42);border-radius:8px;color:#E6DDF8;
+ font:600 13px/1 'Inter',system-ui,-apple-system,sans-serif;letter-spacing:.03em;
+ padding:11px 25px 11px 10px;min-height:42px;cursor:pointer}
+.langsel:hover{border-color:#E6DDF8}
+.langsel option{color:#2C2153;background:#fff;font-weight:500;letter-spacing:0}
+@media(max-width:430px){.langsel{font-size:12px;padding:10px 21px 10px 8px;min-height:40px;
+ background-position:right 6px center}}
+@media print{.langwrap{display:none}}
+/* ---- "this page exists in your language" hint ---- */
+.langhint{position:fixed;left:16px;bottom:16px;z-index:88;max-width:340px;display:none;
+ background:#2C2153;color:#F4F0FA;border:1px solid rgba(200,184,238,.35);border-radius:12px;
+ padding:14px 16px;font:400 14.5px/1.45 'Inter',system-ui,-apple-system,sans-serif;
+ box-shadow:0 16px 42px rgba(0,0,0,.32)}
+.langhint.show{display:block}
+.langhint a{color:#E0A83C;font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.langhint button{background:none;border:0;color:#C9B8EE;font:inherit;cursor:pointer;
+ text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
+.langhint p{margin:0 0 9px}
+@media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+
+
+
+
+
+
+
+/*i18n-start*/
+/* ---- language switcher (added by tools/i18n/build.py) ---- */
+.langwrap{flex:0 0 auto;display:flex;align-items:center}
+.langsel{appearance:none;-webkit-appearance:none;-moz-appearance:none;
+ background-color:transparent;background-image:url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23C9B8EE' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;
+ background-position:right 8px center;background-size:9px 6px;
+ border:1.5px solid rgba(200,184,238,.42);border-radius:8px;color:#E6DDF8;
+ font:600 13px/1 'Inter',system-ui,-apple-system,sans-serif;letter-spacing:.03em;
+ padding:11px 25px 11px 10px;min-height:42px;cursor:pointer}
+.langsel:hover{border-color:#E6DDF8}
+.langsel option{color:#2C2153;background:#fff;font-weight:500;letter-spacing:0}
+@media(max-width:430px){.langsel{font-size:12px;padding:10px 21px 10px 8px;min-height:40px;
+ background-position:right 6px center}}
+@media print{.langwrap{display:none}}
+/* ---- "this page exists in your language" hint ---- */
+.langhint{position:fixed;left:16px;bottom:16px;z-index:88;max-width:340px;display:none;
+ background:#2C2153;color:#F4F0FA;border:1px solid rgba(200,184,238,.35);border-radius:12px;
+ padding:14px 16px;font:400 14.5px/1.45 'Inter',system-ui,-apple-system,sans-serif;
+ box-shadow:0 16px 42px rgba(0,0,0,.32)}
+.langhint.show{display:block}
+.langhint a{color:#E0A83C;font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.langhint button{background:none;border:0;color:#C9B8EE;font:inherit;cursor:pointer;
+ text-decoration:underline;text-underline-offset:2px;padding:0;margin-left:12px}
+.langhint p{margin:0 0 9px}
+@media(max-width:820px){.langhint{left:14px;right:84px;bottom:14px;max-width:none}}
+/*i18n-end*/
+</style><script>(function(){try{var S={nl:1,de:1,pl:1,fr:1},p=location.pathname;if(/^\/(nl|de|pl|fr)(\/|$)/.test(p))return;if(/[?&]lang=/.test(location.search))return;var s=null;try{s=localStorage.getItem('7a_lang')}catch(e){}var k=null;if(s){if(s==='en')return;if(S[s])k=s}else{var L=navigator.languages||[navigator.language||''];for(var i=0;i<L.length;i++){var c=(L[i]||'').slice(0,2).toLowerCase();if(c==='en')break;if(S[c]){k=c;break}}}if(!k)return;var r=p.replace(/\/index\.html$/,'/').replace(/\.html$/,'');r=(r==='/')?'':r.replace(/^\//,'');location.replace('/'+k+'/'+r+location.search+location.hash)}catch(e){}})();</script><link rel="alternate" hreflang="en" href="https://7thapparel.com/"><link rel="alternate" hreflang="nl" href="https://7thapparel.com/nl/"><link rel="alternate" hreflang="de" href="https://7thapparel.com/de/"><link rel="alternate" hreflang="pl" href="https://7thapparel.com/pl/"><link rel="alternate" hreflang="fr" href="https://7thapparel.com/fr/"><link rel="alternate" hreflang="x-default" href="https://7thapparel.com/"></head><body>
+<div id="loader"><svg fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg></div>
+<header><div class="wrap"><nav>
+<a class="logo" href="/pl"><svg fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg>7th Apparel</a>
+<ul id="navlist"><li><a href="/pl/for-brands">Dla marek</a></li><li><a href="/pl/for-teams">Dla firm</a></li><li><a href="/pl/what-we-make">Co produkujemy</a></li><li><a href="/pl/our-factory">Nasza fabryka</a></li><li><a href="/pl/our-story">Nasza historia</a></li><li><a href="/pl/how-it-works">Jak to działa</a></li><li><a href="/pl/pricing">Cennik</a></li><li><a href="/pl/faq">FAQ</a></li><li><a href="/pl/compliance">Zgodność</a></li><li><a href="/pl/contact">Kontakt</a></li></ul>
+<button aria-controls="navlist" aria-expanded="false" aria-label="Menu" class="burger" id="burger"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Język"><option value="/" data-l="en">EN</option><option value="/nl/" data-l="nl">NL</option><option value="/de/" data-l="de">DE</option><option value="/pl/" data-l="pl" selected>PL</option><option value="/fr/" data-l="fr">FR</option></select></div><a class="btn" href="/pl/quote">Poproś o wycenę</a></nav></div></header>
+<section class="hero"><div class="bgimg"><img alt="Własna hala produkcyjna" id="heroimg" src="/assets/factory_wide.jpg"/></div>
+<div class="wrap inner"><div class="kicker">EUROPEJSKIE BIURO · WŁASNY ZAKŁAD PRODUKCYJNY</div>
+<h1 id="heroline"><span class="w"><span>Państwa </span></span><span class="w"><span><em>marka</em> </span></span><span class="w"><span>w </span></span><span class="w"><span>rytmie </span></span><span class="w"><span>naszej </span></span><span class="w"><span><em>produkcji.</em></span></span></h1>
+<p>Dziesięć sztuk albo miliony — krojone, szyte i wykańczane u nas, a potem dostarczone pod Państwa drzwi z załatwioną odprawą celną. Dzianina, tkanina, denim, odzież robocza, skóra i ręczniki — w bawełnie konwencjonalnej albo w 100% organicznej. Jeśli coś się kroi i szyje, prosimy pytać.</p>
+<a class="btn" href="/pl/quote">Wycena w 48 godzin</a>   <a class="btn ghost" href="#flow">Zobacz, jak to działa ↓</a>
+<ul class="heroproof"><li><b>146,500</b> sztuk wysłanych od marca 2025</li><li><b>11 z 13</b> zamówień to zamówienia powtórne</li><li><b>Od 10</b> sztuk na model</li><li><b>KVK 91485452</b> · Sedex <b>ZC5000072720</b></li></ul></div>
+<svg class="threadline" fill="none" preserveAspectRatio="none" viewBox="0 0 1400 120"><path d="M-20 90 C 300 20, 600 110, 900 55 S 1300 70, 1430 40" id="heroThread" stroke="#E0A83C" stroke-dasharray="9 7" stroke-width="2.5"></path></svg>
+<div class="marquee"><div class="track"><span><b>146,500+</b> SZTUK WYSŁANYCH OD 2025</span><span>UK · USA · WŁOCHY</span><span><b>11 Z 13</b> ZAMÓWIEŃ TO ZAMÓWIENIA POWTÓRNE</span><span>TKANINA: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>DZIANINA · DENIM · TKANINA · ODZIEŻ ROBOCZA · SKÓRA · RĘCZNIKI · ORGANICZNA</span><span>SEDEX <b>ZC5000072720</b></span><span>SZYJEMY OD 2011</span><span><b>146,500+</b> SZTUK WYSŁANYCH OD 2025</span><span>UK · USA · WŁOCHY</span><span><b>11 Z 13</b> ZAMÓWIEŃ TO ZAMÓWIENIA POWTÓRNE</span><span>TKANINA: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>DZIANINA · DENIM · TKANINA · ODZIEŻ ROBOCZA · SKÓRA · RĘCZNIKI · ORGANICZNA</span><span>SEDEX <b>ZC5000072720</b></span><span>SZYJEMY OD 2011</span></div></div>
+</section>
+<h2 class="sr-only">Czym się zajmujemy</h2><section class="doors"><div class="wrap"><div class="grid">
+<div class="door"><span class="mono" style="color:var(--gold)">DLA MAREK</span><h3>Państwo projektują. My szyjemy.</h3><p>Dziesięć sztuk do wzięcia do ręki, sto do sprzedania albo sto tysięcy do wysyłki. Tech pack rysujemy razem z Państwem, próbka powstaje w dwa do czterech tygodni, a prawa do projektów zostają przy Państwu na piśmie.</p><a class="btn" href="/pl/for-brands">Launch · Grow · Scale →</a></div>
+<div class="door l"><span class="mono" style="color:var(--lilac)">DLA FIRM</span><h3>Nie gadżety. Własna kolekcja.</h3><p>Ubierzemy zespół, wydarzenie albo całą firmę — Państwa metka, Państwa kolory i tkanina wybrana spośród opcji, które przedstawimy. Dwadzieścia bluz do biura albo dwa tysiące uniformów dla sieci.</p><a class="btn ghost" href="/pl/for-teams">Collection · Programme →</a></div>
+</div></div></section>
+<section id="samplebox"><div class="wrap"><div class="sbox">
+<div class="sbleft">
+<div class="kicker">NAJPROSTSZY PIERWSZY KROK</div>
+<h2>Najpierw wyrób w ręku, potem wydatki.</h2>
+<p>Wystarczy brief, a uszyjemy Państwa model z wybranej tkaniny i z Państwa metką — prawdziwy wyrób z tej samej linii, na której idą programy stutysięczne, a nie zadrukowany gotowiec.</p>
+<p><b>€50 na model, zaliczane w całości na poczet pierwszego zamówienia.</b> Próbka naprawdę kosztuje nas kilkaset euro — konstruktor rysuje i stopniuje formę, projektant sprawdza tech pack, krawiec próbek szyje ją na maszynie wyłączonej na ten czas z produkcji seryjnej, a przesyłka leci do Państwa kurierem. Bierzemy €50, bo wolimy, żeby wzięli Państwo wyrób do ręki, niż przeczytali obietnicę.</p>
+<a class="btn" href="/pl/quote">Zacznij od próbki za €50 →</a>
+</div>
+<ul class="sblist">
+<li><b>2–4 tygodnie</b>Próbki prototypowe i dopasowania, rysowane w Gerber CAD</li>
+<li><b>Tech pack nie jest konieczny</b>Wystarczy szkic albo wyrób do odwzorowania — tech pack rysujemy razem z Państwem</li>
+<li><b>Zwracane</b>€50 odliczamy od pierwszej faktury produkcyjnej. Dodatkowa runda próbek, gdyby była potrzebna: €50</li>
+<li><b>Na piśmie, Państwa własność</b>Projekty, formy i szablony bazowe zostają Państwa. Podpiszemy Państwa NDA albo prześlemy własne</li>
+</ul>
+</div></div></section>
+<section id="film"><div class="wrap">
+<div class="kicker">FILM · 35 SEKUND</div>
+<h2 class="filmh">Dlaczego uszycie odzieży jest tak trudne — i co z tego usunęliśmy</h2>
+<div aria-label="Film o 7th Apparel" class="stage" id="stage" role="region">
+<div class="scenes" id="scenes">
+<div class="scene" data-s="0"><div class="s-in">
+<div class="art lamp"><span class="glow"></span><svg aria-hidden="true" fill="none" viewBox="0 0 220 130"><path class="dw" d="M40 108 C 52 60, 74 44, 96 62 C 118 80, 128 46, 150 40" stroke="#E0A83C" stroke-linecap="round" stroke-width="2.4"></path><path class="dw d2" d="M56 116 C 74 96, 96 100, 112 88" stroke="#A88FD8" stroke-linecap="round" stroke-width="1.8"></path></svg></div>
+<p class="s-line">Projekt już jest. Trudne zaczyna się przy szyciu.</p>
+<p class="s-sub">To właśnie tam większość marek traci pieniądze, marżę i cierpliwość.</p>
+</div></div>
+<div class="scene" data-s="1"><div class="s-in">
+<div class="art mails"><i>✉</i><i>✉</i><i>✉</i><i>✉</i><i>✉</i><i>✉</i></div>
+<p class="s-line">Najpierw agent. Potem dom handlowy.</p>
+<p class="s-sub">Potem fabryka, która to naprawdę szyje — trzy poziomy, każdy z prowizją.</p>
+</div></div>
+<div class="scene" data-s="2"><div class="s-in">
+<div class="art quiet"><span class="dots"><i></i><i></i><i></i></span></div>
+<p class="s-line">Każdy poziom dokłada marżę i tydzień.</p>
+<p class="s-sub">Zanim brief dotrze do maszyny, jest przepisany cztery razy.</p>
+</div></div>
+<div class="scene" data-s="3"><div class="s-in">
+<svg aria-hidden="true" class="mark7" fill="none" viewBox="0 0 100 100"><path class="stitch" d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line class="cross" stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg>
+<p class="s-line">I nikt nie odpowiada.</p>
+<p class="s-sub">Agent zwala na fabrykę. Fabryka zwala na tkaninę. Państwo zwalają na siebie.</p>
+</div></div>
+<div class="scene" data-s="4"><div class="s-in">
+<div class="art maprow"><span class="pin">AMSTERDAM<em>Państwa umowa, faktura i opiekun klienta</em></span><span class="thread"><i></i></span><span class="pin">NASZA HALA<em>krojenie, szycie, wykańczanie, pakowanie</em></span></div>
+<p class="s-line">Potem bank prosi o akredytywę.</p>
+<p class="s-sub">Pieniądze są zamrożone na miesiące, zanim ktoś skroi pierwszą sztukę.</p>
+</div></div>
+<div class="scene" data-s="5"><div class="s-in">
+<div class="art range"><span class="from">10</span><span class="dash"></span><span class="to" id="rangeTo">100,000</span></div>
+<p class="s-line">Więc usunęliśmy środek.</p>
+<p class="s-sub">Jedna firma. Własna hala. Nic między Państwa briefem a stołem krojczym.</p>
+</div></div>
+<div class="scene" data-s="6"><div class="s-in">
+<div class="chips cat"><span>Dzianina</span><span>Tkanina</span><span>Denim</span><span>Odzież robocza</span><span>Skóra</span></div>
+<p class="s-line">Rozmawiają Państwo z tymi, którzy to szyją.</p>
+<p class="s-sub">Zdjęcie z linii, próbnik, pomiar — wystarczy poprosić; przyjdzie z hali, a nie z działu handlowego.</p>
+</div></div>
+<div class="scene" data-s="7"><div class="s-in">
+<div class="chips proof"><span>146,500 wysłanych sztuk</span><span>$1.2M+ zrealizowanych zamówień</span><span>UK · USA · Włochy</span><span>11 z 13 zamówień to powtórki</span></div>
+<p class="s-line">Dziesięć sztuk albo miliony.</p>
+<p class="s-sub">Mały start, sprawdzenie modelu, potem skalowanie na naszych mocach.</p>
+</div></div>
+<div class="scene" data-s="8"><div class="s-in">
+<div class="art box"><span class="parcel"></span><span class="floor"></span></div>
+<p class="s-line">Jedna faktura. W euro. Z dostawą pod drzwi.</p>
+<p class="s-sub">Bez akredytywy. Bez agencji celnej. Bez importu. To nasza część.</p>
+</div></div>
+<div class="scene" data-s="9"><div class="s-in end">
+<svg aria-hidden="true" class="endmark" fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg>
+<p class="s-line">To nie plan. To udokumentowane wyniki.</p>
+<p class="s-sub">146,500 sztuk · $1.2M+ zrealizowanych zamówień · UK · USA · Włochy · 11 z 13 zamówień to zamówienia powtórne</p>
+<a class="btn" href="/pl/quote">Zacznij od próbki za €50</a>
+</div></div>
+</div>
+<div class="bar2"><button aria-label="Odtwórz lub zatrzymaj film" id="pp">Pauza</button><button aria-label="Odtwórz film ponownie" id="rp">Powtórz</button><div class="prog"><i id="pf"></i></div><span class="tc mono" id="tc">0:00</span></div>
+</div>
+<p class="filmnote"></p>
+</div></section>
+<section id="flow"><div class="wrap"><h2>Jedna nić, od drzwi do drzwi</h2><div class="sub mono">PRZEWIŃ — ZOBACZ DROGĘ ZAMÓWIENIA</div>
+<div class="flowbox"><svg fill="none" id="flowsvg" viewBox="0 0 1200 300">
+<path d="M90 150 C 260 60, 340 60, 450 140 S 700 240, 810 150 S 1020 60, 1110 140" id="flowpath" stroke="rgba(168,143,216,.35)" stroke-dasharray="7 7" stroke-width="2"></path>
+<path d="M90 150 C 260 60, 340 60, 450 140 S 700 240, 810 150 S 1020 60, 1110 140" id="flowfill" stroke="#E0A83C" stroke-width="3"></path>
+<g class="station" id="st1"><circle cx="90" cy="150" fill="#17102E" r="34" stroke="#A88FD8" stroke-width="3"></circle><text fill="#C9B8EE" font-size="15" text-anchor="middle" x="90" y="156">YOU</text></g>
+<g class="station" id="st2"><circle cx="450" cy="140" fill="#17102E" r="34" stroke="#A88FD8" stroke-width="3"></circle><text fill="#C9B8EE" font-size="13" text-anchor="middle" x="450" y="134">NL</text><text fill="#C9B8EE" font-size="11" text-anchor="middle" x="450" y="152">AMSTERDAM</text></g>
+<g class="station" id="st3"><circle cx="810" cy="150" fill="#17102E" r="34" stroke="#A88FD8" stroke-width="3"></circle><text fill="#C9B8EE" font-size="12" text-anchor="middle" x="810" y="150">NASZA HALA</text></g>
+<g class="station" id="st4"><circle cx="1110" cy="140" fill="#17102E" r="34" stroke="#A88FD8" stroke-width="3"></circle><text fill="#C9B8EE" font-size="12" text-anchor="middle" x="1110" y="146">DRZWI</text></g>
+<circle cx="90" cy="150" fill="#E0A83C" id="packet" r="9"></circle>
+</svg>
+<div class="flowlabels"><div id="fl1"><b>Państwa marka</b>Szkic, tech pack albo sam pomysł. Jeden brief uruchamia całą nić.</div>
+<div id="fl2"><b>Amsterdam · umowa i opieka</b>Państwa umowa i faktura od europejskiej spółki, wycena rozbita na pozycje w 48 h, koordynacja rozwoju produktu i próbkowania, punkt kontroli jakości.</div>
+<div id="fl3"><b>Nasza hala · wykonanie</b>Własny zakład produkcyjny: krojenie, szycie, wykańczanie, pakowanie. Kontrola na linii, inspekcja końcowa AQL 2.5.</div>
+<div id="fl4"><b>Państwa drzwi</b>Dostawa DDP — cło, odprawa i transport po naszej stronie. Reklamacje rozliczane w NL. Zamówienie powtórne jedną wiadomością.</div></div>
+</div></div></section>
+<section id="track"><div class="wrap">
+<div class="kicker">REFERENCJE</div>
+<h2 class="trh">Dla kogo już szyjemy</h2>
+<p class="trsub">Każde z poniższych zamówień zostało skrojone, uszyte i wykończone u nas, a wysłane między marcem 2025 a sierpniem 2026 — czyli odkąd europejska spółka przyjmuje zamówienia. Trzech z pięciu kupujących wróciło i zamówiło ponownie — jedenaście z trzynastu zamówień to zamówienia powtórne. Sama hala pracuje od 2011 roku, a klienci, którzy wracają, zamawiają zwykle trzy razy więcej niż za pierwszym razem.</p>
+<div class="trstats"><div><b>2011</b><span>szyjemy od roku</span></div><div><b>146,500</b><span>sztuk wysłanych od marca 2025</span></div><div><b>$1.2M+</b><span>wartość zrealizowanych zamówień</span></div><div><b>3×</b><span>o tyle rosną kolejne zamówienia</span></div><div><b>3 z 5</b><span>klientów zamówiło ponownie</span></div></div>
+<div class="trgrid">
+<article class="trcard"><header><h3>YJM</h3><span class="flag">Stany Zjednoczone</span></header><dl><div><dt>Produkt</dt><dd>Męskie bluzy z kapturem, dresówka 380 GSM, 4 kolory</dd></div><div><dt>Ilość</dt><dd>100,000 szt. w 2 zamówieniach</dd></div><div><dt>Trasa</dt><dd>przez dom zakupowy FPG · FOB Los Angeles</dd></div></dl><span class="pill">Klient powracający od 2025</span></article>
+<article class="trcard"><header><h3>Innocent Clothing</h3><span class="flag">Wielka Brytania</span></header><dl><div><dt>Produkt</dt><dd>Denim 12 oz, denim ze stretchem, T-shirty z jerseyu bawełna-lycra</dd></div><div><dt>Ilość</dt><dd>21,800 szt. w 6 zamówieniach</dd></div><div><dt>Trasa</dt><dd>Bezpośrednio · CIF / FOB Glasgow</dd></div></dl><span class="pill">Klient powracający od 2025</span></article>
+<article class="trcard"><header><h3>Stefana Marrini</h3><span class="flag">Włochy</span></header><dl><div><dt>Produkt</dt><dd>Odzież robocza z twillu 3×3, metka tkana + logo gumowe</dd></div><div><dt>Ilość</dt><dd>10,000 szt.</dd></div><div><dt>Trasa</dt><dd>Bezpośrednio · FOB Livorno</dd></div></dl><span class="pill">Dostawa w UE</span></article>
+<article class="trcard"><header><h3>Style Wise</h3><span class="flag">Stany Zjednoczone</span></header><dl><div><dt>Produkt</dt><dd>Kurtki jeansowe — PFGD i twill polibawełniany</dd></div><div><dt>Ilość</dt><dd>7,500 szt. w 3 zamówieniach</dd></div><div><dt>Trasa</dt><dd>Bezpośrednio · FOB</dd></div></dl><span class="pill">Klient powracający od 2025</span></article>
+<article class="trcard"><header><h3>Withered Tree, LLC</h3><span class="flag">Stany Zjednoczone</span></header><dl><div><dt>Produkt</dt><dd>Spodnie z twillu 2×2, 100% bawełny PFGD</dd></div><div><dt>Ilość</dt><dd>7,200 szt.</dd></div><div><dt>Trasa</dt><dd>przez dom zakupowy FPG · Los Angeles</dd></div></dl><span class="pill">Aktywny 2026</span></article>
+<article class="trcard soon"><header><h3>Państwa marka</h3><span class="flag">Europa</span></header><dl><div><dt>Produkt</dt><dd>Cokolwiek Państwo szkicują</dd></div><div><dt>Ilość</dt><dd>Dziesięć sztuk albo miliony</dd></div><div><dt>Trasa</dt><dd>Faktura z UE · DDP pod drzwi</dd></div></dl><a class="pill cta" href="/pl/quote">Zacznij od próbki za €50 →</a></article>
+</div>
+<div class="voices">
+<div class="vgrid facts">
+<div class="vfact"><b>11 z 13</b><p>Jedenaście z trzynastu zamówień przyjętych od marca 2025 to zamówienia powtórne od klientów, którzy już z nami pracowali. Nikt nie odszedł po pierwszym zamówieniu.</p></div>
+<div class="vfact"><b>100,000 szt.</b><p>Największa pojedyncza współpraca — dwa programy dresowe dla tego samego klienta z USA, oba dostarczone w podanej dacie wypłynięcia.</p></div>
+<div class="vfact"><b>3× większe</b><p>Kupujący zaczynają od zamówienia próbnego, a potem je skalują. Tam, gdzie klient wrócił, kolejne zamówienie było zwykle około trzy razy większe od pierwszego — dlatego serię dziesięciu sztuk traktujemy poważnie.</p></div>
+</div>
+<p class="vnote">Nazwy klientów publikujemy za ich zgodą. Dane zamówień zarejestrowane w okresie marzec 2025 – sierpień 2026.</p>
+</div>
+</div></section>
+<section id="group"><div class="wrap">
+<div class="kicker">JEDNA GRUPA, DWOJE DRZWI</div>
+<h2 class="grh">Szyjemy od 2011. W Europie od 2023.</h2>
+<p class="grsub">7th Apparel nie jest domem handlowym, który znalazł fabrykę. To europejskie ramię samej fabryki — ci sami właściciele, ta sama hala, ci sami ludzie, którzy kroją i szyją od 2011 roku. Nowa jest strona holenderska i to właśnie ona sprawia, że zakup u nas jest prosty.</p>
+<div class="entities">
+<article class="ent">
+<div class="entflag">HOLANDIA · PAŃSTWA KONTRAHENT</div>
+<h3>7th Apparel</h3>
+<p class="enttrade">Spółka zarejestrowana w Holandii · Państwa kontrahent przy każdym zamówieniu</p>
+<dl>
+<div><dt>Numer KVK</dt><dd>91485452</dd></div>
+<div><dt>Vestigingsnummer</dt><dd>000057160791</dd></div>
+<div><dt>Zarejestrowano</dt><dd>26 września 2023</dd></div>
+<div><dt>Nazwa w rejestrze</dt><dd>W rejestrze widnieje obecnie <b>7thstreet</b> — zmiana nazwy na 7th Apparel jest w toku. Numer KVK pozostaje ten sam.</dd></div>
+<div><dt>Siedziba</dt><dd>Amsterdam, Holandia</dd></div>
+<div><dt>Państwo dostają</dt><dd>Faktura z UE · płatność w euro · imienny opiekun klienta w Europie</dd></div>
+</dl>
+<p class="entnote">Prosimy sprawdzić nas w holenderskim rejestrze KVK, zanim wyślą Państwo choćby jedno euro. Wolimy, żeby tak było.</p>
+</article>
+<article class="ent p">
+<div class="entflag">NASZ ZAKŁAD PRODUKCYJNY</div>
+<h3>Saee e Kamil (Pvt) Ltd</h3>
+<p class="enttrade">nasz własny zakład produkcyjny — Pakistan</p>
+<dl>
+<div><dt>Rejestracja</dt><dd>8690900</dd></div>
+<div><dt>Zarejestrowana</dt><dd>21 października 2020 · hala denimu 2021</dd></div>
+<div><dt>Szyjemy odzież od</dt><dd>2011 — wpis do rejestru jako spółka z o.o. w 2020</dd></div>
+<div><dt>Członek Sedex</dt><dd>ZC5000072720 · zakres 4 filarów</dd></div>
+<div><dt>Hala</dt><dd>~1,500 m² w trzech halach · setki maszyn · trzy linie produkcyjne</dd></div>
+<div><dt>Tkanina</dt><dd>Sapphire · US Denim · jakości z bawełny organicznej</dd></div>
+</dl>
+<a class="btn ghost" href="https://saeekamil.com/" rel="noopener noreferrer" target="_blank">Odwiedź saeekamil.com →</a>
+</article>
+</div>
+<h3 class="whyh">Co nasze europejskie biuro zdejmuje z Państwa głowy</h3>
+<p class="whysub">Szycie rzadko bywa tym, co powstrzymuje markę przed zakupem w Azji. Powstrzymuje ją wszystko dookoła — gwarancje bankowe, fracht, zgłoszenie celne i brak pewności, z kim właściwie ma się do czynienia. Zamówienie przez naszą europejską spółkę usuwa to wszystko, a Państwo i tak kupują od fabryki, a nie z narzutem pośrednika.</p>
+<div class="whygrid">
+<div class="why"><span class="mono">01</span><h3 class="whyh4">Bez akredytywy</h3><p>Akredytywa zamraża pieniądze na miesiące, kosztuje prowizje po obu stronach i wykłada się na literówce. Kupują Państwo od holenderskiej spółki, więc dostają fakturę na uzgodnionych warunkach — 50/40/10, przy czym ostatnie 10% zostaje wstrzymane do czasu sprawdzenia towaru.</p></div>
+<div class="why"><span class="mono">02</span><h3 class="whyh4">Firma, którą można sprawdzić</h3><p>Zamawiają Państwo w zarejestrowanej europejskiej firmie z jawnym numerem w rejestrze, prawdziwym adresem i ludźmi, których można spotkać — a nie w skrzynce, która odpisuje o trzeciej nad ranem. Jeśli trzeba coś wyjaśnić, załatwia się to tutaj.</p></div>
+<div class="why"><span class="mono">03</span><h3 class="whyh4">Importerem jesteśmy my, nie Państwo</h3><p>Z dostawą (DDP) pod Państwa drzwi. Dokumenty eksportowe, fracht, odprawa celna, cło i VAT importowy są po naszej stronie. Nie trzeba załatwiać numeru EORI ani wyznaczać agencji celnej, a żaden kontener nie czeka w Rotterdamie na podpis.</p></div>
+<div class="why"><span class="mono">04</span><h3 class="whyh4">Płatność w euro, jak u każdego dostawcy</h3><p>Jedna faktura w euro, jeden przelew wewnątrz Europy. Bez ryzyka kursowego, bez opóźnień banków korespondentów, bez płatności ginącej u trzech pośredników w drodze do Azji.</p></div>
+<div class="why"><span class="mono">05</span><h3 class="whyh4">Ta sama grupa, nie pośrednik</h3><p>Europejska spółka i fabryka mają tych samych właścicieli. Nikt nie dokłada marży agenta między Państwa tech packiem a stołem krojczym i nikt nie zgubi Państwa dokumentacji między dwiema firmami.</p></div>
+<div class="why accent"><span class="mono">—</span><h3 class="whyh4">Co mimo to Państwo dostają</h3><p>Bezpośredni dostęp do hali. Zdjęcie z linii, próbnik tkaniny, pomiar w trakcie szycia — wszystko przychodzi od ludzi, którzy realizują Państwa zamówienie, a nie od działu handlowego przekazującego pytanie dalej.</p></div>
+</div>
+</div></section>
+<section id="edge"><div class="wrap">
+<div class="kicker">DLACZEGO TO WAŻNE PO PAŃSTWA STRONIE</div>
+<h2 class="grh">Mało na start. Szybko, kiedy chwyci.</h2>
+<p class="grsub">Większość marek traci na tym samym błędzie dwa razy — raz zamawiając za dużo modelu, który się nie sprzedaje, drugi raz zamawiając za mało tego, który się sprzedaje, i czekając potem cztery miesiące na dołożenie. Hala tej wielkości, nasza własna, a nie wynajmowana pod pojedyncze zamówienie, rozwiązuje oba te problemy.</p>
+<div class="whygrid">
+<div class="why accent"><span class="mono">ARGUMENT</span><h3 class="whyh4">Nie warto stawiać sezonu na przeczucie</h3><p>Start od dziesięciu sztuk. Krój, tkaninę i cenę sprawdzają Państwo na własnych klientach. Prawdziwe pieniądze idą dopiero na to, co już się sprzedało — a gotówka zostaje w firmie, a nie w magazynie.</p></div>
+<div class="why"><span class="mono">WOLNE MOCE</span><h3 class="whyh4">Jak chwyci, dołożymy szybko</h3><p>Świadomie trzymamy zapas mocy na liniach. Kiedy model chwyta, powtórka rusza w kilka dni, zamiast czekać w kolejce za cudzym programem — bo to nasza hala i to my decydujemy, co na niej stoi.</p></div>
+<div class="why"><span class="mono">HALA</span><h3 class="whyh4">Około 1,500 m², setki maszyn</h3><p>Trzy hale, trzy linie produkcyjne i park maszynowy na tyle duży, żeby jednocześnie prowadzić dzianinę, tkaninę, denim, odzież roboczą i skórę. 50,000–100,000 sztuk miesięcznie, a w skali roku liczby idą w miliony.</p></div>
+</div>
+<h3 class="whyh" style="margin-top:56px">Można obserwować produkcję</h3>
+<p class="whysub">Zwykle produkcja w Azji wygląda tak: sześć tygodni ciszy, a potem kontener. Halę prowadzimy na cyfrowym systemie śledzenia i otwieramy go dla Państwa — bo najszybszy sposób na zdobycie zaufania to przestać o nie prosić.</p>
+<div class="whygrid">
+<div class="why"><span class="mono">01</span><h3 class="whyh4">Status zamówienia na żywo</h3><p>Widzą Państwo, gdzie naprawdę jest zamówienie — przyjęcie tkaniny, krojenie, szycie, wykańczanie, pakowanie — zamiast czekać, aż ktoś odpisze na maila.</p></div>
+<div class="why"><span class="mono">02</span><h3 class="whyh4">Metkowane na wykańczalni</h3><p>Sztuki są metkowane zaraz po wykończeniu, więc podana liczba to liczba, która faktycznie istnieje. Bez zaokrągleń i optymistycznych szacunków.</p></div>
+<div class="why"><span class="mono">03</span><h3 class="whyh4">Sfotografowane, nie opisane</h3><p>Zdjęcia i pomiary rejestrowane przy zamówieniu, żeby mogli Państwo porównać rzeczywisty wyrób ze specyfikacją, póki jest jeszcze czas na zmianę.</p></div>
+<div class="why"><span class="mono">04</span><h3 class="whyh4">Problemy wychodzą wcześnie</h3><p>Jeśli partia tkaniny się spóźnia albo wymiar zaczyna uciekać, dowiadują się Państwo w tym samym tygodniu — a nie w dniu, w którym dostawa miała dotrzeć.</p></div>
+</div>
+</div></section>
+<div class="wrap"><div class="cta"><div><h2>Prosimy napisać, co Państwo szyją.</h2><p style="color:var(--pale);opacity:1;margin:10px 0 0;font-size:16px">Dziesięć sztuk albo dziesięć tysięcy. Szczegółowa wycena w 48 godzin, dostawa pod drzwi.</p></div><a class="btn" href="/pl/quote">Wycena w 48 godzin</a></div></div>
+<footer><div class="wrap"><div class="fgrid">
+<div><b style="font-family:'Space Grotesk';color:#fff">7th Apparel</b><br/>Państwa marka w rytmie naszej produkcji.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · rejestracja 2023<br/>Amsterdam, Holandia<br/>Własny zakład produkcyjny: <a href="https://saeekamil.com/" rel="noopener noreferrer" target="_blank">Saee e Kamil (Pvt) Ltd</a></div>
+<div><b>Nawigacja</b><br/><a href="/pl/for-brands">Dla marek</a><br/><a href="/pl/for-teams">Dla firm</a><br/><a href="/pl/workwear">Odzież robocza</a><br/><a href="/pl/pricing">Cennik</a><br/><a href="/pl/compliance">Zgodność</a></div>
+<div><b>Kontakt</b><br/><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br/><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br/><a href="tel:+31684660186">+31 6 84 66 01 86</a><br/><a href="https://wa.me/31684660186" rel="noopener noreferrer" target="_blank">Napisz na WhatsApp</a><br/><a href="/pl/quote">Wycena w 48 godzin</a></div>
+</div></div></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+var _ld=function(){var l=document.getElementById('loader');if(l)l.classList.add('done');};window.addEventListener('load',function(){setTimeout(_ld,1150);});setTimeout(_ld,1200);
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+if(window.gsap&&!rm){gsap.registerPlugin(ScrollTrigger);
+gsap.to('#heroline .w span',{y:0,duration:.9,stagger:.07,ease:'expo.out',delay:1.15});
+gsap.from('.hero p,.hero .btn,.hero .kicker',{opacity:0,y:16,duration:.7,stagger:.08,delay:1.5});
+gsap.to('#heroimg',{scale:1.0,duration:8,ease:'none'});
+const th=document.getElementById('heroThread');const L=th.getTotalLength();
+gsap.fromTo(th,{strokeDasharray:L,strokeDashoffset:L},{strokeDashoffset:0,duration:2.2,ease:'power2.inOut',delay:1.4});
+gsap.to('.problem .strike i',{scaleX:1,duration:.6,ease:'power2.out',scrollTrigger:{trigger:'.problem',start:'top 60%'}});
+/* FLOW — pinned scrub */
+const fp=document.getElementById('flowfill');const FL=fp.getTotalLength();
+gsap.set(fp,{strokeDasharray:FL,strokeDashoffset:FL});
+const tl=gsap.timeline({scrollTrigger:{trigger:'#flow',start:'top 78%',end:'bottom 55%',scrub:.8,invalidateOnRefresh:true}});
+tl.to(fp,{strokeDashoffset:0,ease:'none',duration:4})
+  .to('#packet',{motionPath:null,ease:'none',duration:0},0);
+/* move packet along path manually */
+const path=document.getElementById('flowpath');const PL=path.getTotalLength();const packet=document.getElementById('packet');
+tl.eventCallback('onUpdate',null);
+ScrollTrigger.create({trigger:'#flow',start:'top 78%',end:'bottom 55%',scrub:.8,invalidateOnRefresh:true,onUpdate:s=>{const p=path.getPointAtLength(PL*s.progress);packet.setAttribute('cx',p.x);packet.setAttribute('cy',p.y);}});
+[['#st1','#fl1',0],['#st2','#fl2',.33],['#st3','#fl3',.66],['#st4','#fl4',.95]].forEach(([st,fl,at])=>{
+ tl.to(st+' circle',{attr:{stroke:'#E0A83C'},scale:1,duration:.25},at*4)
+   .to(fl,{opacity:1,y:0,duration:.3},at*4);});
+/* process line */
+gsap.to('#plinefill',{scaleY:1,ease:'none',scrollTrigger:{trigger:'.psteps',start:'top 70%',end:'bottom 55%',scrub:.6}});
+document.querySelectorAll('.pstep').forEach(el=>{ScrollTrigger.create({trigger:el,start:'top 68%',onEnter:()=>el.classList.add('on'),onLeaveBack:()=>el.classList.remove('on')});});
+/* counters */
+document.querySelectorAll('[data-count]').forEach(el=>{const end=+el.dataset.count;const o={v:0};
+ ScrollTrigger.create({trigger:el,start:'top 85%',once:true,onEnter:()=>gsap.to(o,{v:end,duration:1.4,ease:'power2.out',onUpdate:()=>el.textContent=Math.round(o.v)})});});
+/* doors */
+gsap.to('.door',{opacity:1,y:0,duration:.6,stagger:.15,ease:'power2.out',scrollTrigger:{trigger:'.doors',start:'top 75%'}});
+window.addEventListener('load',()=>ScrollTrigger.refresh());setTimeout(()=>ScrollTrigger.refresh(),600);setTimeout(()=>ScrollTrigger.refresh(),1800);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>ScrollTrigger.refresh());let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>ScrollTrigger.refresh(),200);});
+}else{document.querySelectorAll('#heroline .w span').forEach(s=>s.style.transform='none');document.querySelectorAll('.flowlabels div,.door,.pstep').forEach(e=>{e.style.opacity=1;e.style.transform='none';e.classList.add('on')});document.querySelectorAll('[data-count]').forEach(el=>el.textContent=el.dataset.count);}
+</script><script>
+/* ---- film player ---- */
+(function(){
+ var scenes=[].slice.call(document.querySelectorAll('.scene'));
+ if(!scenes.length) return;
+ var DUR=[3400,3400,2900,3300,3600,3300,3500,3700,3400,4600];
+ var TOTAL=DUR.reduce(function(a,b){return a+b;},0);
+ var i=0,t0=null,raf=null,playing=true,before=0;
+ var pf=document.getElementById('pf'),tc=document.getElementById('tc'),pp=document.getElementById('pp'),rp=document.getElementById('rp');
+ function show(n){scenes.forEach(function(s,k){s.classList.toggle('on',k===n);});}
+ function fmt(ms){var s=Math.floor(ms/1000);return Math.floor(s/60)+':'+('0'+(s%60)).slice(-2);}
+ function tick(ts){
+   if(!t0)t0=ts;
+   var inS=ts-t0;
+   if(inS>=DUR[i]){before+=DUR[i];i=(i+1)%scenes.length;if(i===0)before=0;t0=ts;show(i);inS=0;}
+   var tot=before+inS;
+   pf.style.width=(tot/TOTAL*100)+'%';tc.textContent=fmt(tot);
+   if(playing)raf=requestAnimationFrame(tick);
+ }
+ function play(){playing=true;pp.textContent='Pause';t0=null;raf=requestAnimationFrame(tick);}
+ function pause(){playing=false;pp.textContent='Play';if(raf)cancelAnimationFrame(raf);}
+ pp.addEventListener('click',function(){playing?pause():play();});
+ rp.addEventListener('click',function(){i=0;before=0;t0=null;show(0);if(!playing)play();});
+ show(0);
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){
+   scenes.forEach(function(s){s.classList.add('on');s.style.position='relative';s.style.opacity=1;});
+   document.querySelector('.stage').style.aspectRatio='auto';document.querySelector('.bar2').style.display='none';
+ } else { play(); }
+})();
+</script>
+<script>
+/* ---- reveal failsafe: content must never depend on an animation running ---- */
+(function(){
+ function reveal(){
+  document.querySelectorAll('#heroline .w span').forEach(function(e){e.style.transform='none';});
+  document.querySelectorAll('.hero p,.hero .btn,.hero .kicker').forEach(function(e){e.style.opacity=1;e.style.transform='none';});
+  document.querySelectorAll('.flowlabels div,.door,.pstep,.trcard,.vfact,.ent,.why').forEach(function(e){e.style.opacity=1;e.style.transform='none';e.classList.add('on');});
+  document.querySelectorAll('[data-count]').forEach(function(e){if(!e.textContent.trim())e.textContent=e.dataset.count;});
+  var l=document.getElementById('loader'); if(l) l.classList.add('done');
+ }
+ function check(){
+  var sp=document.querySelector('#heroline .w span');
+  if(!sp) return;
+  var t=getComputedStyle(sp).transform;
+  // still pushed out of view => the intro never ran
+  if(t&&t!=='none'&&t!=='matrix(1, 0, 0, 1, 0, 0)') reveal();
+  var p=document.querySelector('.hero p');
+  if(p&&parseFloat(getComputedStyle(p).opacity)<0.9) reveal();
+ }
+ setTimeout(check,2600); setTimeout(check,5000);
+ document.addEventListener('visibilitychange',function(){if(!document.hidden)setTimeout(check,1200);});
+})();
+</script>
+<script>
+/* ---- in-page anchor links ----
+   Fragment navigation is a no-op inside a srcdoc/about: frame, so every #anchor
+   link dies in the embedded preview. Handling it in JS works everywhere and also
+   lets us offset for the fixed header, which the native jump does not. */
+(function(){
+ document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a');
+  if(!a) return;
+  var h=a.getAttribute('href')||'';
+  if(h.length<2||h.charAt(0)!=='#') return;
+  var t=document.getElementById(h.slice(1));
+  if(!t) return;
+  e.preventDefault();
+  var hd=document.querySelector('header');
+  var off=(hd?hd.getBoundingClientRect().height:0)+12;
+  var y=t.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop)-off;
+  var soft=!matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{ window.scrollTo({top:y,behavior:soft?'smooth':'auto'}); }catch(err){ window.scrollTo(0,y); }
+  try{ history.replaceState(null,'',h); }catch(err){}
+ },false);
+})();
+</script>
+<script>
+/* burger-toggle */
+(function(){
+ var b=document.getElementById('burger'), l=document.getElementById('navlist');
+ if(!b||!l) return;
+ b.addEventListener('click',function(e){
+  e.preventDefault(); e.stopPropagation();
+  var open=l.classList.toggle('open');
+  b.setAttribute('aria-expanded',open?'true':'false');
+ });
+ l.addEventListener('click',function(e){ if(e.target.closest('a')){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+ document.addEventListener('keydown',function(e){ if(e.key==='Escape'){l.classList.remove('open');b.setAttribute('aria-expanded','false');} });
+})();
+</script>
+<a aria-label="Napisz do 7th Apparel na WhatsAppie" class="wa" href="https://wa.me/31684660186?text=Hi%207th%20Apparel%20%E2%80%94%20I%20found%20you%20on%207thapparel.com%20and%20I%27d%20like%20to%20ask%20about%20" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.74-.86-2.01-.96-.27-.1-.47-.15-.66.15-.2.29-.76.95-.93 1.15-.17.2-.34.22-.63.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.29-.02-.45.13-.6.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.6-.9-2.19-.24-.57-.48-.5-.66-.5-.17-.01-.37-.01-.57-.01s-.52.07-.79.37c-.27.29-1.04 1.01-1.04 2.47s1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.74-.71 1.99-1.4.25-.69.25-1.28.17-1.4-.07-.13-.27-.2-.57-.35z"></path><path d="M20.52 3.45A11.87 11.87 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.1.55 4.14 1.6 5.95L.07 24l6.33-1.66a11.85 11.85 0 0 0 5.65 1.44h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.15-3.42-8.45zM12.06 21.79h-.01a9.86 9.86 0 0 1-5.02-1.38l-.36-.21-3.75.98 1-3.66-.24-.38a9.83 9.83 0 0 1-1.51-5.26c0-5.44 4.43-9.87 9.88-9.87a9.8 9.8 0 0 1 6.98 2.9 9.8 9.8 0 0 1 2.89 6.98c0 5.45-4.43 9.9-9.86 9.9z"></path></svg><span>Napisz na WhatsApp</span></a>
+<script>(function(){var s=document.getElementById('langsel');if(!s)return;s.addEventListener('change',function(){var o=s.options[s.selectedIndex];try{localStorage.setItem('7a_lang',o.getAttribute('data-l'))}catch(e){}location.href=s.value})})();</script><script>(function(){try{if(/^\/(nl|de|pl|fr)(\/|$)/.test(location.pathname))return;var s=null;try{s=localStorage.getItem('7a_lang')}catch(e){}if(s)return;var S={nl:1,de:1,pl:1,fr:1},L=navigator.languages||[navigator.language||''];for(var i=0;i<L.length;i++){if(S[(L[i]||'').slice(0,2).toLowerCase()])return}var M={NL:'nl',BE:'nl',DE:'de',AT:'de',CH:'de',PL:'pl',FR:'fr',LU:'fr',MC:'fr'},T={"nl": ["Deze site is ook in het Nederlands beschikbaar.", "Naar het Nederlands", "Nee, dank u"], "de": ["Diese Seite gibt es auch auf Deutsch.", "Auf Deutsch ansehen", "Nein, danke"], "pl": ["Ta strona jest dostępna także po polsku.", "Przejdź na polski", "Nie, dziękuję"], "fr": ["Ce site est aussi disponible en français.", "Voir en français", "Non merci"]},U={"nl": "/nl/", "de": "/de/", "pl": "/pl/", "fr": "/fr/"};fetch('/cdn-cgi/trace',{cache:'no-store'}).then(function(r){return r.text()}).then(function(t){var m=/(?:^|\n)loc=([A-Z]{2})/.exec(t);if(!m)return;var l=M[m[1]];if(!l)return;var e=document.getElementById('langhint');if(!e)return;e.innerHTML='<p>'+T[l][0]+'</p><a href="'+U[l]+'" id="langgo">'+T[l][1]+'</a><button type="button" id="langno">'+T[l][2]+'</button>';document.getElementById('langgo').addEventListener('click',function(){try{localStorage.setItem('7a_lang',l)}catch(x){}});document.getElementById('langno').addEventListener('click',function(){try{localStorage.setItem('7a_lang','en')}catch(x){}e.classList.remove('show')});e.classList.add('show')}).catch(function(){})}catch(e){}})();</script><script data-i18n="1">(function(){var s=document.getElementById('langsel');if(!s)return;s.addEventListener('change',function(){var o=s.options[s.selectedIndex];try{localStorage.setItem('7a_lang',o.getAttribute('data-l'))}catch(e){}location.href=s.value})})();</script></body></html>

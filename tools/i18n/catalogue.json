@@ -1,0 +1,5433 @@
+{
+ "29494342c75d": {
+  "en": "Clothing Manufacturer for European Brands | 7th Apparel",
+  "pages": [
+   "index"
+  ],
+  "kind": "title"
+ },
+ "3776638ea22d": {
+  "en": "European clothing manufacturer with our own factory. Order from 10 pieces, no letter of credit, delivered to your door duty paid.",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "5d3b516088a3": {
+  "en": "<a href=\"/for-brands\">For Brands</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "1f9d961367c8": {
+  "en": "<a href=\"/for-teams\">For Teams</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "5fa9646dd7b3": {
+  "en": "<a href=\"/what-we-make\">What we make</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "63ef9b0374cd": {
+  "en": "<a href=\"/our-factory\">Our factory</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "c5a79b999304": {
+  "en": "<a href=\"/our-story\">Our story</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "db3c0298adf3": {
+  "en": "<a href=\"/how-it-works\">How it works</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "b71a79874a68": {
+  "en": "<a href=\"/pricing\">Pricing</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "cf71576010f6": {
+  "en": "<a href=\"/faq\">FAQ</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "98604021dcfb": {
+  "en": "<a href=\"/compliance\">Compliance</a>",
+  "pages": [
+   "index",
+   "about",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "4deb67c4e65b": {
+  "en": "<a href=\"/contact\">Contact</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "57f5f5efbc59": {
+  "en": "Menu",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "89b86ab0e66f": {
+  "en": "Language",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "attr:select:aria-label"
+ },
+ "02e3a582bd6f": {
+  "en": "Get a quote",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "8c29837f596f": {
+  "en": "Our own production floor",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "a41f572a6f96": {
+  "en": "EUROPEAN FRONT DESK · OUR OWN PRODUCTION HOUSE",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b8e92a7bdcaa": {
+  "en": "When your brand syncs with our production.",
+  "pages": [
+   "index"
+  ],
+  "kind": "heroline"
+ },
+ "cc19dcc8b89d": {
+  "en": "Ten pieces or millions — cut, sewn and finished in our own house, then delivered to your door with the customs work done for you. Knit, woven, denim, workwear, leather and towels — in conventional or 100% organic cotton. If it is cut and sewn, ask us.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "f8ec2c2fc666": {
+  "en": "Get a quote in 48 hours",
+  "pages": [
+   "index",
+   "contact",
+   "for-brands",
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "e314a0d122c3": {
+  "en": "See how it works ↓",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "59810fa3eaff": {
+  "en": "<b>146,500</b> pieces shipped since March 2025",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "0fda96538687": {
+  "en": "<b>11 of 13</b> orders are repeat business",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2543363c70c1": {
+  "en": "<b>From 10</b> pieces per style",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b2c6a5ee21e9": {
+  "en": "<b>KVK 91485452</b> · Sedex <b>ZC5000072720</b>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6d9b514abd61": {
+  "en": "<span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span><span><b>146,500+</b> PIECES SHIPPED SINCE 2025</span><span>UK · USA · ITALY</span><span><b>11 OF 13</b> ORDERS ARE REPEAT BUSINESS</span><span>FABRIC: <b>SAPPHIRE</b> · <b>US DENIM</b></span><span>KNIT · DENIM · WOVEN · WORKWEAR · LEATHER · TOWELS · ORGANIC</span><span>SEDEX <b>ZC5000072720</b></span><span>MAKING SINCE 2011</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a39b9d3a4746": {
+  "en": "What we do",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "f3849f7f4b4b": {
+  "en": "FOR BRANDS",
+  "pages": [
+   "index",
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "10a8c9f06f88": {
+  "en": "You design it. We build it.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "7103aaf3228d": {
+  "en": "Start with ten pieces to hold, a hundred to sell, or a hundred thousand to ship. We draw the tech pack with you, sample it in two to four weeks, and your designs stay yours in writing.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "644f92bc2f26": {
+  "en": "Launch · Grow · Scale →",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2c23751ed04a": {
+  "en": "FOR TEAMS",
+  "pages": [
+   "index",
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "9bcb1268744c": {
+  "en": "Not merch. Your own collection.",
+  "pages": [
+   "index",
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "b53f40d321e2": {
+  "en": "Kit out a team, an event or a whole company — your label, your colours, and a fabric you choose from the options we put in front of you. Twenty hoodies for the office or two thousand uniforms for a chain.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "85ca29e03e32": {
+  "en": "Collection · Programme →",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d32a691cc244": {
+  "en": "THE EASIEST WAY TO START",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "526e3e0e8302": {
+  "en": "Hold it before you spend anything.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a96f2d4661e5": {
+  "en": "Send us a brief and we make your style in the fabric you choose, with your label — a real garment off the same line that runs the hundred-thousand-piece programmes, not a printed blank.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "3d106e517249": {
+  "en": "<b>€50 per style, credited in full against your first order.</b> A sample genuinely costs us several hundred euros — a pattern maker drafts and grades it, a designer checks the tech pack, a sample tailor sews it on a machine that has stopped running bulk, and it flies to you by courier. We charge €50 because we would rather you held the garment than read a promise.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "56fdd36d27d4": {
+  "en": "Start with a €50 sample →",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2cbe8797a600": {
+  "en": "<b>2–4 weeks</b>Proto and fit samples, drafted on Gerber CAD",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6c27592465c8": {
+  "en": "<b>No tech pack needed</b>A sketch or a garment you want matched is enough — we draw the tech pack with you",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "49b340d60ef1": {
+  "en": "<b>Refunded</b>The €50 comes off your first bulk invoice. Extra round if you need one: €50",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b1068bcb782a": {
+  "en": "<b>Yours in writing</b>Your designs, patterns and blocks stay yours. We will sign your NDA or send you ours",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "1bfb3011c90f": {
+  "en": "THE FILM · 35 SECONDS",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "0d7548994ff2": {
+  "en": "Why getting clothes made is so hard — and what we removed",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8a227fea4e4e": {
+  "en": "7th Apparel story film",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:div:aria-label"
+ },
+ "f657f9128ca9": {
+  "en": "You have the design. Getting it made is the hard part.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "84434a3d1a44": {
+  "en": "That is where most brands lose their money, their margin and their nerve.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "46cca2a2ddc5": {
+  "en": "First the agent. Then the trading house.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "25e242f7a5b2": {
+  "en": "Then the factory that actually sews it — three layers, each taking a cut.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b11c94960eb9": {
+  "en": "Every layer adds a margin and a week.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e8d1696a011f": {
+  "en": "By the time your brief reaches a machine, it has been retyped four times.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "fd3a8a3592f7": {
+  "en": "And nobody is accountable.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4d77c9103235": {
+  "en": "The agent blames the factory. The factory blames the fabric. You blame yourself.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "64988e6bc95e": {
+  "en": "<span class=\"pin\">AMSTERDAM<em>your contract, your invoice, your manager</em></span><span class=\"thread\"><i></i></span><span class=\"pin\">OUR FLOOR<em>cutting, sewing, finishing, packing</em></span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4198bd5ded53": {
+  "en": "Then the bank asks for a letter of credit.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d80bb919157c": {
+  "en": "Your cash is locked up for months before a single piece is cut.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8481a9402220": {
+  "en": "<span class=\"from\">10</span><span class=\"dash\"></span><span class=\"to\" id=\"rangeTo\">100,000</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "08851bc82e7c": {
+  "en": "So we removed the middle.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e676ac8a43b8": {
+  "en": "One company. Our own floor. Nothing between your brief and the cutting table.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b223256e487b": {
+  "en": "<span>Knit</span><span>Woven</span><span>Denim</span><span>Workwear</span><span>Leather</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2fce13bcc496": {
+  "en": "You talk to the people who make it.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "736d45cd26b7": {
+  "en": "Ask for a line photo, a swatch, a measurement — it comes from the floor, not a sales desk.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "ce1329fe6e41": {
+  "en": "<span>146,500 pieces shipped</span><span>$1.2M+ delivered</span><span>UK · USA · Italy</span><span>11 of 13 orders are repeat</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "c150ffc7fea8": {
+  "en": "Ten pieces, or millions.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "5dec865fc1de": {
+  "en": "Start small, prove the style, then scale it on our own capacity.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8d7b50592581": {
+  "en": "One invoice. In euros. Delivered to your door.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "282071f91ab9": {
+  "en": "No letter of credit. No customs broker. No importing. That part is ours.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d40a4510b3a5": {
+  "en": "This is not a plan. It is a track record.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "45b300a4b113": {
+  "en": "146,500 pieces · $1.2M+ delivered · UK · USA · Italy · 11 of 13 orders are repeat business",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4081c6f641c8": {
+  "en": "Start with a €50 sample",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "469db959db0c": {
+  "en": "Play or pause the film",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "781961bc81c2": {
+  "en": "Pause",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e6d87fd999d9": {
+  "en": "Replay the film",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "c0f85d667973": {
+  "en": "Replay",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2f41d9a53ae1": {
+  "en": "One thread, door to door",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "9d98cfff650d": {
+  "en": "SCROLL — WATCH THE ORDER TRAVEL",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b5eadae0705b": {
+  "en": "<b>Your brand</b>A sketch, a tech pack, or just the idea. One brief starts the thread.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b99790670e8c": {
+  "en": "<b>Amsterdam · contract &amp; care</b>Your contract and invoice from a European company, itemised quote in 48 h, development and sampling coordination, quality gate.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "eac647b91da9": {
+  "en": "<b>Our floor · the making</b>Our own production house: cut, sew, finish, pack. Inline QC, AQL 2.5 final inspection.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "540d2a61ab53": {
+  "en": "<b>Your door</b>DDP delivered — duties, customs and shipping handled. Claims settled in NL. Reorder with one message.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "344b8c3c995f": {
+  "en": "TRACK RECORD",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8e502ba949b7": {
+  "en": "Who we already make for",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a78beb49ded5": {
+  "en": "Every order below was cut, sewn and finished in our own house and shipped between March 2025 and August 2026 — the period since the European company began taking orders. Three of the five buyers have come back and reordered — eleven of the thirteen orders are repeat business. The floor itself has been running since 2011, and buyers who come back typically triple the size of what they first ordered.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4f858e549a13": {
+  "en": "<b>2011</b><span>making garments since</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "024a4d8a021f": {
+  "en": "<b>146,500</b><span>pieces shipped since Mar 2025</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "89687ac15816": {
+  "en": "<b>$1.2M+</b><span>order value delivered</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6f7b9fb7ebf1": {
+  "en": "<b>3×</b><span>buyers grow their order size</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "11a76bf19823": {
+  "en": "<b>3 of 5</b><span>buyers have reordered</span>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "768685ca582a": {
+  "en": "United States",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "dd3b86d1ef21": {
+  "en": "Product",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e34d554c55ed": {
+  "en": "Men's 380 GSM fleece hoodies, 4 colourways",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "3b18e8e33250": {
+  "en": "Volume",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "daa84df701cc": {
+  "en": "100,000 pcs across 2 orders",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4999528efe0f": {
+  "en": "Route",
+  "pages": [
+   "index",
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "dac93b6ada93": {
+  "en": "via FPG buying house · FOB Los Angeles",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e1da2fbd4501": {
+  "en": "Repeat buyer since 2025",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "49ca2516875c": {
+  "en": "Innocent Clothing",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "9769121f10f7": {
+  "en": "United Kingdom",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "77c0b3cb8921": {
+  "en": "12 oz denim, stretch denim, cotton and lycra jersey tees",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "027dcccadae1": {
+  "en": "21,800 pcs across 6 orders",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "267bfcdbfabb": {
+  "en": "Direct · CIF / FOB Glasgow",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "1edd76dad4fe": {
+  "en": "Stefana Marrini",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "ad79ef0f076d": {
+  "en": "Italy",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e76c2556bcac": {
+  "en": "3×3 twill workwear, woven label + rubber logo",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "9c5ec3cd67f4": {
+  "en": "10,000 pcs",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e369cfcd9c99": {
+  "en": "Direct · FOB Livorno",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "431beecbee68": {
+  "en": "EU delivery",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "34dc66683160": {
+  "en": "Style Wise",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "f7ed60d05100": {
+  "en": "Denim jackets — PFGD and poly-cotton twill",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "75cd77b84004": {
+  "en": "7,500 pcs across 3 orders",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "9825e32919c0": {
+  "en": "Direct · FOB",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4da388599a15": {
+  "en": "Withered Tree, LLC",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "c2629fb6fb75": {
+  "en": "2×2 twill trousers, 100% cotton PFGD",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "30322d8f6978": {
+  "en": "7,200 pcs",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "091bb17c690e": {
+  "en": "via FPG buying house · Los Angeles",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "ea7d6bfea64c": {
+  "en": "Active 2026",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "db92cb9d1f1b": {
+  "en": "Your brand",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "576347ec826f": {
+  "en": "Europe",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "eff0bac60cf3": {
+  "en": "Whatever you have been sketching",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d5fd3ad6dca2": {
+  "en": "Ten pieces, or millions",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "f8710f4efb62": {
+  "en": "EU invoice · DDP to your door",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "52ec7b7c1446": {
+  "en": "11 of 13",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "58457f78eefd": {
+  "en": "Eleven of the thirteen orders we have taken since March 2025 are repeat business from a buyer who had already worked with us. Nobody has left after a first order.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d12ae434b576": {
+  "en": "100,000 pcs",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4aa570145999": {
+  "en": "The largest single relationship — two fleece programmes for the same US buyer, both delivered on the sailing date we quoted.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a32ede38dae0": {
+  "en": "3× bigger",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "43529f4da3fc": {
+  "en": "Buyers arrive with a trial order and scale it. Where a buyer has reordered, the follow-up is typically around three times the size of the first — the reason we take a ten-piece run seriously.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "c09965f39447": {
+  "en": "Buyer names published with each customer's permission. Order data as recorded March 2025 – August 2026.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a62674da9dd2": {
+  "en": "ONE GROUP, TWO DOORS",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b87a5e5f43f2": {
+  "en": "Making since 2011. In Europe since 2023.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e2daddd1bfd0": {
+  "en": "7th Apparel is not a trading house that found a factory. It is the European arm of the factory — same owners, same floor, same people who have been cutting and sewing since 2011. What is new is the Dutch end, and that is the part that makes it easy to buy from us.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a79b96ee133a": {
+  "en": "NETHERLANDS · YOUR COUNTERPARTY",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4720eb877681": {
+  "en": "Dutch registered company · your counterparty on every order",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b6a94482241b": {
+  "en": "KVK number",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "18f3ce5a2b9e": {
+  "en": "Vestigingsnummer",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a844fcf834e7": {
+  "en": "Registered",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "71e0a85389bc": {
+  "en": "26 September 2023",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b52741dd9162": {
+  "en": "Registered name",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "3abd960cad80": {
+  "en": "Currently shown as <b>7thstreet</b> — name change to 7th Apparel in progress. Same KVK number throughout.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d8fd462bf76e": {
+  "en": "Based",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "516b18ae43d1": {
+  "en": "Amsterdam, Netherlands",
+  "pages": [
+   "index",
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "53eb1352da0f": {
+  "en": "You get",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e94bce7c85e6": {
+  "en": "EU invoice · euro payment · a named account manager in Europe",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "607bc1391c13": {
+  "en": "Look us up in the KVK Handelsregister before you send a single euro. We would rather you did.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "5bdbfc19c70e": {
+  "en": "OUR PRODUCTION HOUSE",
+  "pages": [
+   "index",
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "fb9c38b2ae22": {
+  "en": "Saee e Kamil (Pvt) Ltd",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a8ce75fe392d": {
+  "en": "our own production house — Pakistan",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b233e775d63b": {
+  "en": "Registration",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "74a02ed037fe": {
+  "en": "Incorporated",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "1b490d71cef4": {
+  "en": "21 October 2020 · denim unit 2021",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "938b00689638": {
+  "en": "Making garments since",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6506b9378e22": {
+  "en": "2011 — incorporated as a private limited company in 2020",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "17ecc018a809": {
+  "en": "Sedex member",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "0bb425073aca": {
+  "en": "ZC5000072720 · 4-pillar scope",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a8a44f99d4eb": {
+  "en": "The floor",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8a4435996e0f": {
+  "en": "~1,500 m² across three units · hundreds of machines · three production lines",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a010de5c6165": {
+  "en": "Fabric",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "bf361c34a677": {
+  "en": "Sapphire · US Denim · organic cotton qualities",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "34a7a9eb5194": {
+  "en": "Visit saeekamil.com →",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6d516dc59cd2": {
+  "en": "What our European desk takes off yours",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "897306ba7c1f": {
+  "en": "The sewing is rarely what stops a brand buying from Asia. It is everything wrapped around it — the bank guarantees, the freight, the customs entry, and not knowing who you are really dealing with. Ordering through our European company removes all of it, and you still get the factory rather than a middleman's markup.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b36467189621": {
+  "en": "No letter of credit",
+  "pages": [
+   "index",
+   "about"
+  ],
+  "kind": "html"
+ },
+ "61fea8263836": {
+  "en": "An LC ties up your cash for months, costs bank fees at both ends, and dies on a typo. You are buying from a Dutch company, so you get an invoice on agreed terms — 50/40/10, with the last 10% held until you have inspected the goods.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "d08964497bde": {
+  "en": "A company you can look up",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2103539e1d51": {
+  "en": "You order from a registered European business with a public company number, a real address and people you can meet — not an inbox that answers at three in the morning. If something needs sorting out, it gets sorted out here.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "fa04ba13bc1d": {
+  "en": "We are the importer, not you",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "c70b510922d5": {
+  "en": "DDP to your door. Export documents, freight, customs clearance, duty and import VAT are ours to handle. No EORI to arrange, no broker to appoint, no container sitting in Rotterdam waiting for a signature.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "c72db83fa583": {
+  "en": "Paid in euros, like any supplier",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8bfa57ef686e": {
+  "en": "One EUR invoice, one bank transfer inside Europe. No currency exposure, no correspondent-bank delays, no payment disappearing through three intermediaries on its way to Asia.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "29ccf87112c6": {
+  "en": "Same group, not a broker",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "73ed48f95a66": {
+  "en": "The European company and the factory have the same owners. Nobody is adding an agent's margin between your tech pack and the cutting table, and nobody can lose your file between two firms.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "51470dd11226": {
+  "en": "What you still get",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "98511cd50cbd": {
+  "en": "Direct access to the floor. Ask for a line photo, a fabric swatch, an inline measurement — it comes from the people making your order, not from a sales desk relaying a question.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a88946205574": {
+  "en": "WHY IT MATTERS AT YOUR END",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "9a54784e7531": {
+  "en": "Order small. Move fast when it works.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a0ed06cbbf16": {
+  "en": "Most brands lose money twice on the same mistake — once by over-ordering a style that never sells, and once by under-ordering the one that does and then waiting four months for more. A floor this size, owned by us rather than rented by the order, is what fixes both.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8c03423772bc": {
+  "en": "THE ARGUMENT",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "3bd0f42ae93c": {
+  "en": "Don't bet the season on a guess",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "af4c5ab15a12": {
+  "en": "Start at ten pieces. Test the fit, the fabric, the price on your own customers. Commit real money only to what has already sold — and keep your cash in the business instead of in a warehouse.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4ebc26c0d8b0": {
+  "en": "SPARE CAPACITY",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "2d41c6c39508": {
+  "en": "If it hits, we can chase it",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "77ac95c37d54": {
+  "en": "We deliberately hold headroom on the lines. When a style takes off, a repeat run starts within days rather than queueing behind somebody else's programme — because it is our floor, and we decide what goes on it.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a1f5c45f8d46": {
+  "en": "THE FLOOR",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "148461dd05bb": {
+  "en": "Roughly 1,500 m², hundreds of machines",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "84fe9cf196bd": {
+  "en": "Three units, three production lines, and a machine park deep enough to run knit, woven, denim, workwear and leather at the same time. 50,000–100,000 pieces a month, and it scales into the millions over a year.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "11305d9fc57a": {
+  "en": "You can watch it being made",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "a38dcf4a7fad": {
+  "en": "The usual experience of offshore manufacturing is silence for six weeks and then a container. We run the floor on a digital tracking system, and we open it to you — because the fastest way to earn trust is to stop asking for it.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "45e8433d2e23": {
+  "en": "Live order status",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "35c5001224e4": {
+  "en": "See where your order actually is — fabric in, cutting, sewing, finishing, packing — instead of waiting for someone to answer an email about it.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "69e7b2cc19d8": {
+  "en": "Tagged at finishing",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "174f3ba44b3f": {
+  "en": "Units are tagged as they come off finishing, so the count you are told is the count that physically exists. No rounding, no optimistic estimates.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b2a9672d399e": {
+  "en": "Photographed, not described",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "8f2bc20e165a": {
+  "en": "Photo and measurement data captured against the order, so you can check the real garment against your spec while there is still time to change something.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "b10864889feb": {
+  "en": "Problems surface early",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "41a64ab0b72e": {
+  "en": "If a fabric lot is late or a measurement drifts, you hear it that week — not on the day the shipment was supposed to land.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "bdfbc724c22b": {
+  "en": "Tell us what you are making.",
+  "pages": [
+   "index",
+   "contact",
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "0f184c3a821a": {
+  "en": "Ten pieces or ten thousand. Itemised quote in 48 hours, delivered to your door.",
+  "pages": [
+   "index",
+   "contact",
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "6e9ebdcd7966": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:#fff\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Amsterdam, Netherlands<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "169d131acf74": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/for-teams\">For Teams</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "36c47521baf6": {
+  "en": "<b>Contact</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a>",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "bf08f2cbc89d": {
+  "en": "Chat with 7th Apparel on WhatsApp",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "attr:a:aria-label"
+ },
+ "8eb8a88ae376": {
+  "en": "Chat on WhatsApp",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "83c352ddc912": {
+  "en": "AMSTERDAM",
+  "pages": [
+   "index"
+  ],
+  "kind": "svgtext"
+ },
+ "787a74401e6c": {
+  "en": "OUR FLOOR",
+  "pages": [
+   "index"
+  ],
+  "kind": "svgtext"
+ },
+ "20e89da34041": {
+  "en": "DOOR",
+  "pages": [
+   "index"
+  ],
+  "kind": "svgtext"
+ },
+ "dc42e73997c1": {
+  "en": "About 7th Apparel — European Desk, Our Own Factory Since 2011",
+  "pages": [
+   "about"
+  ],
+  "kind": "title"
+ },
+ "a80a2a06980a": {
+  "en": "The European sister company of Saee Kamil. Two homes, one partner.",
+  "pages": [
+   "about"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "ca95fec582c4": {
+  "en": "<span><b>146,500</b> pieces shipped since March 2025</span><span>UK · USA · Italy</span><span><b>11 of 13</b> orders are repeat business</span><span>From <b>10</b> pieces per style</span>",
+  "pages": [
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "4012d26e8ebc": {
+  "en": "ABOUT",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "90dd5d2d9272": {
+  "en": "Two homes. One partner.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "35f16ca9fb99": {
+  "en": "7th Apparel was built on a simple observation: Europe is full of brands and teams who know exactly what they want to make — and cannot find a production house that will take a small order seriously, or a counterparty they can sue in their own language if it goes wrong. Our family has been making garments <b>since 2011</b>. What we added three years ago was the Dutch end: a registered European company, so that buying from us costs a brand no more effort than buying from a supplier down the road.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "af95dba2a6c2": {
+  "en": "The group runs both sides — a consumer brand (7thstreet) and the production house (<a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil</a>), which manufactures for brands including Hype, HNO and UBST. Buyers who come back typically triple the size of what they first ordered. We know what it takes to sell clothing, not just to sew it.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "cdab446359f1": {
+  "en": "Who we are",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "81908bbf08ef": {
+  "en": "The Netherlands side — your counterparty",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "2c78bc54b487": {
+  "en": "<b>7th Apparel</b>. Registered in the Dutch Handelsregister on 26 September 2023. The register currently shows the name <b>7thstreet</b>; the change to 7th Apparel is in progress and the KVK number does not change.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "6120e6b22d12": {
+  "en": "KVK 91485452<br/>VESTIGING 000057160791<br/>UITHOORN · NETHERLANDS",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "c6e81f69c101": {
+  "en": "Your contract, invoice and account manager sit here. Sales, development, import, delivery and after-sales all run from here, in your language and your timezone. Look the number up in the Handelsregister before you send us anything — we would rather you did.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "0f23a92beb4c": {
+  "en": "The making side",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "dddaf556509a": {
+  "en": "<a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Saee e Kamil (Pvt) Ltd</b></a>, registration 8690900, incorporated 21 October 2020 — formalising a workshop that had been running since 2011.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "ed47f130ce37": {
+  "en": "~1,500 M² · 3 UNITS · 3 LINES<br/>HUNDREDS OF MACHINES<br/>SEDEX MEMBER ZC5000072720",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "201ffdc6eaeb": {
+  "en": "Cut, sew, finish and pack in-house on our own three lines. Leather — jackets, bags and accessories — is made in our own leather section, not bought in.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "e54a04944e9d": {
+  "en": "Why a European company at all",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "06e275b4e4c8": {
+  "en": "The sewing was never the hard part. What stops brands buying from Asia is everything wrapped around it — the letter of credit, the freight, the customs entry, and the quiet worry about who you are actually dealing with. The European company exists to remove those, without putting a trading house between you and the floor.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "f3ec25109f8b": {
+  "en": "You are buying from a Dutch company, so you get an invoice on terms — 50/40/10, with the final 10% held until you have inspected delivery. No LC fees, no cash locked up for months, no amendment because a document says \"navy\" and the LC says \"navy blue\".",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "aeeb983d95e0": {
+  "en": "We import, you receive",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "8681f7d9d378": {
+  "en": "DDP to your door. Export paperwork, freight, customs clearance, duty and import VAT are ours. You need no EORI number and no customs broker, and no container waits in Rotterdam for your signature.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "b4526d4de680": {
+  "en": "A company you can check",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "925f9428924f": {
+  "en": "A registered European business with a public company number and a real address, paid in euros like any supplier down the road. If something needs sorting out, you are dealing with people in your own timezone rather than an inbox eight hours away.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "2f79d1563490": {
+  "en": "Production hall",
+  "pages": [
+   "about",
+   "our-factory"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "d784383db240": {
+  "en": "Sewing lines",
+  "pages": [
+   "about",
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "ef8613173fdf": {
+  "en": "Factory floor",
+  "pages": [
+   "about"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "1a51952ffddd": {
+  "en": "Meet us — Amsterdam, the factory, or a video call.",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "3f366451fef3": {
+  "en": "Book an intro",
+  "pages": [
+   "about"
+  ],
+  "kind": "html"
+ },
+ "bcc6895b0b98": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:var(--purple)\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Amsterdam, Netherlands<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+  "pages": [
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "07ebaf7ac3b1": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/for-teams\">For Teams</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/our-factory\">Our production house</a><br/><a href=\"/faq\">FAQ</a><br/><a href=\"/our-story\">Our story</a><br/><a href=\"/contact\">Contact</a>",
+  "pages": [
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "93507be216ba": {
+  "en": "<b>Contact</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a><br/><br/>",
+  "pages": [
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "for-teams",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "82c27a32748b": {
+  "en": "Compliance, Sedex, GSP+ and Duty — 7th Apparel",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "title"
+ },
+ "b0d9a0cf61fa": {
+  "en": "Sedex, SMETA, GSP+, traceability and quality control.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "b32ca7fb847c": {
+  "en": "<a href=\"/compliance\" style=\"color:#8A6410;font-weight:600\">Compliance</a>",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "c4d9bc608378": {
+  "en": "COMPLIANCE",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "7e263497680e": {
+  "en": "Boring, documented, on file.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "22d6ae51bce2": {
+  "en": "European buyers shouldn't have to take a manufacturer's word for anything. Here is what we hold and what we record.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "eadc06be96c7": {
+  "en": "Compliance and certification",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "73cc53f652cc": {
+  "en": "Social compliance",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "9392d67b705e": {
+  "en": "Saee Kamil is a registered <b>Sedex member — ZC5000072720</b>, issued by International Associates Limited, with a <b>4-pillar scope</b>: labour standards, health & safety, environment and business ethics. Valid to 2 October 2026. Wage records, working-hours policy and building/fire safety documentation are held on file and shared with buyers on request.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "b79b95424f55": {
+  "en": "Duty & origin",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "51b740c486fb": {
+  "en": "Most of our garments enter the EU duty-free under GSP+ — when made with locally sourced fabric and shipped by a REX-registered exporter with a statement on origin. Roughly 12% cheaper than China at the border; savings passed on.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "61d2e70b54c2": {
+  "en": "Traceability",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "ec75cd5b29c2": {
+  "en": "Per order we record fibre origin, fabric mill, certificates and process data — ahead of the EU Digital Product Passport (textiles delegated act expected 2027–28). Your compliance team gets a data pack, not a shrug.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "a60f2c73604f": {
+  "en": "Quality",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "708b8148c04b": {
+  "en": "Inline QC plus AQL 2.5 final inspection; third-party inspection (SGS, Intertek) on request. REACH statement per fabric; OEKO-TEX certified fabrics available.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "bdb1bf9d7b6b": {
+  "en": "Import & delivery: DDP for VAT-registered customers in NL/BE/DE (VAT reverse-charged), DAP elsewhere. Importer set-up details available to customers on request.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "9841ee829812": {
+  "en": "Send us your supplier questionnaire.",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "ab7f69810603": {
+  "en": "We answer in days, not months",
+  "pages": [
+   "compliance"
+  ],
+  "kind": "html"
+ },
+ "5fbe0c41f081": {
+  "en": "Contact 7th Apparel — Amsterdam",
+  "pages": [
+   "contact"
+  ],
+  "kind": "title"
+ },
+ "7b1e684fc5c9": {
+  "en": "Email, phone and WhatsApp for 7th Apparel in Amsterdam. Answered the same working day.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "4dc0be5ae204": {
+  "en": "<a href=\"/contact\" style=\"color:#8A6410;font-weight:600\">Contact</a>",
+  "pages": [
+   "contact",
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "740fabb870d6": {
+  "en": "CONTACT",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "7b0040a4e497": {
+  "en": "Talk to a person, the same working day.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "272f34b73ccd": {
+  "en": "Five people, one floor. Whoever answers can walk to the line and look at your garment. If you would rather read why the company exists first, that is <a href=\"/our-story\">our story</a>.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "d3eca824debc": {
+  "en": "Email us",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "54f435f3252f": {
+  "en": "<b>New enquiries and quotes</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "ea0a16952b82": {
+  "en": "<b>Existing orders and support</b><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "dac0bd9838da": {
+  "en": "<b>Production, capacity and delivery dates</b><br/><a href=\"mailto:nadeem.qaiser@7thapparel.com\">nadeem.qaiser@7thapparel.com</a>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "e08229b18b1a": {
+  "en": "<b>Phone &amp; WhatsApp</b><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a> · <a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">Message on WhatsApp</a>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "d078b157da15": {
+  "en": "All answered the same working day.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "33b00f73d077": {
+  "en": "Where we are",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "159c157b1459": {
+  "en": "<b>7th Apparel</b><br/>Amsterdam, Netherlands<br/><span class=\"mono\">KVK 91485452</span>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "ca4aafb52342": {
+  "en": "Visits to the factory are welcome, and we will host you.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "931a0c975a50": {
+  "en": "Ready to start?",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "431df323401c": {
+  "en": "Send a brief with whatever you have. Itemised quote within 48 hours, and it costs you nothing to ask.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "9a57b158a38f": {
+  "en": "Get a quote →",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "b3e91ea16045": {
+  "en": "FAQ — Manufacturing Questions, Answered Straight | 7th Apparel",
+  "pages": [
+   "faq"
+  ],
+  "kind": "title"
+ },
+ "bb240e8033d3": {
+  "en": "Straight answers on price vs Portugal, IP protection, late delivery, fabric minimums, defect rates, organic cotton and payment terms.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "108adac3be60": {
+  "en": "<a href=\"/faq\" style=\"color:#8A6410;font-weight:600\">FAQ</a>",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "7e9aee7d90ca": {
+  "en": "The questions buyers actually ask",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "9139c5e47fc0": {
+  "en": "Including the awkward ones. If your question is not here, send it — we will answer it properly and then add it to this page.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "c3760460451b": {
+  "en": "Why not Portugal or Turkey?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "b575114ce5f1": {
+  "en": "Cost, mostly, and it is a big gap — you will typically pay 35–55% less per piece than Portugal for the same construction, and our GSP+ origin means the duty into the EU is nil on most cotton garments where Turkey and Portugal carry none either but sit at a much higher base price. What you give up is proximity: a physical sample takes days longer to reach you, and a factory visit is a longer flight. If you need two-week turnarounds on repeats, Portugal wins. If you need a real price on a real quantity with a European company standing behind it, this is the better trade.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "fc0135a41f7b": {
+  "en": "You own a clothing brand yourself. How do I know you will not copy my design?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "80b50224269b": {
+  "en": "Fair question, and we would rather answer it than have you wonder. The group does own 7thstreet, a consumer brand — it sells in its home market only, and it has never carried a design made for a client. Our standard terms assign your designs, patterns, tech packs and blocks to you, and bar us from producing them for anyone, ourselves included. We will sign your NDA before you send anything, or send you ours. If that is not enough, ask us for a reference from a buyer whose designs we have held for two years.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "1dbaebe17d90": {
+  "en": "What happens if you are late?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "1e36c6e77126": {
+  "en": "So far it has not happened — thirteen orders, none late. That is a small sample and we will not pretend otherwise. What we commit to is this: your delivery date is confirmed in writing before you pay a deposit, you see the order move through the tracking system so a slip is visible weeks before it becomes a problem, and if we are the reason a date moves, we cover the air-freight difference to get you back on schedule. That last one is in the quote, not just on this page.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "1f8257ba938a": {
+  "en": "How do you get fabric for a 10-piece order when mills sell in 300-metre minimums?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "c76a5f548b8d": {
+  "en": "Three ways. We hold stock qualities in the fabrics we run most — jersey, fleece, piqué, 12 oz denim, 3×3 twill — so a capsule can come off fabric already on our shelf. We can piggyback your small run on a larger cut of the same quality when the timing lines up. And for anything we have to buy in specially, we will tell you the minimum before you commit rather than after. It is the honest reason a ten-piece run costs more per piece: you are carrying the set-up, not the fabric efficiency.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "8d05fe4fbba4": {
+  "en": "Do you already make for a brand like mine?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "3b0cb128af8c": {
+  "en": "Probably, and we will tell you plainly if there is a direct conflict. We currently ship denim and jersey for a UK brand, fleece programmes for a US buyer, twill workwear for an Italian label, denim jackets and cotton trousers for two more US accounts. We do not run exclusivity by category — there is not a factory in the world that could — but we do not share your tech packs, your fabric sources or your costings with anyone, and we will not put your pattern on someone else's order.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "ebbfd6f7f40e": {
+  "en": "What about political unrest, port delays or an Eid shutdown?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "14d61747389e": {
+  "en": "Our floor is inland and our fabric comes from domestic mills, so the disruptions that hit us are labour holidays rather than shipping lanes. Eid closes the floor twice a year for roughly a week each time, and those dates are published years ahead — we build them into your delivery date rather than discovering them later. Karachi port congestion is the real variable and it moves sailing dates by days, not months; we quote the sailing, not the arrival, and tell you which is which.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "dd9ec982de40": {
+  "en": "Can I visit the factory?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "776f7ac78e4b": {
+  "en": "Yes, and you should if the order is big enough to justify the flight. We will host you, walk the floor and show you whatever you want to see. If you cannot travel, we do the reverse: a live video walk-through on your schedule, plus a physical sample box of garments off our own line so you can judge the quality with your hands rather than through a screen.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "69e408fa08f1": {
+  "en": "What are your actual defect rates?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "234bcb2f0b21": {
+  "en": "We inspect to AQL 2.5 on the major, which means an accepted lot has under 2.5% major defects by the standard sampling plan. Across the thirteen orders we have shipped no lot has been rejected on arrival and no customer has raised a quality claim. We would rather show you than tell you — ask for the inspection report from any order we have run and we will send it, including the minor non-conformances and how they were closed.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "66faa7dbcb1c": {
+  "en": "Is that everything you can make?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "449a31575c66": {
+  "en": "No — what is on the site is a sample of what we are asked for most, not the limit. The floor is a one-stop operation: fabric sourcing, design and pattern, cutting, sewing, printing, embroidery, labelling, packing and logistics, all under one roof. Between knit, woven, denim, workwear and leather we cover most of what a clothing brand or a company buying uniform actually needs — jeans in four- and five-pocket, chinos, cargos, shorts, towels in cotton terry, joggers, dungarees, coveralls, scrubs, rain suits, hi-vis, leather in cowhide, sheepskin, goat and buffalo. If the garment you want is not shown anywhere on this site, send us a photo or a sketch. The answer is usually yes, and when it is no we will tell you straight rather than take the order and struggle.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "2f294c95f50e": {
+  "en": "Do you do organic cotton?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "994063059cc8": {
+  "en": "Yes — 100% organic cotton across knitwear and woven, through the same mills we use for conventional qualities. It costs more per kilo and behaves differently in the wash, so we always sample it before you commit. Certificates are shared on request. We buy fabric per order and can source from more than one certified mill, so the paperwork is issued against your specific order rather than published as a generic certificate.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "02722691b8d1": {
+  "en": "Why is the sample €50 when other factories send them free?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "773a87fd97cf": {
+  "en": "Because a free sample is never free — it is priced into the bulk, and it tells you nothing about whether the factory takes you seriously. A sample costs us several hundred euros in pattern-making, a designer's time and a sample tailor on a machine that has stopped running bulk. We charge €50, we credit it in full against your first order, and in return you get a real garment in the fabric you chose, with your label, rather than a printed blank.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "7e6f9c838647": {
+  "en": "What are the payment terms?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "694a697cca8a": {
+  "en": "50% to start development and buy fabric, 40% before shipping, 10% after you have inspected the delivery. No letter of credit, no bank guarantee, no cash against documents — you are paying a European company on an ordinary invoice. Companies and clubs buying kit can usually get 30-day invoice terms up to €5,000 after a credit check.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "8d2fecb3b0e5": {
+  "en": "I am not ready to order. What is the smallest first step?",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "886860e0cf98": {
+  "en": "Send us a brief with whatever you have — a sketch, a photo of a garment you like, a rough quantity. You get a reply the same working day and an itemised quote inside 48 hours, and it costs you nothing. If the numbers work, the next step is a €50 sample. Nobody will chase you between those two things.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "f512a86d2b9f": {
+  "en": "Still deciding? Ask us the hard one.",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "3cc2dbaa5a4b": {
+  "en": "Send your question",
+  "pages": [
+   "faq"
+  ],
+  "kind": "html"
+ },
+ "3414db622f55": {
+  "en": "Low MOQ Clothing Manufacturer — From 10 Pieces per Style | 7th Apparel",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "title"
+ },
+ "aee4baac0fd2": {
+  "en": "Start at ten pieces with development included, grow to seasons, scale to programmes.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "743e9d0da0a4": {
+  "en": "<a href=\"/for-brands\" style=\"color:#8A6410;font-weight:600\">For Brands</a>",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "499fa135f6cb": {
+  "en": "Ten pieces or ten thousand. The same factory either way.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "75dc2c65bb29": {
+  "en": "Most factories will not quote under a thousand pieces per colour. Most founders need a hundred — sometimes ten. We built 7th Apparel to make the small order a normal order, priced honestly rather than granted as a favour.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "49fb0bf8e5f9": {
+  "en": "How we work with brands",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "a59d7507269c": {
+  "en": "CAPSULE",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "4297613a1144": {
+  "en": "10–99 PCS/STYLE · SAMPLE €50 REFUNDABLE",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "7e3a1c30ec2e": {
+  "en": "For the first drop, a showroom set, an investor pitch or a market test. Real cut-and-sew in the fabric you pick from our range, with your label — not a printed blank. Small runs carry the same pattern, marker and set-up work as large ones, so the price per piece is higher; it falls sharply the moment you reach 100.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "53d4c0a23c6b": {
+  "en": "SAMPLES 2–4 WEEKS · PRODUCTION 3–5 WKS + SHIPPING",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "89006102d3ff": {
+  "en": "LAUNCH",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "71b69076ce31": {
+  "en": "100–300 PCS/STYLE · SAMPLE €50 REFUNDABLE",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "9ad9bcd9b688": {
+  "en": "<b>Sampling €50 per style — refunded against your first bulk order.</b> It costs us several hundred euros (pattern maker, designer, sample tailor, machine time, courier); €50 is our discounted rate so you can hold the garment before you commit. Labels, hangtags, polybag included. DDP to NL/BE/DE.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "e9fe484826ca": {
+  "en": "SAMPLES 2–4 WEEKS · PRODUCTION 4–8 WKS<br/>DOOR-TO-DOOR 14–17 WKS FROM BRIEF",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "5e7dbabf8c70": {
+  "en": "GROW",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "f21b4a374044": {
+  "en": "300–2,000 PCS/STYLE",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "34b53b1453e1": {
+  "en": "Fabric sourcing incl. organic and recycled options, inspection reports, DDP delivery, credit terms after two orders (credit-insured). Sampling free from your second order.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "df1640953bf0": {
+  "en": "PRODUCTION 6–10 WKS + SHIPPING",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "2d409a89ce4c": {
+  "en": "SCALE",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "b3ccc0b7c6dc": {
+  "en": "2,000+ PCS/STYLE · PROGRAMMES",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "1039e94c9705": {
+  "en": "A line reserved for your calendar, capacity booked ahead, audit and compliance pack, per-order traceability data and delivery KPIs you can put in a board report.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "b44fb873eb5d": {
+  "en": "The questions founders actually ask",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "f7fd7faeba8c": {
+  "en": "Do I need a tech pack?",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "5abedd1318db": {
+  "en": "No — our three-person development team builds it with you on Gerber CAD: measurements, fabrics, trims, labels. It is included in the €50 sampling fee, which comes back to you on your first bulk order.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "c1723141c750": {
+  "en": "Who owns my designs?",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "3c5f169c80f3": {
+  "en": "You do, in writing, in our standard terms — not in an NDA you have to ask for. We never make your design for anyone else, and that includes our own consumer brand.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "e62a383f1a4c": {
+  "en": "What if the quality is wrong?",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "8ad4e6025426": {
+  "en": "AQL 2.5 final inspection before shipping. Claims within 14 days are handled by our Dutch company — defects replaced or credited. You never ship anything back.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "b7c728c22d9e": {
+  "en": "How do I pay?",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "2479875d052b": {
+  "en": "50% at order, 40% before shipment, 10% after you've inspected the delivery. You keep leverage until you've seen the goods.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "0588f22fff97": {
+  "en": "Start with ten pieces.",
+  "pages": [
+   "for-brands"
+  ],
+  "kind": "html"
+ },
+ "53ca7202f9c3": {
+  "en": "Custom Team & Company Kit, Own Label — From 10 Pieces | 7th Apparel",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "title"
+ },
+ "e28207e91b38": {
+  "en": "Own-label kit for companies, clubs and events — from ten pieces.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "022c082caac6": {
+  "en": "<a href=\"/for-teams\" style=\"color:#8A6410;font-weight:600\">For Teams</a>",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "f711ca077279": {
+  "en": "Tees, polos, hoodies, kits and uniforms cut and sewn in the fabric and colours you choose, with your label — not printed on the same blank your competitor uses. Twenty pieces for a small team or two thousand for a chain. We confirm your delivery date before you order, and we hit it.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "6bc6b4a8f8b8": {
+  "en": "How we work with teams and companies",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "30109b0a1d98": {
+  "en": "COLLECTION",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "d29f29ded84b": {
+  "en": "FROM 10 PCS",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "1f3854e111fe": {
+  "en": "Your fabric, colours and label; print and embroidery in multiple positions; packaging. For onboarding kits, company events, club seasons.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "5e5de5c3d22b": {
+  "en": "9–12 WKS FROM APPROVED SAMPLE · 12–15 FROM BRIEF",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "2bf694a400f6": {
+  "en": "PROGRAMME",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "85dde11bd301": {
+  "en": "1,000+ PCS / YEAR",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "1c1f1a5304e6": {
+  "en": "Uniforms and recurring merchandise with call-off stock, size runs, a reorder contact and annual pricing. For chains, federations, hospitality groups.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "1a6a0184de01": {
+  "en": "SMALL TEAM",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "e1172a8600d0": {
+  "en": "A founding team, a stand at a trade fair, a leaving gift for someone who mattered. Fully custom, priced per piece — ask and we will quote it like any other order.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "8e3ee64d491f": {
+  "en": "Made for",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "9dba7ad7c5bd": {
+  "en": "Companies",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "9765a5e8d178": {
+  "en": "Onboarding kits, event apparel, office wear that people actually keep wearing.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "ebb34eb72616": {
+  "en": "Clubs & federations",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "817250c81fc8": {
+  "en": "Kits, tracksuits and supporter wear — Saee Kamil started in sports kits.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "70c7e69a5f14": {
+  "en": "Agencies",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "e6a58fa3c4a2": {
+  "en": "Client merch programmes, white-label: we never contact your customer.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "70f50e7c8f1f": {
+  "en": "Hospitality, workwear & leather",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "814c74918b6f": {
+  "en": "Uniforms and protective wear — our house makes workwear up to firefighter suits — plus leather jackets, bags and accessories for premium staff kit.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "6484641a8cea": {
+  "en": "Send your logo and a number.",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "b305a8b968a0": {
+  "en": "Get a Team quote",
+  "pages": [
+   "for-teams"
+  ],
+  "kind": "html"
+ },
+ "f8f1ed26e448": {
+  "en": "How It Works — Brief to Delivered, Six Steps | 7th Apparel",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "title"
+ },
+ "fc84283716cb": {
+  "en": "Six steps from idea to delivery, with door-to-door dates quoted upfront.",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "ac0928d79bd2": {
+  "en": "<a href=\"/how-it-works\" style=\"color:#8A6410;font-weight:600\">How it works</a>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "9f903b4f167e": {
+  "en": "PROCESS",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "a8304d1519fa": {
+  "en": "From idea to delivery in six steps",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "f20ee2abafa8": {
+  "en": "<b>1 · Brief</b><span>Send a sketch, a tech pack, or a garment you want matched — with a quantity and a date.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "825c759c4cca": {
+  "en": "<b>2 · Quote in 48 h</b><span>Itemised: fabric, making, decoration, freight, duties. DDP — one number, delivered.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "0534b8485f8d": {
+  "en": "<b>3 · Sample</b><span>Proto and fit samples in 2–4 weeks, on Gerber CAD. €50 per style — refunded against your first bulk order.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "d4aafd68e2e6": {
+  "en": "<b>4 · Approve</b><span>You sign off the pre-production sample. Nothing is cut before your yes.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "0534d8d133f0": {
+  "en": "<b>5 · Production</b><span>6–8 weeks with inline QC and AQL 2.5 final inspection.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "3bd243678e94": {
+  "en": "<b>6 · Delivered</b><span>Sea (4–5 wks) or air (1 wk). Door-to-door dates in the quote, not discovered later.</span>",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "4f1848f9c2fe": {
+  "en": "The timeline, without the optimism",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "3c688a55ee4f": {
+  "en": "From brief",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "8b575a7ed7bb": {
+  "en": "From approved sample",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "17b7d0c032a1": {
+  "en": "Brands — Launch / Grow (sea freight)",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "1b4d2d41ac5b": {
+  "en": "14–17 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "45b37c6343f0": {
+  "en": "10–13 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "ac70ee9d0f2d": {
+  "en": "Brands — air freight (+€1.50–3/pc)",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "6834c5123560": {
+  "en": "10–12 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "948627c40e62": {
+  "en": "7–9 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "50b48af30100": {
+  "en": "Teams — Collection",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "52b4ae7b2796": {
+  "en": "12–15 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "41dc84e8bcc3": {
+  "en": "9–12 weeks",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "47f8ec1065ee": {
+  "en": "Planning a drop or an event? Work backwards from these numbers with us — we confirm the delivery date before you order.",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "c6cac51729ae": {
+  "en": "Step one takes five minutes.",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "e615947496e1": {
+  "en": "Send your brief",
+  "pages": [
+   "how-it-works"
+  ],
+  "kind": "html"
+ },
+ "0e0701f04423": {
+  "en": "Our Own Garment Factory — Sedex Member | 7th Apparel",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "title"
+ },
+ "d2342899ba15": {
+  "en": "Our own production house: Saee e Kamil (Pvt) Ltd — Sedex member, making garments since 2011.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "2b60d376160d": {
+  "en": "<a href=\"/our-factory\" style=\"color:#8A6410;font-weight:600\">Our factory</a>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "a98991465a47": {
+  "en": "Saee Kamil — ours, not a supplier.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "2caef7917aab": {
+  "en": "7th Apparel is the European sister company of <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><b>Saee e Kamil (Pvt) Ltd</b></a>, our own production house in Pakistan — making garments since 2011, incorporated as a private limited company in October 2020 — knitwear first, a dedicated denim unit since May 2021. Cutting, sewing, quality control, finishing and packing happen in-house; specialist decoration and denim washing run through long-standing local partners under our QC. No brokers — one accountable partner.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "09abb73a954c": {
+  "en": "<b>Oct 2020</b><span>founded (denim unit May 2021)</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "d5c5a1c37e60": {
+  "en": "<b>146,500+</b><span>pieces shipped since Mar 2025 · UK, USA, Italy</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "af5af9507148": {
+  "en": "<b>40–50k</b><span>pcs/month sustained · ~100k at peak*</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "1fcc7734c3a4": {
+  "en": "<b>Knit · Woven · Denim<br/>Workwear · Leather (in-house)</b><span>five categories in house</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "3dc621b6c620": {
+  "en": "<b>Sapphire · US Denim</b><span>fabric mills on record</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "04111767ad16": {
+  "en": "<b>ZC5000072720</b><span>Sedex member · 4-pillar scope</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "4ff250e06528": {
+  "en": "<b>100%</b><span>of orders from repeat buyers</span>",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "5a7fed6ab193": {
+  "en": "Sewing floor",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "76ae0ea22a13": {
+  "en": "Machine detail",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "500fc06a62c6": {
+  "en": "How the two homes work together",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "304675910067": {
+  "en": "Your contract, your invoice, your account manager. Quotes, sampling coordination, quality gate, DDP import and delivery, after-sales — all handled from our European desk.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "97b650dcb48e": {
+  "en": "The making: pattern, cutting, sewing lines, inline and final QC, finishing, packing, export. One accountable team from thread to carton.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "b87743f81574": {
+  "en": "* Sustained output on standard programmes; peak capacity with extended shifts and our hourly operator pool, product-dependent. Team: 35 permanent staff plus 15–65 trained hourly operators by season — 50–100 people on the floor at peak. Factory visits welcome — or we bring the production house to you: video walk-through plus a physical sample box.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "611ebd135e96": {
+  "en": "Our production house has its own site — the same floor, the same people: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><b>saeekamil.com</b></a>. 7th Apparel is how European brands and teams buy from it.",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "667853b7f27a": {
+  "en": "Want the audit report or a walk-through?",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "859ca6c24228": {
+  "en": "Request access",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "39e14566eda9": {
+  "en": "Our Story — Why 7th Apparel Exists",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "title"
+ },
+ "5ab34907c032": {
+  "en": "A factory that kept losing good brands to letters of credit and customs paperwork — and what we did about it.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "0728c95ab7f3": {
+  "en": "<a href=\"/our-story\" style=\"color:#8A6410;font-weight:600\">Our story</a>",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "dc4137939514": {
+  "en": "OUR STORY",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "5342ede0d1b6": {
+  "en": "The garment was never the problem.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "b7c8842461d8": {
+  "en": "In 2011 a small workshop started cutting and sewing for other people's labels. Denim and jersey that ended up in the UK. Fleece programmes bound for the United States. Twill workwear for Italy. The garments were right. The dates were met. The customers came back and ordered more. By the standards of the trade, it worked.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "ddccc0d80bc2": {
+  "en": "And still, over and over, we watched brands who wanted to buy from us walk away.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "3fc45ce0b098": {
+  "en": "Not over price. Not over quality. They would see the samples, agree the costing, and then stop — somewhere between the quote and the first order, in a place that had nothing to do with clothing at all.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "e4132013808a": {
+  "en": "Their bank wanted a <b>letter of credit</b>, which meant tying up cash for months on a first order they were not yet sure about. Someone had to be the <b>importer of record</b> for a container arriving from Asia, and it was not going to be a three-person brand in Amsterdam. They needed a customs broker they did not have and a freight forwarder they had never used. And at the end of all that, they were being asked to wire a five-figure deposit to a company they could not look up, in a country they had never visited, with no clear idea what they would do if the goods arrived wrong.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "79015be57a2b": {
+  "en": "Underneath it sat the quiet one, the objection nobody says out loud: <b>they could not order small.</b> Every factory wanted a thousand pieces per colour. Which means a brand with a good idea and no warehouse has to bet an entire season on a guess — or never start at all.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "17d078349428": {
+  "en": "We were solving the wrong problem, very well.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "7b9c4b93fe66": {
+  "en": "It took us longer than it should have to see what that added up to. We had spent years trying to be a better factory — tighter stitching, faster sampling, sharper prices, a cleaner line. But not one of the things stopping those brands was happening on our floor. They were happening in a bank, in a customs office, and in a spreadsheet where somebody had typed “MOQ 1,000 pcs”.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "d6d52905100d": {
+  "en": "The industry does have a standard answer to this, and we think it is a bad one. Put a middleman in: an agent, a trading house, a sourcing office — someone European-facing who takes the order, adds a margin, and passes it down a chain. It solves the paperwork by creating a worse problem. Now nobody is accountable. The agent blames the factory. The factory blames the fabric. The brand blames itself, and pays for all three.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "c6ba7f1e5e05": {
+  "en": "So we moved the table, not the floor.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "8c44c02879be": {
+  "en": "In September 2023 we did something a factory rarely does. We registered a company in the Netherlands — not a sales office, not a representative, not an agent taking a cut. The same owners, standing in front of the same floor. <b>KVK 91485452</b>, in the Dutch Handelsregister, where any buyer can look us up before sending a single euro.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "5661816b35e4": {
+  "en": "Nothing about the making changed. Everything about the buying did. There is no letter of credit, because you are invoiced by a European company on terms. You are not the importer — we are, and the goods arrive at your door with the duty paid. And ten pieces became a real order, because the whole point was to let a brand find out whether an idea works before betting a season on it.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "ca91a81413b0": {
+  "en": "What happened next",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "9b9b8f0c3d20": {
+  "en": "Since the European company started taking orders in March 2025 we have shipped <b>146,500 pieces</b> and delivered <b>over $1.2 million</b> of orders into the UK, the United States and Italy. <b>Eleven of the thirteen orders are repeat business.</b> Buyers who come back typically triple the size of what they first ordered.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "8b145e262846": {
+  "en": "That last number is the one we actually watch. Anyone can win a first order with a good price and a good sample. The second order is the only honest review a factory ever gets.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "c81677d427f7": {
+  "en": "The floor is still the floor — the same one, running since 2011, now as <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil</a> in Pakistan, making for brands including Hype, HNO and UBST. What is new is that you no longer have to become an importer to buy from it.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "6c715c088be1": {
+  "en": "What we are actually trying to do",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "5655be9d09d8": {
+  "en": "<b>Make small orders normal.</b> Ten pieces should not be an insult to a factory. It should be how a brand finds out whether the idea works before spending real money.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "47c28ee516a5": {
+  "en": "<b>Take the risk off the buyer.</b> No letter of credit, no importing, no customs broker, no wiring money into the unknown. One European invoice, in euros.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "ce566f6f1fe6": {
+  "en": "<b>Say what is true.</b> Real prices published on the site. Real order history with real customer names. If we cannot do something, we say so before you have paid for it.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "45ca3915e432": {
+  "en": "<b>Let people watch.</b> You should be able to see your order move through the floor, rather than wait six weeks in silence and hope.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "188bdb866c13": {
+  "en": "If you want the company facts rather than the story — entities, registrations, floor size, certifications — they are all on <a href=\"/about\">the about page</a>.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "4822f8eb02eb": {
+  "en": "The people you will actually deal with",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "ebdf58878858": {
+  "en": "A small team, deliberately. You will not be handed between five account managers, and the person who answers your email can walk to the line and look at your garment.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "5022bd0b7369": {
+  "en": "Khurram Zawar",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "e95f5e37728d": {
+  "en": "Co-founder, 7th Apparel · CEO, Saee e Kamil",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "84daae6604f7": {
+  "en": "Started the floor in 2011 and still runs it. Every machine, every line and every person cutting and sewing your order reports to him. When we say the European company is the same owners as the factory, he is what that sentence means.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "df3889c3cf3c": {
+  "en": "LinkedIn →",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "b9eea33f620f": {
+  "en": "Sameer Shahzad",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "6038615f1a98": {
+  "en": "Chief Executive Officer",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "f7b77eac6252": {
+  "en": "Runs the European company and the commercial side. Your quote, your terms and your escalation all end with him.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "6eafb0d27151": {
+  "en": "<a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a>",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "7e5207f36f8d": {
+  "en": "Nadeem Qaiser",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "0364a6ac5a91": {
+  "en": "Chief Operating Officer",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "80388cb1fb48": {
+  "en": "Twenty years on production floors. Owns capacity, quality and the delivery date — if a line has to be re-planned to hit your ship date, that is his call.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "c18818e4c57a": {
+  "en": "<a href=\"mailto:nadeem.qaiser@7thapparel.com\">nadeem.qaiser@7thapparel.com</a>",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "e7d129304c17": {
+  "en": "Hira Rashid",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "625fd572e03f": {
+  "en": "Co-founder",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "a4a5d17cfaec": {
+  "en": "Product development and sourcing. Turns a sketch or a reference garment into a tech pack the floor can actually cut.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "50d7aa7f7115": {
+  "en": "Mark Wil",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "f047c9fb9894": {
+  "en": "Sales & Marketing Director, Americas",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "9bcd49954a4f": {
+  "en": "First point of contact for brands and buying houses across the US and Canada, in US hours.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "cf4333eef92b": {
+  "en": "Samy",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "0a2d796aea44": {
+  "en": "Customer Success Manager",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "8c27d18c31ef": {
+  "en": "Your day-to-day. Order status, sample chasing, measurement queries, shipping documents — the person who answers before you have to ask twice.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "450ee729e429": {
+  "en": "Clothing Manufacturing Prices — Real Bands, Published | 7th Apparel",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "title"
+ },
+ "ae458fb14de9": {
+  "en": "Indicative price bands, minimums and what's included. Itemised quote in 48 hours.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "2a399e2feae9": {
+  "en": "<a href=\"/pricing\" style=\"color:#8A6410;font-weight:600\">Pricing</a>",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "0f0db55fd55c": {
+  "en": "PRICING",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "2e08eee4857a": {
+  "en": "The numbers, printed.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "20a225a38196": {
+  "en": "Indicative bands, delivered DDP Amsterdam, excluding VAT, including labels and polybag. Ten pieces cost more each because the pattern, marker and set-up are the same work as a thousand. Your itemised quote lands within 48 hours.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "99a0efc6cfd8": {
+  "en": "Style",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "4a33af639aa5": {
+  "en": "10–99 pcs",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "ef47776ad7ec": {
+  "en": "100 pcs",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "bc106c41ef7f": {
+  "en": "300 pcs",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "6a071e5f1a78": {
+  "en": "1,000 pcs",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "f97783958425": {
+  "en": "T-shirt · 200–220 gsm cotton jersey",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "85f90014072b": {
+  "en": "Polo · 220 gsm piqué",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "b59b0d1d7680": {
+  "en": "Hoodie · 320–380 gsm fleece",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "855e053e3c85": {
+  "en": "Jeans · 12 oz denim, 4- or 5-pocket",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "b1bf8cf7d83f": {
+  "en": "Denim jacket · 12 oz",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "0e0a0eecf518": {
+  "en": "Cotton trouser / chino · twill",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "ebfd22bf2f59": {
+  "en": "Cargo trouser · 6-pocket",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "b574e6f42b76": {
+  "en": "Fleece jogger / track trouser",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "a6c55576f570": {
+  "en": "Shorts · twill, denim or fleece",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "541dffb80f5e": {
+  "en": "Coverall / overall · 210–270 gsm",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "814470d405f3": {
+  "en": "Towels · cotton terry, all qualities and sizes",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "788f5b7168b3": {
+  "en": "<b>€2–6 per piece</b> — face cloth to bath sheet, roughly 400 to 600 gsm. Where you land in the band depends on size, weight, cotton quality and the border or logo work",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "23b0b6c11f6b": {
+  "en": "Leather jacket / bag / accessory",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "718daa98a54e": {
+  "en": "Quoted per style — leather is priced by hide, panel count and hardware, not by the piece",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "d0a28cb7bb34": {
+  "en": "These are the styles we are asked for most often — they are a sample of the range, not a menu. If what you want is not on this list, it almost certainly is not a problem: ask. Bands are anchored on our production house's current FOB rates plus freight, clearance and our margin, delivered DDP Amsterdam. Workwear, kits and leather are quoted per style. Every quote is itemised — you see the fabric, the making, the decoration, the freight and the duty as separate lines.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "ade613e5d062": {
+  "en": "Indicative price bands",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "bcac9b987a8e": {
+  "en": "READY NOW · NO MINIMUM",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "c8917e7e1e9e": {
+  "en": "Plain tees, off the shelf",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "d877cf51d85c": {
+  "en": "PER PIECE · XS TO XL · WHITE OR BLACK",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "aa3eeb47846f": {
+  "en": "Undecorated cotton tees from our own line — no logo, no print, nothing to design. Buy one or buy two hundred.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "4bc5b5685601": {
+  "en": "<b>No minimum and no set-up.</b> One piece is a real order.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "4e794d6beb47": {
+  "en": "<b>Two colours, five sizes.</b> White and black, XS through XL.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "4eaec356327a": {
+  "en": "<b>Shipping at cost</b>, or <b>collect free</b> from our office near Amsterdam — we send you the address and a time when you order.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "971aba330ba1": {
+  "en": "<b>The honest reason to buy one:</b> it is the fastest way to judge our cotton, our stitching and our finish before you commit to a run of your own.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "218a00456166": {
+  "en": "Want it with your label on it? That is the <a href=\"/quote\">€50 sample</a>, not this.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "a5c38ecdf681": {
+  "en": "The rules, upfront",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "dfecc8063676": {
+  "en": "Minimums",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "ae51d1f036d3": {
+  "en": "From <b>10 pieces per style</b> — genuinely. Below 100 pcs a small-run rate applies; from 100 the published bands take over. Sampling is €50 per style and is refunded against your first bulk order.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "da2852c4b89b": {
+  "en": "Sampling — €50",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "5bb80d0c375a": {
+  "en": "A sample costs us far more than €50. A pattern maker drafts and grades it, a designer checks the tech pack, a sample tailor sews it on a machine that stops running bulk, and it flies to you by courier. Real cost is several hundred euros per style. We charge <b>€50</b> because we would rather you hold the garment than read a promise — and the €50 is <b>credited in full against your first bulk order</b>. Extra sample round: €50.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "b41a92bed032": {
+  "en": "Payment",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "759f0c5f7ea5": {
+  "en": "50% at order · 40% before shipment · 10% after delivery inspection. Corporates and clubs: invoice 30 days up to €5k after credit check.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "3e2c5704094d": {
+  "en": "Included",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "b705feea66a9": {
+  "en": "Fabric, making, standard labels and hangtags, polybag, final inspection, DDP delivery NL/BE/DE, EU customs and duties.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "89edcbe281c3": {
+  "en": "Surcharges",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "448b5bf8ed60": {
+  "en": "Small-lot dyeing (below 300 m), extra colourways, air freight, rush sampling. Always itemised in the quote — never discovered on the invoice.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "73742b916085": {
+  "en": "Tolerance & claims",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "be20781cccdd": {
+  "en": "±3% on quantity. AQL 2.5 inspection. Claims within 14 days, settled by our Dutch company.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "982d85f720c3": {
+  "en": "Get your exact number.",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "6e147173ba88": {
+  "en": "Itemised quote in 48 h",
+  "pages": [
+   "pricing"
+  ],
+  "kind": "html"
+ },
+ "83e25a3f8609": {
+  "en": "Get a Quote in 48 Hours — 7th Apparel",
+  "pages": [
+   "quote"
+  ],
+  "kind": "title"
+ },
+ "f41568b7c80c": {
+  "en": "Itemised quote within 48 hours. Tell us what you're making.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "d31c6ce52c77": {
+  "en": "QUOTE",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "82b74a3abc34": {
+  "en": "Tell us what you're making.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "4c7f8fc27756": {
+  "en": "A person reads this, not a queue — you get a reply the same working day and an itemised quote within 48 hours. Ten pieces or ten thousand, both are welcome. You do not need a finished tech pack to start; a sketch and a rough quantity are enough for us to come back with real numbers.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "4bbc08540b99": {
+  "en": "Send us your brief",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "bc20dc71cc96": {
+  "en": "<b>1</b> What are you making?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "a3c686e711e4": {
+  "en": "Category",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "f4f96dc0758c": {
+  "en": "Knitwear — tees, polos, fleece, hoodies",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "7720312c7f75": {
+  "en": "Cotton woven — shirts, trousers, dresses",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "a52fc25f77a4": {
+  "en": "Denim — jeans, jackets, shorts",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "e2c7f28515c8": {
+  "en": "Workwear — hi-vis, industrial, FR, medical, tactical",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "51b261d90fbd": {
+  "en": "Leather — jackets, bags, accessories",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "8b31e7faf2bc": {
+  "en": "Towels & terry",
+  "pages": [
+   "quote",
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "6ffc54b0e840": {
+  "en": "Trousers, cargos, shorts or joggers",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "f6bb253b04ba": {
+  "en": "Coveralls, overalls or uniforms",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "3d99e66e666c": {
+  "en": "Sports kits",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "7abda392091e": {
+  "en": "Organic cotton programme",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "1cef1a2ff9f4": {
+  "en": "Not sure yet",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "694dbed6c521": {
+  "en": "How many, per style?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "282aa1522fb2": {
+  "en": "10–99 — capsule / first drop",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "d552e946b836": {
+  "en": "Team or company kit — under 150",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "f5a9b58d3029": {
+  "en": "Team or company kit — 150 to 500",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "a6f98421f0b9": {
+  "en": "Team or company kit — 500+",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "4abc64e580dd": {
+  "en": "Do you have a tech pack?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "6187cefc6cf7": {
+  "en": "Yes, ready to send",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "9b724eaedbdb": {
+  "en": "Partly — sketches and references",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "bb08778e1a9a": {
+  "en": "No — help me make one (included in the €50 sample fee)",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "857679de345d": {
+  "en": "When do you need it?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "455cdd111be0": {
+  "en": "Next 6 weeks — urgent",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "ab89a23e4bd7": {
+  "en": "2–3 months",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "8fe16c94a2e1": {
+  "en": "3–6 months",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "fd962e9dd011": {
+  "en": "Still planning",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "b5c21deba60f": {
+  "en": "Delivery country",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "3a18f4d47523": {
+  "en": "Netherlands, France, Sweden…",
+  "pages": [
+   "quote"
+  ],
+  "kind": "attr:input:placeholder"
+ },
+ "1cb311eba2ef": {
+  "en": "We need this to quote the right delivery terms and the duty line.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "1ddfad6416ef": {
+  "en": "<b>2</b> Where do we send the quote?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "ab42293e29e1": {
+  "en": "Your name",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "726826e89d00": {
+  "en": "Company or brand",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "84add5b29527": {
+  "en": "Email",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "969135ac5ca2": {
+  "en": "Phone or WhatsApp <span class=\"opt\">— optional, but it is faster</span>",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "6fe8588edc52": {
+  "en": "Anything else we should know",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "d3cd8cbcd94b": {
+  "en": "Fabrics, colourways, decoration, a garment you want matched…",
+  "pages": [
+   "quote"
+  ],
+  "kind": "attr:textarea:placeholder"
+ },
+ "8373169127a2": {
+  "en": "Have a tech pack, sketches or reference photos? Send the brief first — we reply the same working day and you can attach everything to that reply.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "8d0ff8fda5f9": {
+  "en": "I agree that 7th Apparel may use these details to answer my enquiry.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "0359673097b1": {
+  "en": "Send the brief →",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "ff4122ed30c4": {
+  "en": "Brief received. Thank you.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "173cda3dcc8b": {
+  "en": "If nothing happened, copy the brief below and send it to <a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a> — it reaches the same place.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "9a31e5a56219": {
+  "en": "Copy the brief",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "caa09b46730c": {
+  "en": "Rather talk?",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "829840100094": {
+  "en": "<b>Phone or WhatsApp</b><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">Open WhatsApp →</a>",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "f36d4e5b868c": {
+  "en": "<b>Or email</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\"><b>sameer.shahzad@7thapparel.com</b></a><br/>Existing orders: <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/>Amsterdam, Netherlands<br/><span class=\"mono\">7TH APPAREL · KVK 91485452</span>",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "51ecc5b21fd4": {
+  "en": "What happens next",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "7c192105e82a": {
+  "en": "<b>1.</b> We confirm we have understood the brief — same working day.<br/><b>2.</b> Itemised quote with a door-to-door date — within 48 hours.<br/><b>3.</b> If it works for you, development starts and your sample follows in 2–4 weeks for €50, refunded against your first order.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "79fc372dc790": {
+  "en": "Good to know",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "f4fdfb076cc3": {
+  "en": "Sampling is €50 per style and comes straight back to you on your first bulk order. Your designs stay yours — standard terms, not an NDA you have to ask for. Payment 50/40/10, so you hold 10% until you have inspected delivery.",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "d78ed76291cd": {
+  "en": "Knitwear, Denim, Woven, Workwear, Leather & Organic Cotton | 7th Apparel",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "title"
+ },
+ "ce34b45ef58c": {
+  "en": "Knitwear, cotton woven, denim, workwear and sports kits from our own production house.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "e884ac657612": {
+  "en": "<a href=\"/what-we-make\" style=\"color:#8A6410;font-weight:600\">What we make</a>",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "e520869852c8": {
+  "en": "CATEGORIES",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "277b14164ca5": {
+  "en": "What we make",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "641ae87026d6": {
+  "en": "Five categories, cut to pack in our own house — the same lines that have produced for UK, US and Italian brands. From ten pieces upward.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "e601254c6176": {
+  "en": "Our product categories",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "c0d88f0b18b1": {
+  "en": "Knitwear",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "c611c4febec0": {
+  "en": "T-shirts, polos, fleece, hoodies, sweatshirts — plus uniforms, sports kits and tracksuits, the category our production house started with.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "c3c13a744050": {
+  "en": "Cotton woven & bottoms",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "516d4f4e41ff": {
+  "en": "Shirts, chinos and cotton trousers, cargo and 6-pocket styles, shorts, fleece joggers and track trousers, overalls and dungarees. Small-batch dyeing available with a surcharge below 300 m.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "51f6e33d44b7": {
+  "en": "Denim",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "3dfffa7f769d": {
+  "en": "Jeans in 4- and 5-pocket, denim jackets, shirts, shorts, dungarees and overalls. 12 oz and lighter, rigid and stretch, on US Denim fabric with our own wash and finish. This is the category our floor is built around.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "ae006a53e8ab": {
+  "en": "Workwear — where we are strongest <span class=\"tag2\">OUR CATALOGUE</span>",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "cfe86c0e0a3e": {
+  "en": "Hi-vis, industrial, flame-resistant, outdoor, medical and tactical. Coveralls and overalls, work shirts and trousers, hoodies and jumpers, jackets, coats and vests, rain gear, scrubs and lab coats. Taped hi-vis to order, custom logo and colour on every style. <a href=\"/workwear\"><b>See the full workwear range and catalogue →</b></a>",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "8bec71291021": {
+  "en": "Bath sheets, bath and hand towels, face cloths, gym and sports towels, and hotel or spa sets. Cotton terry from roughly 400 to 600 gsm, combed or ring-spun, in plain, dobby border or jacquard, with woven labels or embroidered logos. Piece-dyed to your colour, hemmed or with a cam border. <b>€2–6 a piece</b> across the range, depending on size, weight and cotton quality.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "6b0c0b7d6913": {
+  "en": "Leather",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "2fe091e9a063": {
+  "en": "Jackets, bags and accessories cut and stitched in our own leather section — not bought in from a third workshop. <b>Cowhide, sheepskin (nappa and suede), goat and buffalo</b>, in full-grain, top-grain and finished leathers, with the temper and thickness chosen per style. Small runs welcome, since leather rewards hand-work more than volume.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "529d8df903d5": {
+  "en": "The floor it's made on",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "e52ed5c0d0fd": {
+  "en": "Sewing hall",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "61f2d664e24c": {
+  "en": "Production lines",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "906db6e305b7": {
+  "en": "Stitching detail",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "981147386f8d": {
+  "en": "FROM OUR OWN LINE",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "68c143a7c4bf": {
+  "en": "Thirty seconds of real product",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "66bf08915317": {
+  "en": "Not a stock library and not a render — jackets, denim, trousers and embroidered pieces filmed on the rail as they came off finishing, with our own hang tags still on them.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "66dbb362b371": {
+  "en": "Finished garments coming off our production line",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:video:aria-label"
+ },
+ "4ef474a5d3fc": {
+  "en": "Play video",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "92a0dbc13254": {
+  "en": "Turn sound on",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "17d42dbbbc4e": {
+  "en": "<span class=\"son\">🔊 Sound on</span>",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "37234b525ca0": {
+  "en": "<b>Knitwear</b>Tees, polos, fleece, hoodies, sweatshirts, tracksuits",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "c7d77f6ffcba": {
+  "en": "<b>Denim</b>Jeans in 4- and 5-pocket, jackets, shirts, shorts, dungarees",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "00248d15abb7": {
+  "en": "<b>Cotton woven</b>Shirts, chinos, cargos, shorts, joggers, overalls",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "2c96ceef1fbd": {
+  "en": "<b>Workwear</b>Hi-vis, industrial, flame resistant, outdoor, medical, tactical",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "eeaab12b30c1": {
+  "en": "<b>Leather</b>Jackets, bags and accessories in cow, sheep, goat and buffalo",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "e208b1a5f0dc": {
+  "en": "<b>Towels &amp; terry</b>Bath, hand, gym and hotel sets in 400–600 gsm cotton terry",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "317278a72556": {
+  "en": "<a class=\"btn\" href=\"/quote\">Get a quote in 48 hours</a>",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "57fd2300845e": {
+  "en": "30 seconds · filmed on our own floor · original music, ours to use",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "38daa394fbf4": {
+  "en": "The workwear range",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "19589e0b49e2": {
+  "en": "Our production house specialises in workwear and supplies it to companies in Europe, the US and locally. Everything below is made to your logo, your colours and your size grading — these are the shapes, not a fixed catalogue.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "754bd7cf39cb": {
+  "en": "Hi-vis",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "20b1344c1307": {
+  "en": "Taped coveralls and overalls, action-back overalls, cargo and track trousers, mesh polos, utility shirts, holster shorts, fleece hoodies, quarter-zip jumpers, 5-in-1 rain jackets, long rain coats and vests.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "b876d31fdc00": {
+  "en": "POLY/COTTON TWILL 270 GSM · PRESHRUNK TWILL 310 GSM · FLEECE 300 GSM · MESH 140 GSM",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "7db3cf51525d": {
+  "en": "Industrial",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "e1b70ca7a6f8": {
+  "en": "Coveralls and overalls, work shirts and trousers, hoodies and jumpers, jackets, coats and vests. Cotton twill, poly-cotton and cotton-spandex poplin, in the weight the job needs.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "493f8607ae5a": {
+  "en": "COTTON TWILL 210–245 GSM · 98/2 COTTON-SPANDEX POPLIN",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "f2e12a4fd55d": {
+  "en": "Flame resistant",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "d42fa2119a48": {
+  "en": "FR coveralls and overalls, FR shirts, FR trousers and FR jackets, built for work where the garment is the last line of protection.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "53436bcb9856": {
+  "en": "CERTIFIED FR FABRICS TO SPECIFICATION",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "ddd2a8f33d47": {
+  "en": "Outdoor & rain",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "f1385f8a0e9d": {
+  "en": "Rain shirts, rain trousers, rain coats and jackets, and full rain suits — PU-coated oxford, taped seams, cut for movement.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "b07734214e3f": {
+  "en": "POLYESTER OXFORD PU 150D 110 GSM",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "a9a24cd153de": {
+  "en": "Medical",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "2c60c1a854bb": {
+  "en": "Scrubs and lab coats, in the fabric weights and colours a hospital or clinic specifies, with embroidery or printed identification.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "1171d5692d67": {
+  "en": "POLY-COTTON · CUSTOM COLOURS",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "2fc0b66ccc33": {
+  "en": "Military & tactical",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "fb3fbd43951d": {
+  "en": "Security and forces uniforms, personal uniforms and special combat trousers, made to the specification supplied.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "0b1c144a582a": {
+  "en": "TO CUSTOMER SPECIFICATION",
+  "pages": [
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "32160671c51c": {
+  "en": "Every workwear style is customisable — design, gender, colour, logo, size, fabric weight, printing and embroidery. Reflective taping, heat-seal, screen print and embroidery are done in-house. Workwear customisation starts at <b>50 pieces per style</b>; the ten-piece capsule tier applies to our knit, woven and denim ranges.",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "d840d5076b27": {
+  "en": "Have a different product in mind?",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "f09d2a36ebd8": {
+  "en": "Ask us — quote in 48 h",
+  "pages": [
+   "what-we-make"
+  ],
+  "kind": "html"
+ },
+ "7b251dd5fa2e": {
+  "en": "Workwear Manufacturer — Hi-Vis, FR, Industrial, Medical | 7th Apparel",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "title"
+ },
+ "e5e6924c0daf": {
+  "en": "Custom workwear on our own lines: hi-vis, industrial, flame resistant, outdoor, medical and tactical. Your logo, delivered duty paid.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "d454e1c28b7d": {
+  "en": "WORKWEAR",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "300d7810c710": {
+  "en": "The category we are strongest in.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "d0131bb5e6d4": {
+  "en": "Our production house has specialised in workwear for years and supplies it to companies in Europe, the United States and at home. Hi-vis, industrial, flame-resistant, outdoor, medical and tactical — made to your logo, your colours and your size grading, with the reflective taping, embroidery and printing all done in-house.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "20d38ce42139": {
+  "en": "<a class=\"btn\" href=\"/quote\">Get a workwear quote →</a> <a class=\"btn ghost\" href=\"/pricing\">See price bands</a>",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "70cb24e53318": {
+  "en": "Workwear in production on our sewing lines",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "e6d0e123eae5": {
+  "en": "<b>6</b><span>workwear families</span>",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "f30b33d15f91": {
+  "en": "<b>50</b><span>pieces minimum per style</span>",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "0109690f618e": {
+  "en": "<b>In-house</b><span>taping, embroidery, print</span>",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "40e056b0a81b": {
+  "en": "<b>Sedex</b><span>ZC5000072720 · 4-pillar</span>",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "afb71bf39cf2": {
+  "en": "Class 1 to 3 visibility, taped to order.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "b943d6badad4": {
+  "en": "Taped coveralls and overalls, action-back overalls, premium cargo and biomotion track trousers, polyester mesh polos, X-taped utility shirts, holster work shorts, denim cargo taped shorts, fleece hoodies, quarter-zip jumpers, 5-in-1 rain jackets, long rain coats and vests.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "4942888193e6": {
+  "en": "POLY/COTTON TWILL 270 · PRESHRUNK TWILL 310 · FLEECE 300/270 · MESH 140 · TRICOT 120 GSM",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "95faf2bb5f40": {
+  "en": "The everyday uniform that has to survive the shift.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "ebc9830d86c3": {
+  "en": "Coveralls with waist-zip opening, button-up and women's cut coveralls, solid-colour and gradient coveralls, bib and brace overalls, denim and jean overalls, cotton overalls, work shirts and trousers, hoodies, jumpers, jackets, coats and vests.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "349b55c9131f": {
+  "en": "COTTON TWILL 210–245 · 98/2 COTTON-SPANDEX POPLIN 145–245 · 98/2 CARBON OXFORD 280 GSM",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "79e1715b2d51": {
+  "en": "Where the garment is the last line of protection.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "8c8671034700": {
+  "en": "FR coveralls and overalls, FR shirts, FR trousers and FR jackets, built to the standard your site or insurer requires and sampled before you commit.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "12cd21a3e27e": {
+  "en": "CERTIFIED FR FABRIC TO YOUR SPECIFICATION",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "27eb1a461652": {
+  "en": "Dry, and still able to move.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "eebcd48fc8db": {
+  "en": "Rain shirts, rain trousers, rain coats and jackets, and full rain suits. PU-coated oxford, taped seams, articulated cut, storm flaps and cuffs to spec.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "f65025a45202": {
+  "en": "POLYESTER OXFORD PU COATED 150D 110 GSM",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "965821b3c5cf": {
+  "en": "Clean, comfortable, laundered a hundred times.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "3ec63901b805": {
+  "en": "Scrubs and lab coats in the weights and colours a hospital, clinic or lab specifies, with embroidered or printed identification and department colour-coding.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "e02b2a073190": {
+  "en": "POLY-COTTON · CUSTOM COLOURS · EMBROIDERY IN-HOUSE",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "19457686b3cc": {
+  "en": "Made to the specification supplied, without deviation.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "c8878d14d273": {
+  "en": "Security and forces uniforms, personal uniforms and special combat trousers, produced to the pattern, fabric and finish given to us.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "6aa6854e806f": {
+  "en": "Every style is customisable — design, gender, colour, logo, size, fabric weight, printing and embroidery. These are the shapes we build most often, not a closed catalogue: if your specification is different, send it and we will quote it.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "9c50be5a4b28": {
+  "en": "Operator sewing a workwear garment",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9d7226018b13": {
+  "en": "Fabric is never your problem",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "85930b2c5633": {
+  "en": "You do not need a mill, a fabric agent or a minimum order of cloth. Tell us what the garment has to do — the weather, the shift length, the washing regime, the standard it must meet — and we source to that requirement.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "8cad3e90ad00": {
+  "en": "Buying, dyeing, lab dips, shrinkage testing, labelling, printing, embroidery, packing and logistics all sit on our side of the line. Bring a swatch or a garment you already like and we will match it. Bring nothing and we will put options in front of you with a price per piece against each.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "747ad0c57171": {
+  "en": "SOURCE · DYE · CUT · SEW · TAPE · EMBROIDER · PRINT · LABEL · PACK · SHIP",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "e9bb287db5e5": {
+  "en": "Inside the floor",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "03feba4f1701": {
+  "en": "Sewing floor in production",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "55ac17eb3424": {
+  "en": "Fabric store",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "e0a0f99921e4": {
+  "en": "Cutting table",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "351756382953": {
+  "en": "Workwear order in progress",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "09a3846af18c": {
+  "en": "Finished garments ready to pack",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "b04b1ec23a80": {
+  "en": "Photographs from our own floor, not stock library images.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "74ca5ec6c0e0": {
+  "en": "How a workwear order runs",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "1ccf5d25dfed": {
+  "en": "Specification",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "adc9ba91d433": {
+  "en": "Tell us the job the garment does and the standard it must meet. We come back with fabric options, a price per piece and a delivery date — within 48 hours.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "58fabfa70811": {
+  "en": "Sample",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "4116a3ceeb61": {
+  "en": "One garment in your fabric, your colour, your logo, in 2–4 weeks for €50 — credited against your first order. Wear it, wash it, then decide.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "df70fc7991d3": {
+  "en": "Production",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "8afd8810a904": {
+  "en": "Cut, sewn, taped, embroidered and packed on our own lines. You see the order move through — no six weeks of silence.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "eea956cde875": {
+  "en": "Delivered",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "7f457bddbbf6": {
+  "en": "To your door, customs cleared and duties paid, on one European invoice in euros. You are not the importer.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "5bcdaa2e6f4c": {
+  "en": "The full catalogue",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "7165cd85e29e": {
+  "en": "Twenty-six pages of what we actually build — every style with its fabric, weight and reference. Browse it here, or take the whole thing away as a PDF.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "81f547195bef": {
+  "en": "Previous page",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "be1127a87377": {
+  "en": "Workwear catalogue, page 1",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "4bfc194b68a3": {
+  "en": "Next page",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "4a19951a2d2b": {
+  "en": "PAGE 1 OF 26",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "4f26758b0921": {
+  "en": "Play as slideshow",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "98e5ef062b2a": {
+  "en": "Download PDF",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "0cd2664cb285": {
+  "en": "Page 1",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "45948b181339": {
+  "en": "Catalogue page 1",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "66d39b62e4c2": {
+  "en": "Page 2",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "396656806e57": {
+  "en": "Catalogue page 2",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "01033ba8b734": {
+  "en": "Page 3",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "3b64a2a4c17c": {
+  "en": "Catalogue page 3",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9bbff45a8715": {
+  "en": "Page 4",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "318b9d001313": {
+  "en": "Catalogue page 4",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "71879f28ffc4": {
+  "en": "Page 5",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "cea3d5e470ca": {
+  "en": "Catalogue page 5",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "a929c00faf27": {
+  "en": "Page 6",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "607d0291a3bc": {
+  "en": "Catalogue page 6",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "6e0e040b479e": {
+  "en": "Page 7",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "88632b639a7a": {
+  "en": "Catalogue page 7",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "747c3cbfa91d": {
+  "en": "Page 8",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "34954b8c250f": {
+  "en": "Catalogue page 8",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "8f6ab709abff": {
+  "en": "Page 9",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "53bd2fff843b": {
+  "en": "Catalogue page 9",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "a2af03398f60": {
+  "en": "Page 10",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "136490ce34c2": {
+  "en": "Catalogue page 10",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "a902bd082fe8": {
+  "en": "Page 11",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "920668766430": {
+  "en": "Catalogue page 11",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "5ce7cca7beae": {
+  "en": "Page 12",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "fb5add0133ce": {
+  "en": "Catalogue page 12",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9c44f1c84b4b": {
+  "en": "Page 13",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "1fcad453ca12": {
+  "en": "Catalogue page 13",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "16143e4e41f0": {
+  "en": "Page 14",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "33428f86e413": {
+  "en": "Catalogue page 14",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "d5a230bd97c0": {
+  "en": "Page 15",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "5d2abae90dc8": {
+  "en": "Catalogue page 15",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "b325bc8b617d": {
+  "en": "Page 16",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "1a4187781fb1": {
+  "en": "Catalogue page 16",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "3c657bab0a4a": {
+  "en": "Page 17",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "e59cf9ad6a1a": {
+  "en": "Catalogue page 17",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "88c3d70e7f17": {
+  "en": "Page 18",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "9cad9c3653a7": {
+  "en": "Catalogue page 18",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "ca9dd8e1fa59": {
+  "en": "Page 19",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "4978f5b9fa43": {
+  "en": "Catalogue page 19",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "4ae887bad6eb": {
+  "en": "Page 20",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "285be1271f0e": {
+  "en": "Catalogue page 20",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9c479e4aafb3": {
+  "en": "Page 21",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "785b4a55d32b": {
+  "en": "Catalogue page 21",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9f7a6e53c3e5": {
+  "en": "Page 22",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "9d88c6bbed17": {
+  "en": "Catalogue page 22",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "38f28dcf160c": {
+  "en": "Page 23",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "36a4d2aa1144": {
+  "en": "Catalogue page 23",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "e49490a069d9": {
+  "en": "Page 24",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "88c0171a6e56": {
+  "en": "Catalogue page 24",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "a681631c11ac": {
+  "en": "Page 25",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "0566fbcea70a": {
+  "en": "Catalogue page 25",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "0a63a3125f3f": {
+  "en": "Page 26",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:button:aria-label"
+ },
+ "23ffc3850e48": {
+  "en": "Catalogue page 26",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "5b34d4f0efe1": {
+  "en": "Kitting out a workforce?",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "2d70004dc174": {
+  "en": "Send the specification — or a photo of what your people wear now. Itemised quote in 48 hours.",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "1d232c3addab": {
+  "en": "Get a workwear quote",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "html"
+ }
+}
