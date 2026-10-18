@@ -5,7 +5,7 @@ import re
 SITE   = "https://7thapparel.com"
 LANGS  = ["nl","de","pl","fr"]
 ALL    = ["en"] + LANGS
-PAGES  = ["index","about","compliance","contact","faq","for-brands","for-teams",
+PAGES  = ["index","about","compliance","contact","faq","for-brands","workwear-sports-kits",
           "how-it-works","our-factory","our-story","pricing","quote",
           "what-we-make","workwear"]
 CODE   = {"en":"EN","nl":"NL","de":"DE","pl":"PL","fr":"FR"}
@@ -22,6 +22,9 @@ BREAKPOINT = {"en": 1280, "nl": 1376, "de": 1376, "pl": 1376, "fr": 1376}
 NAV_SHORT = {
     "fr": {"/what-we-make": "Nos fabrications",
            "/how-it-works": "Notre m\u00e9thode"},
+    # German runs past the 1320px row once "Arbeits- & Teamkleidung" is in the nav.
+    "de": {"/how-it-works": "Ablauf",
+           "/our-story": "\u00dcber uns"},
 }
 
 # The quote button carries a full sentence in every language. On a phone the

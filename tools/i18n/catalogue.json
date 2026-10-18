@@ -6,8 +6,8 @@
   ],
   "kind": "title"
  },
- "3776638ea22d": {
-  "en": "European clothing manufacturer with our own factory. Order from 10 pieces, no letter of credit, delivered to your door duty paid.",
+ "b9fb572ecfad": {
+  "en": "Dutch clothing manufacturer with our own factory in Lahore, Pakistan. From 10 pieces per style for simple designs, EU invoice, no letter of credit.",
   "pages": [
    "index"
   ],
@@ -21,7 +21,7 @@
    "compliance",
    "contact",
    "faq",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -32,8 +32,8 @@
   ],
   "kind": "html"
  },
- "1f9d961367c8": {
-  "en": "<a href=\"/for-teams\">For Teams</a>",
+ "f11a25dc374a": {
+  "en": "<a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a>",
   "pages": [
    "index",
    "about",
@@ -60,7 +60,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -79,7 +79,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-story",
    "pricing",
@@ -98,7 +98,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "pricing",
@@ -117,7 +117,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "our-factory",
    "our-story",
    "pricing",
@@ -136,7 +136,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -154,7 +154,7 @@
    "compliance",
    "contact",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -173,7 +173,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -192,7 +192,7 @@
    "compliance",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "pricing",
@@ -211,7 +211,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -231,7 +231,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -242,8 +242,8 @@
   ],
   "kind": "attr:select:aria-label"
  },
- "02e3a582bd6f": {
-  "en": "Get a quote",
+ "ad5620177b12": {
+  "en": "<span class=\"ctaLong\">Get a quote</span><span class=\"ctaShort\">Quote</span>",
   "pages": [
    "index",
    "about",
@@ -251,7 +251,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -262,8 +262,8 @@
   ],
   "kind": "html"
  },
- "8c29837f596f": {
-  "en": "Our own production floor",
+ "0a1d71f9371e": {
+  "en": "Sewing lines on our own production floor in Lahore",
   "pages": [
    "index"
   ],
@@ -321,8 +321,8 @@
   ],
   "kind": "html"
  },
- "2543363c70c1": {
-  "en": "<b>From 10</b> pieces per style",
+ "d273f8b970b7": {
+  "en": "<b>From 10</b> pieces per style · simple designs",
   "pages": [
    "index"
   ],
@@ -378,31 +378,30 @@
   ],
   "kind": "html"
  },
- "2c23751ed04a": {
-  "en": "FOR TEAMS",
+ "8e21e39d7a9d": {
+  "en": "WORKWEAR & SPORTS KITS",
   "pages": [
    "index",
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "9bcb1268744c": {
-  "en": "Not merch. Your own collection.",
-  "pages": [
-   "index",
-   "for-teams"
-  ],
-  "kind": "html"
- },
- "b53f40d321e2": {
-  "en": "Kit out a team, an event or a whole company — your label, your colours, and a fabric you choose from the options we put in front of you. Twenty hoodies for the office or two thousand uniforms for a chain.",
+ "99e27d4f5a71": {
+  "en": "Your logo. Your kit. Our factory.",
   "pages": [
    "index"
   ],
   "kind": "html"
  },
- "85ca29e03e32": {
-  "en": "Collection · Programme →",
+ "38137e647b0a": {
+  "en": "Workwear, staff uniforms and sports kits cut and sewn in your colours, with your logo and a fabric you choose from the options we put in front of you. Ten polos for a small club or two thousand uniforms for a chain.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "e3216fc74396": {
+  "en": "Workwear · Sports kits →",
   "pages": [
    "index"
   ],
@@ -548,8 +547,8 @@
   ],
   "kind": "html"
  },
- "64988e6bc95e": {
-  "en": "<span class=\"pin\">AMSTERDAM<em>your contract, your invoice, your manager</em></span><span class=\"thread\"><i></i></span><span class=\"pin\">OUR FLOOR<em>cutting, sewing, finishing, packing</em></span>",
+ "243f75e387e7": {
+  "en": "<span class=\"pin\">NETHERLANDS<em>your contract, your invoice, your manager</em></span><span class=\"thread\"><i></i></span><span class=\"pin\">OUR FLOOR<em>cutting, sewing, finishing, packing</em></span>",
   "pages": [
    "index"
   ],
@@ -716,8 +715,8 @@
   ],
   "kind": "html"
  },
- "b99790670e8c": {
-  "en": "<b>Amsterdam · contract &amp; care</b>Your contract and invoice from a European company, itemised quote in 48 h, development and sampling coordination, quality gate.",
+ "69324f1ee5e4": {
+  "en": "<b>Netherlands · contract &amp; care</b>Your contract and invoice from a European company, itemised quote in 48 h, development and sampling coordination, quality gate.",
   "pages": [
    "index"
   ],
@@ -1158,11 +1157,10 @@
   ],
   "kind": "html"
  },
- "516b18ae43d1": {
-  "en": "Amsterdam, Netherlands",
+ "4f95791ad424": {
+  "en": "Schaepmanlaan 29, 1421 VV Uithoorn (near Amsterdam) · showroom by appointment",
   "pages": [
-   "index",
-   "our-factory"
+   "index"
   ],
   "kind": "html"
  },
@@ -1343,8 +1341,8 @@
   ],
   "kind": "html"
  },
- "c70b510922d5": {
-  "en": "DDP to your door. Export documents, freight, customs clearance, duty and import VAT are ours to handle. No EORI to arrange, no broker to appoint, no container sitting in Rotterdam waiting for a signature.",
+ "84c26b0d253f": {
+  "en": "DDP to your door for VAT-registered businesses in the Netherlands, Belgium and Germany. Export documents, freight, customs clearance, duty and import VAT are ours to handle. No EORI to arrange, no broker to appoint, no container sitting in Rotterdam waiting for a signature. Elsewhere in the EU we deliver DAP and show the duty line in your quote.",
   "pages": [
    "index"
   ],
@@ -1564,15 +1562,15 @@
   ],
   "kind": "html"
  },
- "6e9ebdcd7966": {
-  "en": "<b style=\"font-family:'Space Grotesk';color:#fff\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Amsterdam, Netherlands<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+ "9616aadb29c9": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:#fff\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
   "pages": [
    "index"
   ],
   "kind": "html"
  },
- "169d131acf74": {
-  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/for-teams\">For Teams</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a>",
+ "ba2ec58d81e8": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a>",
   "pages": [
    "index"
   ],
@@ -1594,7 +1592,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1614,7 +1612,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1625,8 +1623,8 @@
   ],
   "kind": "html"
  },
- "83c352ddc912": {
-  "en": "AMSTERDAM",
+ "3554df197657": {
+  "en": "UITHOORN",
   "pages": [
    "index"
   ],
@@ -1660,15 +1658,15 @@
   ],
   "kind": "attr:meta:description"
  },
- "ca95fec582c4": {
-  "en": "<span><b>146,500</b> pieces shipped since March 2025</span><span>UK · USA · Italy</span><span><b>11 of 13</b> orders are repeat business</span><span>From <b>10</b> pieces per style</span>",
+ "93ed55c4974b": {
+  "en": "<span><b>146,500</b> pieces shipped since March 2025</span><span>UK · USA · Italy</span><span><b>11 of 13</b> orders are repeat business</span><span>From <b>10</b> pieces per style · simple designs</span>",
   "pages": [
    "about",
    "compliance",
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1693,8 +1691,8 @@
   ],
   "kind": "html"
  },
- "35f16ca9fb99": {
-  "en": "7th Apparel was built on a simple observation: Europe is full of brands and teams who know exactly what they want to make — and cannot find a production house that will take a small order seriously, or a counterparty they can sue in their own language if it goes wrong. Our family has been making garments <b>since 2011</b>. What we added three years ago was the Dutch end: a registered European company, so that buying from us costs a brand no more effort than buying from a supplier down the road.",
+ "9ebb9872ee76": {
+  "en": "7th Apparel was built on a simple observation: Europe is full of brands, companies and clubs who know exactly what they want to make — and cannot find a production house that will take a small order seriously, or a counterparty they can sue in their own language if it goes wrong. Our family has been making garments <b>since 2011</b>. What we added three years ago was the Dutch end: a registered European company, so that buying from us costs a brand no more effort than buying from a supplier down the road.",
   "pages": [
    "about"
   ],
@@ -1819,31 +1817,29 @@
   ],
   "kind": "html"
  },
- "2f79d1563490": {
-  "en": "Production hall",
-  "pages": [
-   "about",
-   "our-factory"
-  ],
-  "kind": "attr:img:alt"
- },
- "d784383db240": {
-  "en": "Sewing lines",
-  "pages": [
-   "about",
-   "workwear"
-  ],
-  "kind": "attr:img:alt"
- },
- "ef8613173fdf": {
-  "en": "Factory floor",
+ "864ec10eff00": {
+  "en": "Sewing lines at our factory in Lahore",
   "pages": [
    "about"
   ],
   "kind": "attr:img:alt"
  },
- "1a51952ffddd": {
-  "en": "Meet us — Amsterdam, the factory, or a video call.",
+ "4d90f1c9e2c5": {
+  "en": "Two sewing lines in production",
+  "pages": [
+   "about"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "9319ac3ef6b3": {
+  "en": "Operator finishing seams on an overlock machine",
+  "pages": [
+   "about"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "adcbba56fac4": {
+  "en": "Meet us — at our showroom near Amsterdam, at the factory, or on a video call.",
   "pages": [
    "about"
   ],
@@ -1856,15 +1852,15 @@
   ],
   "kind": "html"
  },
- "bcc6895b0b98": {
-  "en": "<b style=\"font-family:'Space Grotesk';color:var(--purple)\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Amsterdam, Netherlands<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+ "3f02d5d50720": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:var(--purple)\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
   "pages": [
    "about",
    "compliance",
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1875,15 +1871,15 @@
   ],
   "kind": "html"
  },
- "07ebaf7ac3b1": {
-  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/for-teams\">For Teams</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/our-factory\">Our production house</a><br/><a href=\"/faq\">FAQ</a><br/><a href=\"/our-story\">Our story</a><br/><a href=\"/contact\">Contact</a>",
+ "05e363ec52a0": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/our-factory\">Our production house</a><br/><a href=\"/faq\">FAQ</a><br/><a href=\"/our-story\">Our story</a><br/><a href=\"/contact\">Contact</a>",
   "pages": [
    "about",
    "compliance",
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1902,7 +1898,7 @@
    "contact",
    "faq",
    "for-brands",
-   "for-teams",
+   "workwear-sports-kits",
    "how-it-works",
    "our-factory",
    "our-story",
@@ -1969,8 +1965,8 @@
   ],
   "kind": "html"
  },
- "9392d67b705e": {
-  "en": "Saee Kamil is a registered <b>Sedex member — ZC5000072720</b>, issued by International Associates Limited, with a <b>4-pillar scope</b>: labour standards, health & safety, environment and business ethics. Valid to 2 October 2026. Wage records, working-hours policy and building/fire safety documentation are held on file and shared with buyers on request.",
+ "ca62266fb10b": {
+  "en": "Saee Kamil is a registered <b>Sedex member — ZC5000072720</b>, issued by International Associates Limited, with a <b>4-pillar scope</b>: labour standards, health & safety, environment and business ethics. Current membership status on request. Wage records, working-hours policy and building/fire safety documentation are held on file and shared with buyers on request.",
   "pages": [
    "compliance"
   ],
@@ -2039,15 +2035,15 @@
   ],
   "kind": "html"
  },
- "5fbe0c41f081": {
-  "en": "Contact 7th Apparel — Amsterdam",
+ "95e3746aac4f": {
+  "en": "Contact 7th Apparel — Showroom in Uithoorn, near Amsterdam",
   "pages": [
    "contact"
   ],
   "kind": "title"
  },
- "7b1e684fc5c9": {
-  "en": "Email, phone and WhatsApp for 7th Apparel in Amsterdam. Answered the same working day.",
+ "1797548d6f84": {
+  "en": "Email, phone and WhatsApp for 7th Apparel. Showroom at Schaepmanlaan 29, Uithoorn (near Amsterdam), open by appointment. Answered the same working day.",
   "pages": [
    "contact"
   ],
@@ -2075,8 +2071,8 @@
   ],
   "kind": "html"
  },
- "272f34b73ccd": {
-  "en": "Five people, one floor. Whoever answers can walk to the line and look at your garment. If you would rather read why the company exists first, that is <a href=\"/our-story\">our story</a>.",
+ "ccb471381f0d": {
+  "en": "Our Dutch desk talks to the floor in Lahore every day, so whoever answers can get you a line photo, a swatch or a measurement. If you would rather read why the company exists first, that is <a href=\"/our-story\">our story</a>.",
   "pages": [
    "contact"
   ],
@@ -2124,22 +2120,36 @@
   ],
   "kind": "html"
  },
- "33b00f73d077": {
-  "en": "Where we are",
+ "818b245b986e": {
+  "en": "Visit our showroom",
   "pages": [
    "contact"
   ],
   "kind": "html"
  },
- "159c157b1459": {
-  "en": "<b>7th Apparel</b><br/>Amsterdam, Netherlands<br/><span class=\"mono\">KVK 91485452</span>",
+ "60b1eb4a5f49": {
+  "en": "<b>7th Apparel</b><br/>Schaepmanlaan 29<br/>1421 VV Uithoorn (near Amsterdam)<br/>Netherlands<br/><span class=\"mono\">KVK 91485452</span>",
   "pages": [
    "contact"
   ],
   "kind": "html"
  },
- "ca4aafb52342": {
-  "en": "Visits to the factory are welcome, and we will host you.",
+ "c59c2d3d17b3": {
+  "en": "See and feel samples in person — <b>by appointment only</b>. Book a time by WhatsApp or email and we confirm the same working day.",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "ee9609833374": {
+  "en": "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Schaepmanlaan+29%2C+1421+VV+Uithoorn\" rel=\"noopener noreferrer\" target=\"_blank\">Open in Google Maps →</a>",
+  "pages": [
+   "contact"
+  ],
+  "kind": "html"
+ },
+ "2c091f9796fd": {
+  "en": "Visits to our factory in Lahore can be arranged too.",
   "pages": [
    "contact"
   ],
@@ -2453,8 +2463,8 @@
   ],
   "kind": "html"
  },
- "7e3a1c30ec2e": {
-  "en": "For the first drop, a showroom set, an investor pitch or a market test. Real cut-and-sew in the fabric you pick from our range, with your label — not a printed blank. Small runs carry the same pattern, marker and set-up work as large ones, so the price per piece is higher; it falls sharply the moment you reach 100.",
+ "405f6f2044c1": {
+  "en": "For the first drop, a showroom set, an investor pitch or a market test. Real cut-and-sew in the fabric you pick from our range, with your label — not a printed blank. Small runs carry the same pattern, marker and set-up work as large ones, so the price per piece is higher; it falls sharply the moment you reach 100. Ten pieces works for simple styles; a complex style may need a higher minimum, and we say so in your quote.",
   "pages": [
    "for-brands"
   ],
@@ -2614,178 +2624,208 @@
   ],
   "kind": "html"
  },
- "53ca7202f9c3": {
-  "en": "Custom Team & Company Kit, Own Label — From 10 Pieces | 7th Apparel",
+ "0c80742e0ad1": {
+  "en": "Workwear & Custom Sports Kits Manufacturer | 7th Apparel",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "title"
  },
- "e28207e91b38": {
-  "en": "Own-label kit for companies, clubs and events — from ten pieces.",
+ "081431d64d49": {
+  "en": "Custom workwear, staff uniforms and sports kits made in our own factory, with your logo, colours and fabric. From 10 pieces for simple styles. Quote in 48 hours.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "attr:meta:description"
  },
- "022c082caac6": {
-  "en": "<a href=\"/for-teams\" style=\"color:#8A6410;font-weight:600\">For Teams</a>",
+ "4d28b71c98da": {
+  "en": "<a href=\"/workwear-sports-kits\" style=\"color:#8A6410;font-weight:600\">Workwear &amp; Sports Kits</a>",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "f711ca077279": {
-  "en": "Tees, polos, hoodies, kits and uniforms cut and sewn in the fabric and colours you choose, with your label — not printed on the same blank your competitor uses. Twenty pieces for a small team or two thousand for a chain. We confirm your delivery date before you order, and we hit it.",
+ "3e0d6bc7f74a": {
+  "en": "Workwear and sports kits, made to your spec.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "6bc6b4a8f8b8": {
-  "en": "How we work with teams and companies",
+ "b5c848db1a00": {
+  "en": "Work clothing, staff uniforms and team kits cut and sewn in our own factory, in the fabric and colours you choose, with your logo and your label — not printed onto the same blank your competitor uses. Ten polos for a small club or two thousand uniforms for a chain. We confirm your delivery date in writing before you order.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "30109b0a1d98": {
-  "en": "COLLECTION",
+ "80f28230f05c": {
+  "en": "<a class=\"btn\" href=\"/quote\">Get a workwear or kit quote →</a> <a class=\"btn ghost\" href=\"/workwear\">See the workwear range</a>",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "277b14164ca5": {
+  "en": "What we make",
+  "pages": [
+   "workwear-sports-kits",
+   "what-we-make",
+   "workwear"
+  ],
+  "kind": "html"
+ },
+ "e73143af73e6": {
+  "en": "WORKWEAR & UNIFORMS",
+  "pages": [
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "3523c006d54e": {
+  "en": "LOGO STYLES FROM 10 PCS · TECHNICAL FROM 50",
+  "pages": [
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "3d8fb1bfec49": {
+  "en": "Hi-vis, coveralls, cargo trousers, polos, softshells and staff uniforms — embroidered or printed with your logo and graded to your sizes. For construction, logistics, industry, cleaning, hospitality and retail teams.",
+  "pages": [
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "c3066e1bcaad": {
+  "en": "<a href=\"/workwear\">Full workwear range →</a>",
+  "pages": [
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "c1ab528f66e2": {
+  "en": "SPORTS KITS & TEAMWEAR",
+  "pages": [
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
  "d29f29ded84b": {
   "en": "FROM 10 PCS",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "1f3854e111fe": {
-  "en": "Your fabric, colours and label; print and embroidery in multiple positions; packaging. For onboarding kits, company events, club seasons.",
+ "25781ccc1afd": {
+  "en": "Match and training kits, tracksuits, hoodies and supporter wear for clubs, schools and federations — your crest, sponsor logos, names and numbers, in the colours of your club.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "5e5de5c3d22b": {
-  "en": "9–12 WKS FROM APPROVED SAMPLE · 12–15 FROM BRIEF",
+ "711699cbdbdb": {
+  "en": "PROGRAMMES",
   "pages": [
-   "for-teams"
-  ],
-  "kind": "html"
- },
- "2bf694a400f6": {
-  "en": "PROGRAMME",
-  "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
  "85dde11bd301": {
   "en": "1,000+ PCS / YEAR",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "1c1f1a5304e6": {
-  "en": "Uniforms and recurring merchandise with call-off stock, size runs, a reorder contact and annual pricing. For chains, federations, hospitality groups.",
+ "7f9295332f21": {
+  "en": "Uniforms and recurring kit with call-off stock, size runs, a reorder contact and annual pricing. For chains, federations and hospitality groups.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "1a6a0184de01": {
-  "en": "SMALL TEAM",
+ "4991a0aa72aa": {
+  "en": "Lead time: 9–12 weeks from approved sample, 12–15 weeks from brief. Simple styles start at ten pieces; technical workwear such as taped hi-vis or coveralls usually starts at fifty per style — we confirm the minimum in your quote.",
   "pages": [
-   "for-teams"
-  ],
-  "kind": "html"
- },
- "e1172a8600d0": {
-  "en": "A founding team, a stand at a trade fair, a leaving gift for someone who mattered. Fully custom, priced per piece — ask and we will quote it like any other order.",
-  "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
  "8e3ee64d491f": {
   "en": "Made for",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "9dba7ad7c5bd": {
-  "en": "Companies",
+ "6851072d1f9b": {
+  "en": "Companies & industry",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "9765a5e8d178": {
-  "en": "Onboarding kits, event apparel, office wear that people actually keep wearing.",
+ "ddba10607437": {
+  "en": "Workwear for construction, logistics, manufacturing and facility teams — hi-vis, coveralls, trousers and polos with your logo.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "ebb34eb72616": {
-  "en": "Clubs & federations",
+ "d829791fb391": {
+  "en": "Clubs, schools & federations",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "817250c81fc8": {
-  "en": "Kits, tracksuits and supporter wear — Saee Kamil started in sports kits.",
+ "b86460801f24": {
+  "en": "Match and training kits, tracksuits and supporter wear for the whole season, reordered by size when you need more.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "d3ece9217664": {
+  "en": "Hospitality & retail",
+  "pages": [
+   "workwear-sports-kits"
+  ],
+  "kind": "html"
+ },
+ "4da176a0ebac": {
+  "en": "Staff uniforms, polos, shirts and outerwear in your colours, so the whole team looks like one brand.",
+  "pages": [
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
  "70c7e69a5f14": {
   "en": "Agencies",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "e6a58fa3c4a2": {
-  "en": "Client merch programmes, white-label: we never contact your customer.",
+ "cc538e70ecaf": {
+  "en": "White-label workwear and kit programmes for your clients — we never contact your customer.",
   "pages": [
-   "for-teams"
-  ],
-  "kind": "html"
- },
- "70f50e7c8f1f": {
-  "en": "Hospitality, workwear & leather",
-  "pages": [
-   "for-teams"
-  ],
-  "kind": "html"
- },
- "814c74918b6f": {
-  "en": "Uniforms and protective wear — our house makes workwear up to firefighter suits — plus leather jackets, bags and accessories for premium staff kit.",
-  "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
  "6484641a8cea": {
   "en": "Send your logo and a number.",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
- "b305a8b968a0": {
-  "en": "Get a Team quote",
+ "df6a0caee1f1": {
+  "en": "Get a workwear or kit quote",
   "pages": [
-   "for-teams"
+   "workwear-sports-kits"
   ],
   "kind": "html"
  },
@@ -2929,8 +2969,8 @@
   ],
   "kind": "html"
  },
- "50b48af30100": {
-  "en": "Teams — Collection",
+ "cfd9a1754320": {
+  "en": "Workwear & sports kits",
   "pages": [
    "how-it-works"
   ],
@@ -3055,15 +3095,22 @@
   ],
   "kind": "html"
  },
- "5a7fed6ab193": {
-  "en": "Sewing floor",
+ "412523b4f267": {
+  "en": "Sewing floor in Lahore",
   "pages": [
    "our-factory"
   ],
   "kind": "attr:img:alt"
  },
- "76ae0ea22a13": {
-  "en": "Machine detail",
+ "150b59dda01e": {
+  "en": "Production line with marked walkways",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "f8992f7cefc9": {
+  "en": "Lockstitch machine in use",
   "pages": [
    "our-factory"
   ],
@@ -3071,6 +3118,13 @@
  },
  "500fc06a62c6": {
   "en": "How the two homes work together",
+  "pages": [
+   "our-factory"
+  ],
+  "kind": "html"
+ },
+ "f2898afda813": {
+  "en": "Uithoorn, Netherlands",
   "pages": [
    "our-factory"
   ],
@@ -3097,8 +3151,8 @@
   ],
   "kind": "html"
  },
- "611ebd135e96": {
-  "en": "Our production house has its own site — the same floor, the same people: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><b>saeekamil.com</b></a>. 7th Apparel is how European brands and teams buy from it.",
+ "85529ff513df": {
+  "en": "Our production house has its own site — the same floor, the same people: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\"><b>saeekamil.com</b></a>. 7th Apparel is how European brands, companies and clubs buy from it.",
   "pages": [
    "our-factory"
   ],
@@ -3496,8 +3550,8 @@
   ],
   "kind": "html"
  },
- "20a225a38196": {
-  "en": "Indicative bands, delivered DDP Amsterdam, excluding VAT, including labels and polybag. Ten pieces cost more each because the pattern, marker and set-up are the same work as a thousand. Your itemised quote lands within 48 hours.",
+ "5ba63ded4162": {
+  "en": "Indicative bands, delivered DDP to a Dutch address, excluding VAT, including labels and polybag. Ten pieces cost more each because the pattern, marker and set-up are the same work as a thousand. Your itemised quote lands within 48 hours.",
   "pages": [
    "pricing"
   ],
@@ -3636,8 +3690,8 @@
   ],
   "kind": "html"
  },
- "d0a28cb7bb34": {
-  "en": "These are the styles we are asked for most often — they are a sample of the range, not a menu. If what you want is not on this list, it almost certainly is not a problem: ask. Bands are anchored on our production house's current FOB rates plus freight, clearance and our margin, delivered DDP Amsterdam. Workwear, kits and leather are quoted per style. Every quote is itemised — you see the fabric, the making, the decoration, the freight and the duty as separate lines.",
+ "4207b378bbb6": {
+  "en": "These are the styles we are asked for most often — they are a sample of the range, not a menu. If what you want is not on this list, it almost certainly is not a problem: ask. Bands are anchored on our production house's current FOB rates plus freight, clearance and our margin, delivered DDP to a Dutch address. Workwear, kits and leather are quoted per style. Every quote is itemised — you see the fabric, the making, the decoration, the freight and the duty as separate lines.",
   "pages": [
    "pricing"
   ],
@@ -3692,8 +3746,8 @@
   ],
   "kind": "html"
  },
- "4eaec356327a": {
-  "en": "<b>Shipping at cost</b>, or <b>collect free</b> from our office near Amsterdam — we send you the address and a time when you order.",
+ "e07b3b4197ec": {
+  "en": "<b>Shipping at cost</b>, or <b>collect free</b> from our showroom in Uithoorn, near Amsterdam — by appointment.",
   "pages": [
    "pricing"
   ],
@@ -3727,8 +3781,8 @@
   ],
   "kind": "html"
  },
- "ae51d1f036d3": {
-  "en": "From <b>10 pieces per style</b> — genuinely. Below 100 pcs a small-run rate applies; from 100 the published bands take over. Sampling is €50 per style and is refunded against your first bulk order.",
+ "7681ec297082": {
+  "en": "From <b>10 pieces per style</b> for simple designs — genuinely. More complex styles may need a higher minimum, and we confirm it in your quote. Below 100 pcs a small-run rate applies; from 100 the published bands take over. Sampling is €50 per style and is refunded against your first bulk order.",
   "pages": [
    "pricing"
   ],
@@ -3895,8 +3949,8 @@
   ],
   "kind": "html"
  },
- "e2c7f28515c8": {
-  "en": "Workwear — hi-vis, industrial, FR, medical, tactical",
+ "41bc39f9362b": {
+  "en": "Workwear & uniforms — hi-vis, industrial, FR, medical, staff",
   "pages": [
    "quote"
   ],
@@ -3931,8 +3985,8 @@
   ],
   "kind": "html"
  },
- "3d99e66e666c": {
-  "en": "Sports kits",
+ "51656d47c3fe": {
+  "en": "Sports kits & teamwear",
   "pages": [
    "quote"
   ],
@@ -3959,29 +4013,36 @@
   ],
   "kind": "html"
  },
- "282aa1522fb2": {
-  "en": "10–99 — capsule / first drop",
+ "adecaac6ad99": {
+  "en": "10–49 — first drop (simple designs)",
   "pages": [
    "quote"
   ],
   "kind": "html"
  },
- "d552e946b836": {
-  "en": "Team or company kit — under 150",
+ "a5342e69d350": {
+  "en": "50–99 — capsule",
   "pages": [
    "quote"
   ],
   "kind": "html"
  },
- "f5a9b58d3029": {
-  "en": "Team or company kit — 150 to 500",
+ "acc628725803": {
+  "en": "Workwear or sports kits — under 150",
   "pages": [
    "quote"
   ],
   "kind": "html"
  },
- "a6f98421f0b9": {
-  "en": "Team or company kit — 500+",
+ "5f24278abb7d": {
+  "en": "Workwear or sports kits — 150 to 500",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
+ "b721a0243dc4": {
+  "en": "Workwear or sports kits — 500+",
   "pages": [
    "quote"
   ],
@@ -4022,8 +4083,8 @@
   ],
   "kind": "html"
  },
- "455cdd111be0": {
-  "en": "Next 6 weeks — urgent",
+ "ac7e7af76a36": {
+  "en": "As soon as possible — urgent",
   "pages": [
    "quote"
   ],
@@ -4148,8 +4209,8 @@
   ],
   "kind": "html"
  },
- "173cda3dcc8b": {
-  "en": "If nothing happened, copy the brief below and send it to <a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a> — it reaches the same place.",
+ "fe1bcde4732b": {
+  "en": "If nothing happened, copy the brief below and send it to <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a> — it reaches the same place.",
   "pages": [
    "quote"
   ],
@@ -4176,8 +4237,8 @@
   ],
   "kind": "html"
  },
- "f36d4e5b868c": {
-  "en": "<b>Or email</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\"><b>sameer.shahzad@7thapparel.com</b></a><br/>Existing orders: <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/>Amsterdam, Netherlands<br/><span class=\"mono\">7TH APPAREL · KVK 91485452</span>",
+ "1b961fec5201": {
+  "en": "<b>Or email</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\"><b>sameer.shahzad@7thapparel.com</b></a><br/>Existing orders: <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/>Showroom: Uithoorn, near Amsterdam (by appointment)<br/><span class=\"mono\">7TH APPAREL · KVK 91485452</span>",
   "pages": [
    "quote"
   ],
@@ -4236,14 +4297,6 @@
   "en": "CATEGORIES",
   "pages": [
    "what-we-make"
-  ],
-  "kind": "html"
- },
- "277b14164ca5": {
-  "en": "What we make",
-  "pages": [
-   "what-we-make",
-   "workwear"
   ],
   "kind": "html"
  },
@@ -4345,15 +4398,15 @@
   ],
   "kind": "html"
  },
- "e52ed5c0d0fd": {
-  "en": "Sewing hall",
+ "79f066c667e3": {
+  "en": "Overlocking on the sewing line",
   "pages": [
    "what-we-make"
   ],
   "kind": "attr:img:alt"
  },
- "61f2d664e24c": {
-  "en": "Production lines",
+ "fb530d101b31": {
+  "en": "Operators on a production line",
   "pages": [
    "what-we-make"
   ],
@@ -4618,8 +4671,8 @@
   ],
   "kind": "html"
  },
- "32160671c51c": {
-  "en": "Every workwear style is customisable — design, gender, colour, logo, size, fabric weight, printing and embroidery. Reflective taping, heat-seal, screen print and embroidery are done in-house. Workwear customisation starts at <b>50 pieces per style</b>; the ten-piece capsule tier applies to our knit, woven and denim ranges.",
+ "a9d8ada2d0ea": {
+  "en": "Every workwear style is customisable — design, gender, colour, logo, size, fabric weight, printing and embroidery. Reflective taping, heat-seal, screen print and embroidery are done in-house. Technical workwear (taped hi-vis, coveralls, FR) starts at <b>50 pieces per style</b>; logo polos, tees and sweatshirts — like our knit, woven and denim ranges — start at ten for simple designs.",
   "pages": [
    "what-we-make"
   ],
@@ -4681,8 +4734,8 @@
   ],
   "kind": "html"
  },
- "70cb24e53318": {
-  "en": "Workwear in production on our sewing lines",
+ "adcf8e0342d6": {
+  "en": "Sewing lines on our production floor",
   "pages": [
    "workwear"
   ],
@@ -4695,8 +4748,8 @@
   ],
   "kind": "html"
  },
- "f30b33d15f91": {
-  "en": "<b>50</b><span>pieces minimum per style</span>",
+ "3c3c183fef98": {
+  "en": "<b>50</b><span>pieces per style for technical workwear · logo polos and tees from 10</span>",
   "pages": [
    "workwear"
   ],
@@ -4891,22 +4944,29 @@
   ],
   "kind": "attr:img:alt"
  },
- "55ac17eb3424": {
-  "en": "Fabric store",
+ "224bcb4c8f1d": {
+  "en": "Overlocking seams",
   "pages": [
    "workwear"
   ],
   "kind": "attr:img:alt"
  },
- "e0a0f99921e4": {
-  "en": "Cutting table",
+ "3bf89edd0a90": {
+  "en": "Operators on the line",
   "pages": [
    "workwear"
   ],
   "kind": "attr:img:alt"
  },
- "351756382953": {
-  "en": "Workwear order in progress",
+ "7891c21dc396": {
+  "en": "Approved samples on the rail",
+  "pages": [
+   "workwear"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "0608913c4a30": {
+  "en": "Marked walkway between sewing lines",
   "pages": [
    "workwear"
   ],

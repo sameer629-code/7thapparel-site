@@ -9,7 +9,7 @@ needs them. Word-by-word extraction would produce nonsense in German or Polish.
 import json, re, os, hashlib, sys
 from bs4 import BeautifulSoup, NavigableString, Comment, Doctype
 
-PAGES = ["index","about","compliance","contact","faq","for-brands","for-teams",
+PAGES = ["index","about","compliance","contact","faq","for-brands","workwear-sports-kits",
          "how-it-works","our-factory","our-story","pricing","quote",
          "what-we-make","workwear"]
 
