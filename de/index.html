@@ -33,7 +33,15 @@ nav ul a{text-decoration:none;opacity:.85}nav ul a:hover{opacity:1;color:var(--g
 /* hero */
 .hero{min-height:100vh;display:grid;align-items:center;position:relative;padding-top:80px}
 .hero .bgimg{position:absolute;inset:0;overflow:hidden;z-index:0}
-.hero .bgimg img{width:100%;height:100%;object-fit:cover;opacity:.55;transform:scale(1.08)}
+.hero .bgimg img{width:100%;height:100%;object-fit:cover;object-position:68% 50%;opacity:.62;transform:scale(1.08)}
+.herotag{position:absolute;z-index:3;top:118px;right:max(32px,calc((100vw - 1320px)/2 + 24px));display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(23,16,46,.62);border:1px solid rgba(201,184,238,.35);color:#E9E2F8;font:500 12.5px/1.3 Inter,system-ui,sans-serif;backdrop-filter:blur(6px)}
+.herotag b{font-family:'IBM Plex Mono',monospace;font-weight:600;letter-spacing:.08em;color:#fff}
+.heroinset{position:absolute;z-index:3;margin:0;right:max(32px,calc((100vw - 1320px)/2 + 24px));bottom:170px;width:min(27vw,380px);border-radius:14px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45);border:1px solid rgba(201,184,238,.35)}
+.heroinset img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.heroinset figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(23,16,46,.9));color:#E9E2F8;font:500 12.5px/1.3 Inter,system-ui,sans-serif}
+.heroinset figcaption b{font-family:'IBM Plex Mono',monospace;font-weight:600;letter-spacing:.08em;color:#fff}
+@media(max-height:860px){.heroinset{bottom:200px;width:min(24vw,340px)}}
+@media(max-width:1199px){.heroinset,.herotag{display:none}}
 .hero .bgimg:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(23,16,46,.94) 0%,rgba(23,16,46,.82) 42%,rgba(23,16,46,.42) 72%,rgba(23,16,46,.72) 100%)}
 .hero .inner{position:relative;z-index:2;padding:60px 0 120px}
 .kicker{color:var(--gold);font-family:'IBM Plex Mono';font-size:13px;letter-spacing:2px;margin-bottom:18px}
@@ -395,6 +403,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
+
+
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -479,8 +489,10 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 <a class="logo" href="/de"><svg fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg>7th Apparel</a>
 <ul id="navlist"><li><a href="/de/for-brands">Für Marken</a></li><li><a href="/de/workwear-sports-kits">Arbeits- &amp; Teamkleidung</a></li><li><a href="/de/company-swag">Merchandise</a></li><li><a href="/de/what-we-make">Was wir fertigen</a></li><li><a href="/de/our-factory">Unsere Fabrik</a></li><li><a href="/de/how-it-works">Ablauf</a></li><li><a href="/de/pricing">Preise</a></li><li><a href="/de/faq">FAQ</a></li><li><a href="/de/contact">Kontakt</a></li></ul>
 <button aria-controls="navlist" aria-expanded="false" aria-label="Menü" class="burger" id="burger"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Sprache"><option value="/" data-l="en">EN</option><option value="/nl/" data-l="nl">NL</option><option value="/de/" data-l="de" selected>DE</option><option value="/pl/" data-l="pl">PL</option><option value="/fr/" data-l="fr">FR</option></select></div><a class="btn" href="/de/quote"><span class="ctaLong">Angebot anfordern</span><span class="ctaShort">Angebot</span></a></nav></div></header>
-<section class="hero"><div class="bgimg"><img alt="Nählinien auf unserer eigenen Produktionsfläche in Lahore" id="heroimg" src="/assets/floor-line-a.jpg"/></div>
-<div class="wrap inner"><div class="kicker">EUROPÄISCHE ANLAUFSTELLE · EIGENE PRODUKTIONSSTÄTTE</div>
+<section class="hero"><div class="bgimg"><img alt="Amsterdamer Ufer am IJ" id="heroimg" src="/assets/hero-amsterdam.jpg"/></div>
+<div class="herotag"><svg aria-hidden="true" height="14" viewBox="0 0 24 24" width="14"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="#E0A83C"></path></svg><span><b>NIEDERLANDE</b> · Ihr Vertrag, Ihre Rechnung, Ihr Service</span></div>
+<figure class="heroinset"><img alt="Nählinien auf unserer eigenen Produktionsfläche in Lahore" height="597" src="/assets/floor-line-a.jpg" width="896"/><figcaption><b>LAHORE</b> · unsere eigene Produktion</figcaption></figure>
+<div class="wrap inner"><div class="kicker">EIN NIEDERLÄNDISCHES UNTERNEHMEN · EIGENE PRODUKTIONSSTÄTTE</div>
 <h1 id="heroline"><span class="w"><span>Wenn </span></span><span class="w"><span>Ihre </span></span><span class="w"><span><em>Marke</em> </span></span><span class="w"><span>auf </span></span><span class="w"><span>unsere </span></span><span class="w"><span><em>Produktion</em> </span></span><span class="w"><span>trifft.</span></span></h1>
 <p>Zehn Stück oder Millionen — im eigenen Haus zugeschnitten, genäht und ausgerüstet, dann bis vor Ihre Tür geliefert, die Zollarbeit erledigen wir. Strick, Webware, Denim, Arbeitskleidung, Leder und Handtücher — in konventioneller oder 100% Bio-Baumwolle. Wenn es zugeschnitten und genäht wird, fragen Sie uns.</p>
 <a class="btn" href="/de/quote">Angebot in 48 Stunden</a>   <a class="btn ghost" href="#flow">So funktioniert es ↓</a>

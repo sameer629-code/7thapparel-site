@@ -279,6 +279,20 @@
   ],
   "kind": "html"
  },
+ "8f60dca90c6f": {
+  "en": "Amsterdam waterfront on the IJ",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:img:alt"
+ },
+ "7ba6429cd76b": {
+  "en": "<b>THE NETHERLANDS</b> · your contract, invoice and care",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
  "0a1d71f9371e": {
   "en": "Sewing lines on our own production floor in Lahore",
   "pages": [
@@ -286,8 +300,15 @@
   ],
   "kind": "attr:img:alt"
  },
- "a41f572a6f96": {
-  "en": "EUROPEAN FRONT DESK · OUR OWN PRODUCTION HOUSE",
+ "2c08a7f94208": {
+  "en": "<b>LAHORE</b> · our own production floor",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "fe6d43a98a3a": {
+  "en": "A DUTCH COMPANY · OUR OWN PRODUCTION HOUSE",
   "pages": [
    "index"
   ],

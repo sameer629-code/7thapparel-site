@@ -32,7 +32,15 @@ nav ul a{text-decoration:none;opacity:.85}nav ul a:hover{opacity:1;color:var(--g
 /* hero */
 .hero{min-height:100vh;display:grid;align-items:center;position:relative;padding-top:80px}
 .hero .bgimg{position:absolute;inset:0;overflow:hidden;z-index:0}
-.hero .bgimg img{width:100%;height:100%;object-fit:cover;opacity:.55;transform:scale(1.08)}
+.hero .bgimg img{width:100%;height:100%;object-fit:cover;object-position:68% 50%;opacity:.62;transform:scale(1.08)}
+.herotag{position:absolute;z-index:3;top:118px;right:max(32px,calc((100vw - 1320px)/2 + 24px));display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:rgba(23,16,46,.62);border:1px solid rgba(201,184,238,.35);color:#E9E2F8;font:500 12.5px/1.3 Inter,system-ui,sans-serif;backdrop-filter:blur(6px)}
+.herotag b{font-family:'IBM Plex Mono',monospace;font-weight:600;letter-spacing:.08em;color:#fff}
+.heroinset{position:absolute;z-index:3;margin:0;right:max(32px,calc((100vw - 1320px)/2 + 24px));bottom:170px;width:min(27vw,380px);border-radius:14px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.45);border:1px solid rgba(201,184,238,.35)}
+.heroinset img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.heroinset figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 10px;background:linear-gradient(transparent,rgba(23,16,46,.9));color:#E9E2F8;font:500 12.5px/1.3 Inter,system-ui,sans-serif}
+.heroinset figcaption b{font-family:'IBM Plex Mono',monospace;font-weight:600;letter-spacing:.08em;color:#fff}
+@media(max-height:860px){.heroinset{bottom:200px;width:min(24vw,340px)}}
+@media(max-width:1199px){.heroinset,.herotag{display:none}}
 .hero .bgimg:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(23,16,46,.94) 0%,rgba(23,16,46,.82) 42%,rgba(23,16,46,.42) 72%,rgba(23,16,46,.72) 100%)}
 .hero .inner{position:relative;z-index:2;padding:60px 0 120px}
 .kicker{color:var(--gold);font-family:'IBM Plex Mono';font-size:13px;letter-spacing:2px;margin-bottom:18px}
@@ -394,6 +402,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
+
+
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -479,8 +489,10 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 <ul id="navlist"><li><a href="/for-brands">For Brands</a></li><li><a href="/workwear-sports-kits">Workwear &amp; Sports Kits</a></li><li><a href="/company-swag">Company Swag</a></li><li><a href="/what-we-make">What we make</a></li><li><a href="/our-factory">Our factory</a></li><li><a href="/how-it-works">How it works</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul>
 <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlist"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Language"><option value="/" data-l="en" selected>EN</option><option value="/nl/" data-l="nl">NL</option><option value="/de/" data-l="de">DE</option><option value="/pl/" data-l="pl">PL</option><option value="/fr/" data-l="fr">FR</option></select></div><a class="btn" href="/quote"><span class="ctaLong">Get a quote</span><span class="ctaShort">Quote</span></a></nav></div></header>
 
-<section class="hero"><div class="bgimg"><img id="heroimg" src="assets/floor-line-a.jpg" alt="Sewing lines on our own production floor in Lahore"></div>
-<div class="wrap inner"><div class="kicker">EUROPEAN FRONT DESK · OUR OWN PRODUCTION HOUSE</div>
+<section class="hero"><div class="bgimg"><img id="heroimg" src="assets/hero-amsterdam.jpg" alt="Amsterdam waterfront on the IJ"></div>
+<div class="herotag"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="#E0A83C"/></svg><span><b>THE NETHERLANDS</b> · your contract, invoice and care</span></div>
+<figure class="heroinset"><img src="assets/floor-line-a.jpg" width="896" height="597" alt="Sewing lines on our own production floor in Lahore"><figcaption><b>LAHORE</b> · our own production floor</figcaption></figure>
+<div class="wrap inner"><div class="kicker">A DUTCH COMPANY · OUR OWN PRODUCTION HOUSE</div>
 <h1 id="heroline"><span class="w"><span>When&nbsp;</span></span><span class="w"><span>your&nbsp;</span></span><span class="w"><span><em>brand</em>&nbsp;</span></span><span class="w"><span>syncs&nbsp;</span></span><span class="w"><span>with&nbsp;</span></span><span class="w"><span>our&nbsp;</span></span><span class="w"><span><em>production.</em></span></span></h1>
 <p>Ten pieces or millions — cut, sewn and finished in our own house, then delivered to your door with the customs work done for you. Knit, woven, denim, workwear, leather and towels &mdash; in conventional or 100% organic cotton. If it is cut and sewn, ask us.</p>
 <a class="btn" href="/quote">Get a quote in 48 hours</a> &nbsp; <a class="btn ghost" href="#flow">See how it works ↓</a>
