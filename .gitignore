@@ -23,3 +23,6 @@ Thumbs.db
 # i18n working files
 tools/i18n/*.tar.gz
 tools/i18n/chunks/
+
+# python cache
+__pycache__/
