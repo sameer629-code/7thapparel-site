@@ -15,19 +15,19 @@ window.SEVENA_LEADS_URL = '';
   var LANG = (document.documentElement.getAttribute('lang') || 'en').slice(0, 2).toLowerCase();
   var S = {
     en: { t: 'Before we open WhatsApp', s: 'Two quick details so the right person answers you.', n: 'Your name', c: 'Company or brand (optional)', w: 'What is it about?',
-          o: ['Clothing for my brand', 'Workwear & uniforms', 'Sports kits & teamwear', 'Something else'], go: 'Continue to WhatsApp', skip: 'Skip — just open WhatsApp', err: 'Please add your name.', x: 'Close',
+          o: ['Clothing for my brand', 'Workwear & uniforms', 'Sports kits & teamwear', 'Company swag & merchandise', 'Something else'], go: 'Continue to WhatsApp', skip: 'Skip — just open WhatsApp', err: 'Please add your name.', x: 'Close',
           msg: 'Hi 7th Apparel, this is {n}{c}. I would like to ask about {w}. (ref {r})', from: ' from ' },
     nl: { t: 'Voordat WhatsApp opent', s: 'Twee korte gegevens, zodat de juiste persoon u antwoordt.', n: 'Uw naam', c: 'Bedrijf of merk (optioneel)', w: 'Waar gaat het over?',
-          o: ['Kleding voor mijn merk', 'Bedrijfskleding & uniformen', 'Sportkleding & teamkleding', 'Iets anders'], go: 'Verder naar WhatsApp', skip: 'Overslaan — open WhatsApp', err: 'Vul uw naam in.', x: 'Sluiten',
+          o: ['Kleding voor mijn merk', 'Bedrijfskleding & uniformen', 'Sportkleding & teamkleding', 'Merchandise met logo', 'Iets anders'], go: 'Verder naar WhatsApp', skip: 'Overslaan — open WhatsApp', err: 'Vul uw naam in.', x: 'Sluiten',
           msg: 'Hallo 7th Apparel, u spreekt met {n}{c}. Ik heb een vraag over {w}. (ref {r})', from: ' van ' },
     de: { t: 'Bevor WhatsApp öffnet', s: 'Zwei kurze Angaben, damit die richtige Person Ihnen antwortet.', n: 'Ihr Name', c: 'Firma oder Marke (optional)', w: 'Worum geht es?',
-          o: ['Kleidung für meine Marke', 'Arbeitskleidung & Uniformen', 'Trikots & Teambekleidung', 'Etwas anderes'], go: 'Weiter zu WhatsApp', skip: 'Überspringen — WhatsApp öffnen', err: 'Bitte geben Sie Ihren Namen an.', x: 'Schließen',
+          o: ['Kleidung für meine Marke', 'Arbeitskleidung & Uniformen', 'Trikots & Teambekleidung', 'Firmen-Merchandise', 'Etwas anderes'], go: 'Weiter zu WhatsApp', skip: 'Überspringen — WhatsApp öffnen', err: 'Bitte geben Sie Ihren Namen an.', x: 'Schließen',
           msg: 'Hallo 7th Apparel, hier ist {n}{c}. Ich habe eine Frage zu {w}. (Ref. {r})', from: ' von ' },
     pl: { t: 'Zanim otworzymy WhatsApp', s: 'Dwie krótkie informacje, aby odpowiedziała właściwa osoba.', n: 'Imię i nazwisko', c: 'Firma lub marka (opcjonalnie)', w: 'Czego dotyczy pytanie?',
-          o: ['Odzież dla mojej marki', 'Odzież robocza i uniformy', 'Stroje sportowe', 'Coś innego'], go: 'Przejdź do WhatsApp', skip: 'Pomiń — otwórz WhatsApp', err: 'Prosimy podać imię.', x: 'Zamknij',
+          o: ['Odzież dla mojej marki', 'Odzież robocza i uniformy', 'Stroje sportowe', 'Gadżety firmowe z logo', 'Coś innego'], go: 'Przejdź do WhatsApp', skip: 'Pomiń — otwórz WhatsApp', err: 'Prosimy podać imię.', x: 'Zamknij',
           msg: 'Dzień dobry 7th Apparel, tu {n}{c}. Mam pytanie dotyczące: {w}. (ref {r})', from: ', ' },
     fr: { t: 'Avant d\'ouvrir WhatsApp', s: 'Deux informations rapides pour que la bonne personne vous réponde.', n: 'Votre nom', c: 'Entreprise ou marque (facultatif)', w: 'C\'est à quel sujet ?',
-          o: ['Vêtements pour ma marque', 'Vêtements de travail & uniformes', 'Tenues de sport', 'Autre chose'], go: 'Continuer vers WhatsApp', skip: 'Passer — ouvrir WhatsApp', err: 'Merci d\'indiquer votre nom.', x: 'Fermer',
+          o: ['Vêtements pour ma marque', 'Vêtements de travail & uniformes', 'Tenues de sport', 'Goodies d\'entreprise', 'Autre chose'], go: 'Continuer vers WhatsApp', skip: 'Passer — ouvrir WhatsApp', err: 'Merci d\'indiquer votre nom.', x: 'Fermer',
           msg: 'Bonjour 7th Apparel, ici {n}{c}. J\'ai une question concernant : {w}. (réf. {r})', from: ', ' }
   };
   var T = S[LANG] || S.en;

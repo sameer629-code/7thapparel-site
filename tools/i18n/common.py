@@ -7,7 +7,7 @@ LANGS  = ["nl","de","pl","fr"]
 ALL    = ["en"] + LANGS
 PAGES  = ["index","about","compliance","contact","faq","for-brands","workwear-sports-kits",
           "how-it-works","our-factory","our-story","pricing","quote",
-          "what-we-make","workwear"]
+          "what-we-make","workwear","company-swag","privacy","terms"]
 CODE   = {"en":"EN","nl":"NL","de":"DE","pl":"PL","fr":"FR"}
 OGLOC  = {"en":"en_GB","nl":"nl_NL","de":"de_DE","pl":"pl_PL","fr":"fr_FR"}
 ARIA   = {"en":"Language","nl":"Taal","de":"Sprache","pl":"Język","fr":"Langue"}
@@ -23,8 +23,7 @@ NAV_SHORT = {
     "fr": {"/what-we-make": "Nos fabrications",
            "/how-it-works": "Notre m\u00e9thode"},
     # German runs past the 1320px row once "Arbeits- & Teamkleidung" is in the nav.
-    "de": {"/how-it-works": "Ablauf",
-           "/our-story": "\u00dcber uns"},
+    "de": {"/how-it-works": "Ablauf"},
 }
 
 # The quote button carries a full sentence in every language. On a phone the

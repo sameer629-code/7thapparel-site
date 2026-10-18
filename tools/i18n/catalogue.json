@@ -28,7 +28,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -47,7 +50,32 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "1277925cecc7": {
+  "en": "<a href=\"/company-swag\">Company Swag</a>",
+  "pages": [
+   "index",
+   "about",
+   "compliance",
+   "contact",
+   "faq",
+   "for-brands",
+   "workwear-sports-kits",
+   "how-it-works",
+   "our-factory",
+   "our-story",
+   "pricing",
+   "quote",
+   "what-we-make",
+   "workwear",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -66,7 +94,10 @@
    "our-story",
    "pricing",
    "quote",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -85,26 +116,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
-  ],
-  "kind": "html"
- },
- "c5a79b999304": {
-  "en": "<a href=\"/our-story\">Our story</a>",
-  "pages": [
-   "index",
-   "about",
-   "compliance",
-   "contact",
-   "faq",
-   "for-brands",
-   "workwear-sports-kits",
-   "how-it-works",
-   "our-factory",
-   "pricing",
-   "quote",
-   "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -123,7 +138,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -142,7 +160,10 @@
    "our-story",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -161,26 +182,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
-  ],
-  "kind": "html"
- },
- "98604021dcfb": {
-  "en": "<a href=\"/compliance\">Compliance</a>",
-  "pages": [
-   "index",
-   "about",
-   "contact",
-   "faq",
-   "for-brands",
-   "workwear-sports-kits",
-   "how-it-works",
-   "our-factory",
-   "our-story",
-   "pricing",
-   "quote",
-   "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -198,7 +203,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -218,7 +226,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "attr:button:aria-label"
  },
@@ -238,7 +249,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "attr:select:aria-label"
  },
@@ -258,7 +272,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -407,6 +424,35 @@
   ],
   "kind": "html"
  },
+ "e1e5e6e889c9": {
+  "en": "COMPANY SWAG",
+  "pages": [
+   "index",
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "a3c73cfbbbd4": {
+  "en": "Branded merch people keep.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "76a11304f4ad": {
+  "en": "Hoodies, tees, polos and gifts in your colours, with your logo embroidered or printed — for onboarding kits, events and clients. From ten pieces per style.",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "6154c5f40f33": {
+  "en": "Onboarding · Events · Gifts →",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
  "d32a691cc244": {
   "en": "THE EASIEST WAY TO START",
   "pages": [
@@ -456,8 +502,8 @@
   ],
   "kind": "html"
  },
- "49b340d60ef1": {
-  "en": "<b>Refunded</b>The €50 comes off your first bulk invoice. Extra round if you need one: €50",
+ "2b57cea38873": {
+  "en": "<b>Credited</b>The €50 comes off your first bulk invoice. Extra round if you need one: €50",
   "pages": [
    "index"
   ],
@@ -1569,8 +1615,8 @@
   ],
   "kind": "html"
  },
- "ba2ec58d81e8": {
-  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a>",
+ "c5b7020e6dbf": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/company-swag\">Company Swag</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/terms\">Terms</a> · <a href=\"/privacy\">Privacy</a>",
   "pages": [
    "index"
   ],
@@ -1599,7 +1645,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "attr:a:aria-label"
  },
@@ -1619,7 +1668,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -1673,7 +1725,8 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag"
   ],
   "kind": "html"
  },
@@ -1708,7 +1761,8 @@
  "cdab446359f1": {
   "en": "Who we are",
   "pages": [
-   "about"
+   "about",
+   "privacy"
   ],
   "kind": "html"
  },
@@ -1867,12 +1921,15 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
- "05e363ec52a0": {
-  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/our-factory\">Our production house</a><br/><a href=\"/faq\">FAQ</a><br/><a href=\"/our-story\">Our story</a><br/><a href=\"/contact\">Contact</a>",
+ "096aed1672b6": {
+  "en": "<b>Explore</b><br/><a href=\"/for-brands\">For Brands</a><br/><a href=\"/workwear-sports-kits\">Workwear &amp; Sports Kits</a><br/><a href=\"/company-swag\">Company Swag</a><br/><a href=\"/workwear\">Workwear</a><br/><a href=\"/pricing\">Pricing</a><br/><a href=\"/compliance\">Compliance</a><br/><a href=\"/our-factory\">Our production house</a><br/><a href=\"/faq\">FAQ</a><br/><a href=\"/our-story\">Our story</a><br/><a href=\"/contact\">Contact</a><br/><a href=\"/terms\">Terms</a> · <a href=\"/privacy\">Privacy</a>",
   "pages": [
    "about",
    "compliance",
@@ -1886,7 +1943,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -1905,7 +1965,10 @@
    "pricing",
    "quote",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag",
+   "privacy",
+   "terms"
   ],
   "kind": "html"
  },
@@ -1922,13 +1985,6 @@
    "compliance"
   ],
   "kind": "attr:meta:description"
- },
- "b32ca7fb847c": {
-  "en": "<a href=\"/compliance\" style=\"color:#8A6410;font-weight:600\">Compliance</a>",
-  "pages": [
-   "compliance"
-  ],
-  "kind": "html"
  },
  "c4d9bc608378": {
   "en": "COMPLIANCE",
@@ -2456,8 +2512,8 @@
   ],
   "kind": "html"
  },
- "4297613a1144": {
-  "en": "10–99 PCS/STYLE · SAMPLE €50 REFUNDABLE",
+ "e359f5e77f28": {
+  "en": "10–99 PCS/STYLE · SAMPLE €50 · CREDITED ON ORDER",
   "pages": [
    "for-brands"
   ],
@@ -2484,15 +2540,15 @@
   ],
   "kind": "html"
  },
- "71b69076ce31": {
-  "en": "100–300 PCS/STYLE · SAMPLE €50 REFUNDABLE",
+ "1e30d5358859": {
+  "en": "100–300 PCS/STYLE · SAMPLE €50 · CREDITED ON ORDER",
   "pages": [
    "for-brands"
   ],
   "kind": "html"
  },
- "9ad9bcd9b688": {
-  "en": "<b>Sampling €50 per style — refunded against your first bulk order.</b> It costs us several hundred euros (pattern maker, designer, sample tailor, machine time, courier); €50 is our discounted rate so you can hold the garment before you commit. Labels, hangtags, polybag included. DDP to NL/BE/DE.",
+ "73f5d5301d12": {
+  "en": "<b>Sampling €50 per style — credited against your first bulk order, non-refundable once the specification is agreed by email.</b> It costs us several hundred euros (pattern maker, designer, sample tailor, machine time, courier); €50 is our discounted rate so you can hold the garment before you commit. Labels, hangtags, polybag included. DDP to NL/BE/DE.",
   "pages": [
    "for-brands"
   ],
@@ -2671,7 +2727,8 @@
   "pages": [
    "workwear-sports-kits",
    "what-we-make",
-   "workwear"
+   "workwear",
+   "company-swag"
   ],
   "kind": "html"
  },
@@ -2818,7 +2875,8 @@
  "6484641a8cea": {
   "en": "Send your logo and a number.",
   "pages": [
-   "workwear-sports-kits"
+   "workwear-sports-kits",
+   "company-swag"
   ],
   "kind": "html"
  },
@@ -2878,8 +2936,8 @@
   ],
   "kind": "html"
  },
- "0534b8485f8d": {
-  "en": "<b>3 · Sample</b><span>Proto and fit samples in 2–4 weeks, on Gerber CAD. €50 per style — refunded against your first bulk order.</span>",
+ "83d256745492": {
+  "en": "<b>3 · Sample</b><span>Proto and fit samples in 2–4 weeks, on Gerber CAD. €50 per style — credited against your first bulk order.</span>",
   "pages": [
    "how-it-works"
   ],
@@ -3185,13 +3243,6 @@
    "our-story"
   ],
   "kind": "attr:meta:description"
- },
- "0728c95ab7f3": {
-  "en": "<a href=\"/our-story\" style=\"color:#8A6410;font-weight:600\">Our story</a>",
-  "pages": [
-   "our-story"
-  ],
-  "kind": "html"
  },
  "dc4137939514": {
   "en": "OUR STORY",
@@ -3781,8 +3832,8 @@
   ],
   "kind": "html"
  },
- "7681ec297082": {
-  "en": "From <b>10 pieces per style</b> for simple designs — genuinely. More complex styles may need a higher minimum, and we confirm it in your quote. Below 100 pcs a small-run rate applies; from 100 the published bands take over. Sampling is €50 per style and is refunded against your first bulk order.",
+ "d0e92ef85b4b": {
+  "en": "From <b>10 pieces per style</b> for simple designs — genuinely. More complex styles may need a higher minimum, and we confirm it in your quote. Below 100 pcs a small-run rate applies; from 100 the published bands take over. Sampling is €50 per style and is credited against your first bulk order.",
   "pages": [
    "pricing"
   ],
@@ -3992,6 +4043,13 @@
   ],
   "kind": "html"
  },
+ "307bd4da34ef": {
+  "en": "Company swag & merchandise",
+  "pages": [
+   "quote"
+  ],
+  "kind": "html"
+ },
  "7abda392091e": {
   "en": "Organic cotton programme",
   "pages": [
@@ -4027,22 +4085,22 @@
   ],
   "kind": "html"
  },
- "acc628725803": {
-  "en": "Workwear or sports kits — under 150",
+ "815644a79df8": {
+  "en": "Workwear, kits or swag — under 150",
   "pages": [
    "quote"
   ],
   "kind": "html"
  },
- "5f24278abb7d": {
-  "en": "Workwear or sports kits — 150 to 500",
+ "f8c1c11120c6": {
+  "en": "Workwear, kits or swag — 150 to 500",
   "pages": [
    "quote"
   ],
   "kind": "html"
  },
- "b721a0243dc4": {
-  "en": "Workwear or sports kits — 500+",
+ "dcb40a79aecd": {
+  "en": "Workwear, kits or swag — 500+",
   "pages": [
    "quote"
   ],
@@ -4188,8 +4246,8 @@
   ],
   "kind": "html"
  },
- "8d0ff8fda5f9": {
-  "en": "I agree that 7th Apparel may use these details to answer my enquiry.",
+ "283509e11dd4": {
+  "en": "I agree that 7th Apparel may use these details to answer my enquiry, as described in the <a href=\"/privacy\" target=\"_blank\">privacy statement</a>.",
   "pages": [
    "quote"
   ],
@@ -4251,8 +4309,8 @@
   ],
   "kind": "html"
  },
- "7c192105e82a": {
-  "en": "<b>1.</b> We confirm we have understood the brief — same working day.<br/><b>2.</b> Itemised quote with a door-to-door date — within 48 hours.<br/><b>3.</b> If it works for you, development starts and your sample follows in 2–4 weeks for €50, refunded against your first order.",
+ "724e98049e16": {
+  "en": "<b>1.</b> We confirm we have understood the brief — same working day.<br/><b>2.</b> Itemised quote with a door-to-door date — within 48 hours.<br/><b>3.</b> If it works for you, development starts and your sample follows in 2–4 weeks for €50, credited against your first order.",
   "pages": [
    "quote"
   ],
@@ -4265,8 +4323,8 @@
   ],
   "kind": "html"
  },
- "f4fdfb076cc3": {
-  "en": "Sampling is €50 per style and comes straight back to you on your first bulk order. Your designs stay yours — standard terms, not an NDA you have to ask for. Payment 50/40/10, so you hold 10% until you have inspected delivery.",
+ "43d68d1bbbba": {
+  "en": "Sampling is €50 per style and is credited in full on your first bulk order; it is non-refundable once the specification is agreed by email. Bulk orders are made for you, so they cannot be cancelled or returned after you approve the sample. Your designs stay yours — standard terms, not an NDA you have to ask for. Payment 50/40/10, so you hold 10% until you have inspected delivery. <a href=\"/terms\">Read our terms</a>.",
   "pages": [
    "quote"
   ],
@@ -5487,6 +5545,755 @@
   "en": "Get a workwear quote",
   "pages": [
    "workwear"
+  ],
+  "kind": "html"
+ },
+ "45731e350740": {
+  "en": "Company Swag & Branded Merchandise, Made to Order | 7th Apparel",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "title"
+ },
+ "18538b2de4ec": {
+  "en": "Branded hoodies, tees, polos and gifts made in our own factory with your logo, for onboarding kits, events and clients. From 10 pieces per style. Quote in 48 hours.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "3fa950bc7387": {
+  "en": "<a href=\"/company-swag\" style=\"color:#8A6410;font-weight:600\">Company Swag</a>",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "2a3eb06c77dc": {
+  "en": "Company swag people actually keep wearing.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "769588354cd6": {
+  "en": "Hoodies, sweatshirts, tees, polos and jackets cut and sewn in our own factory, in your colours and with your logo embroidered or printed — not a promotional blank with a print that fades after three washes. For onboarding kits, team events, trade fairs and client gifts. From ten pieces per style.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "fdb976f4ac28": {
+  "en": "<a class=\"btn\" href=\"/quote\">Get a swag quote →</a> <a class=\"btn ghost\" href=\"/pricing\">See the price guide</a>",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "186be2ec18b4": {
+  "en": "ONBOARDING & TEAM KITS",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "deda455cfd47": {
+  "en": "FROM 10 PCS PER STYLE",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "4e95cb73410e": {
+  "en": "A welcome set for every new colleague: a hoodie, a tee or a polo in your brand colours, with your logo, sized per person and packed per size.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "849183d88534": {
+  "en": "EVENTS & TRADE FAIRS",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "f199b0a151c4": {
+  "en": "Matching tees, polos or softshells for your stand team, a conference or a company day — embroidered or printed in more than one position.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "011534b74c06": {
+  "en": "CLIENT & PARTNER GIFTS",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "97bdfdd21677": {
+  "en": "QUOTED PER ITEM",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "f8e14a7e8e16": {
+  "en": "Premium pieces people hold on to: heavyweight hoodies, quarter-zips, embroidered towels and leather accessories with a subtle logo.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "fbe97978e393": {
+  "en": "As a guide: a logo tee costs €8.80–11.50 and a 320–380 gsm hoodie €19–24 per piece at 10–99 pieces, and roughly half that at 100 pieces — indicative, delivered to a Dutch address, excluding VAT. Embroidery or print is quoted per logo size and position. Lead time: about 9–12 weeks from approved sample.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "1dd6a17cb403": {
+  "en": "How it works",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "975ba7271870": {
+  "en": "1 · Brief",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "1a4067fb9500": {
+  "en": "Send your logo and a rough number. A link to your brand colours helps.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "77f2a61c59f0": {
+  "en": "2 · Quote in 48 h",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "cff0d3a8bafd": {
+  "en": "We suggest garments, fabrics and colours, each with a price per piece, in one itemised quote.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "d58400de57bc": {
+  "en": "3 · Sample",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "ed7f8b28eab4": {
+  "en": "One sample per style in 2–4 weeks for €50, credited against your order. Approve it and production starts.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "aa005c1693e3": {
+  "en": "4 · Delivered",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "152e4575062a": {
+  "en": "To your door, packed per size. Reorder by size whenever new colleagues join.",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "e49372d498ff": {
+  "en": "Get a swag quote",
+  "pages": [
+   "company-swag"
+  ],
+  "kind": "html"
+ },
+ "e00378ee5e69": {
+  "en": "Privacy Statement | 7th Apparel",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "title"
+ },
+ "bf825a9a0558": {
+  "en": "How 7th Apparel collects, uses and protects personal data from enquiries, WhatsApp and orders, and your rights under the GDPR.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "2f1580345071": {
+  "en": "PRIVACY",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "e2374b50be08": {
+  "en": "Privacy statement",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "7333cc2b51ca": {
+  "en": "Version 1.0 · 18 October 2026",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "2f25ecc23e7f": {
+  "en": "This statement explains which personal data 7th Apparel collects, why, how long we keep it and what your rights are. We collect as little as we need to answer you and to make your order.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "3baa48f39da9": {
+  "en": "7th Apparel is a trading name of 7thstreet, registered with the Dutch Chamber of Commerce (KVK) under number 91485452, Schaepmanlaan 29, 1421 VV Uithoorn, the Netherlands. We are the controller for the personal data described here. Questions about privacy: <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a>.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "c48bbcfed6ef": {
+  "en": "What we collect",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "9cf5afd2efa8": {
+  "en": "<b>Quote form:</b> your name, company, email address, phone or WhatsApp number, delivery country and the details of your brief.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "2c243fef0988": {
+  "en": "<b>WhatsApp button:</b> the name, company and topic you enter before WhatsApp opens; if you then message us, your WhatsApp number and messages.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "1542ef88833e": {
+  "en": "<b>Email and other correspondence</b> you send us, including files such as sketches and logos.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "246317302fe8": {
+  "en": "<b>Customers:</b> billing and delivery details, order and payment records.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "20d2721b67d0": {
+  "en": "<b>Website:</b> our hosting and network providers process your IP address and browser data to deliver and secure the site. Your browser stores your language choice and whether you have seen the WhatsApp step (local storage). We use no tracking cookies, no analytics and no advertising tools.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "976a8781915e": {
+  "en": "Why we use it, and on what basis",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "ea3cc56c62c3": {
+  "en": "To answer your enquiry, send a quote and an automatic confirmation of your brief — steps you ask for before a contract (GDPR art. 6(1)(b)).",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "61cb9f250d40": {
+  "en": "To make and deliver your order and handle claims — performance of the contract (art. 6(1)(b)).",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "45731df9ce5a": {
+  "en": "To keep our accounts and tax records — legal obligation (art. 6(1)(c)).",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "6238b6695fda": {
+  "en": "To keep track of enquiries, follow up, improve our service and keep the website secure — our legitimate interest (art. 6(1)(f)). You can object at any time.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "da9561e253fa": {
+  "en": "We do not sell your data and we do not make decisions about you by automated means.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "b18cdb4c4e6b": {
+  "en": "Who receives it",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "c985af44612e": {
+  "en": "<b>Our production house</b>, Saee e Kamil (Pvt) Ltd in Lahore, Pakistan — only what is needed to quote and make your order.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "23007ec64148": {
+  "en": "<b>Service providers</b> that process data for us: Google (email, documents and our lead overview), Namecheap (our business mailbox), FormSubmit (backup delivery of the quote form), GitHub (website hosting), Cloudflare (network, security, and suggesting your language by country) and Google Fonts (the fonts on this site are loaded from Google, which receives your IP address).",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "bd45a7f0306a": {
+  "en": "<b>WhatsApp (Meta)</b>, if you choose to contact us there.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "9b0eebf89b3f": {
+  "en": "<b>Carriers, customs brokers</b> and our <b>accountant</b> or the <b>tax authorities</b>, where needed for delivery or by law.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "c7d5ed91319c": {
+  "en": "Transfers outside the EU",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "b236af08b0f2": {
+  "en": "Some of these providers process data in the United States; they do so under the EU–US Data Privacy Framework or the European Commission’s standard contractual clauses. Our production house is in Pakistan, which has no EU adequacy decision; we share only the details needed to answer your request or to perform the order you ask for (GDPR art. 49(1)(b)), or under standard contractual clauses.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "5a01609c8ac7": {
+  "en": "How long we keep it",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "d0e99cad0f9f": {
+  "en": "Enquiries that do not lead to an order: up to 24 months after our last contact.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "aff59e17b41a": {
+  "en": "Customer, order and invoice records: 7 years, as Dutch tax law requires.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "e71102d544b3": {
+  "en": "Your rights",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "0dd7960b2a5e": {
+  "en": "You can ask us to access, correct or delete your data, to restrict or stop using it, or to send it to you in a common format. Email <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a> and we will answer within one month. If you are not satisfied, you can complain to the Dutch data protection authority, the <a href=\"https://autoriteitpersoonsgegevens.nl\" rel=\"noopener noreferrer\" target=\"_blank\">Autoriteit Persoonsgegevens</a>.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "f25ce1b8a399": {
+  "en": "Security",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "d1a4d4b68ced": {
+  "en": "Access to your data is limited to the people who need it to serve you. Our accounts use two-step verification and the website runs over HTTPS.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "8aa57de6dce6": {
+  "en": "Changes",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "e98bddb835bb": {
+  "en": "If we change this statement, the new version is published on this page with a new date.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "4469c1767634": {
+  "en": "See also our <a href=\"/terms\">terms and conditions</a>.",
+  "pages": [
+   "privacy"
+  ],
+  "kind": "html"
+ },
+ "b54727337477": {
+  "en": "General Terms and Conditions | 7th Apparel",
+  "pages": [
+   "terms"
+  ],
+  "kind": "title"
+ },
+ "afba1fd12420": {
+  "en": "Terms for quotes, samples and orders with 7th Apparel: €50 sample fee non-refundable once the specification is agreed, made-to-order goods not cancellable or returnable after sample approval.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "attr:meta:description"
+ },
+ "b45d85ec0db1": {
+  "en": "TERMS",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "7149116b304f": {
+  "en": "General terms and conditions",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "8e858bdecad2": {
+  "en": "Version 1.0 · 18 October 2026 · for business customers",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "12d61a13894c": {
+  "en": "These terms explain how quotes, samples and orders work with 7th Apparel. In short: the sample fee is non-refundable once the specification is agreed by email, and an order confirmed after sample approval cannot be cancelled or returned, because it is made for you.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "fe5ddb4163cd": {
+  "en": "1. Who we are and when these terms apply",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "46eee5634a29": {
+  "en": "7th Apparel is a trading name of 7thstreet, KVK 91485452, Schaepmanlaan 29, 1421 VV Uithoorn, the Netherlands. These terms apply to every quote, sample order, order and delivery by 7th Apparel. We sell to businesses, clubs and organisations only, not to consumers. Your own purchasing terms do not apply unless we have agreed to them in writing.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "74572189a068": {
+  "en": "2. Quotes and price guides",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "a2508e774f7e": {
+  "en": "A quote is valid for 30 days and is based on the information you gave us. If the specification, quantity, fabric or delivery address changes, the price may change. The price bands on our website are a guide, not an offer.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "78299c0e080f": {
+  "en": "3. Samples and development",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "ec0e7fd05592": {
+  "en": "A sample costs €50 per style. This includes the tech pack and pattern work for that style, and is paid before development starts.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "5e7b4934a596": {
+  "en": "Once the specification — design, fabric, colours, sizes and branding — has been agreed with us by email, the sample fee is <b>non-refundable</b>.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "edef893b5da5": {
+  "en": "The €50 is credited in full against your first bulk order of that style. An extra sample round costs €50.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "f5ce2115238a": {
+  "en": "Samples take about 2–4 weeks from agreement and payment. This is an estimate, not a fixed date.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "dab87c2f12bb": {
+  "en": "4. Order confirmation",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "d16a08ec110c": {
+  "en": "An order is binding when you have approved the sample (or, without a sample, the specification) and we have confirmed the order in writing, by email. Bulk production starts only after your approval and the deposit.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "e5c8c77dbc3e": {
+  "en": "5. Made to order: no cancellation, no returns",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "e2b97663ca08": {
+  "en": "Every bulk order is made to your specification, in your colours and with your branding. Once you have approved the sample and the order is confirmed, it <b>cannot be cancelled, changed or returned</b>, except for defects under clause 9. If an order is cancelled anyway, the deposit is not refunded and you pay the costs already made for fabric, trims and production.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "5306541eb87b": {
+  "en": "6. Prices and payment",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "2887dbd92ba7": {
+  "en": "Prices are in euros and exclude VAT unless stated otherwise.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "152e9b6d1534": {
+  "en": "Payment: 50% on order confirmation, 40% before shipment and 10% within 14 days of delivery, after you have inspected the goods.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "5a6e1af9ea9e": {
+  "en": "If a payment is late, we may charge the Dutch statutory commercial interest (wettelijke handelsrente) and collection costs, and we may pause production or shipment until it is paid.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "c299c0d96fd6": {
+  "en": "Goods remain our property until they are paid in full.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "06d7b8493d0c": {
+  "en": "7. Delivery",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "46c4e7b56afb": {
+  "en": "Delivery dates are estimates that we confirm in writing. For VAT-registered businesses in the Netherlands, Belgium and Germany we deliver DDP; elsewhere DAP, unless agreed otherwise (Incoterms 2020). Risk passes to you on delivery at the agreed place. Partial deliveries are allowed. If a delay is caused by us, we pay the extra air-freight cost needed to get back on schedule, where the quote says so; we are not liable for other losses caused by a delay.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "a409901a449d": {
+  "en": "8. Normal variations",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "4830a50b1f9c": {
+  "en": "Textiles are natural products. Small differences in colour or shade between the sample and bulk, or between dye lots, and measurements within the tolerances in the size specification are not defects. The delivered quantity may differ from the ordered quantity by up to 3% per style and colour; we invoice what we deliver.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "386d925b4e73": {
+  "en": "9. Inspection and claims",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "36c8f3df5d2b": {
+  "en": "Please check the goods within 7 days of delivery. Report visible defects or shortages to us in writing, with photos, within those 7 days.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "6cfcd0c2caec": {
+  "en": "Hidden defects must be reported within 14 days of discovery and at the latest 3 months after delivery.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "9e9dffa27b67": {
+  "en": "The approved sample and an AQL 2.5 inspection level are the quality standard.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "01cefc2a51e3": {
+  "en": "If a claim is justified, we repair or replace the defective pieces or credit them, at our choice. Goods may only be returned after our written approval.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "dcd2a92eac8a": {
+  "en": "A claim does not suspend payment for the rest of the order.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "51a7799414c4": {
+  "en": "10. Designs, logos and confidentiality",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "ffc6b67faf55": {
+  "en": "Your designs, patterns, tech packs and blocks made for your styles belong to you; we do not produce them for anyone else. You confirm that you have the right to use every design, logo and trademark you give us, and you protect us against claims from others about them. Both of us keep the other’s business information confidential; we will sign your NDA or send you ours.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "f3b6cfe2290c": {
+  "en": "11. Liability",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "93d3941a9071": {
+  "en": "Our liability is limited to the invoice value of the order concerned. We are not liable for indirect or consequential loss, such as lost profit or missed sales. These limits do not apply in case of intent or gross negligence.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "94fa5c068adf": {
+  "en": "12. Force majeure",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "8ce835c727c2": {
+  "en": "We are not in default if we cannot perform because of circumstances beyond our reasonable control, such as natural disasters, epidemics, war, strikes, port or border closures, power failures, government measures or carrier delays. If such a situation lasts longer than 60 days, either party may cancel the part not yet performed; costs already made are paid pro rata.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "b0c6f74d6a74": {
+  "en": "13. Privacy",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "2bbc851b2fa5": {
+  "en": "We handle personal data as described in our <a href=\"/privacy\">privacy statement</a>.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "eee16a971412": {
+  "en": "14. Law and disputes",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "2c0160cc2e61": {
+  "en": "Dutch law applies; the UN Convention on Contracts for the International Sale of Goods (CISG) does not. Disputes are decided by the District Court of Amsterdam (Rechtbank Amsterdam).",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "7e9e8d28d191": {
+  "en": "15. Language",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "a3940be6a489": {
+  "en": "These terms may be translated. If versions differ, the English version applies.",
+  "pages": [
+   "terms"
   ],
   "kind": "html"
  }

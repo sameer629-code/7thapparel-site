@@ -91,6 +91,9 @@ nav ul a{text-decoration:none;opacity:.85}nav ul a:hover{opacity:1;color:var(--g
 .doors .grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .door{background:var(--panel);border-radius:16px;padding:38px;border-top:5px solid var(--gold);opacity:0;transform:translateY(24px)}
 .door.l{border-top-color:var(--lilac)}
+.door.s{border-top-color:#F4F0FA}
+.doors .grid{grid-template-columns:repeat(3,1fr)}
+@media(max-width:980px){.doors .grid{grid-template-columns:1fr!important;gap:14px!important}.door{padding:26px 22px}}
 .door h3{font-size:28px;color:#fff}.door p{opacity:.85;margin:12px 0 24px}
 /* cta + footer */
 .cta{background:linear-gradient(135deg,var(--purple),#3A2B6E);border-radius:20px;padding:52px;display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:80px}
@@ -290,7 +293,7 @@ nav a.logo{display:inline-flex;align-items:center;min-height:44px}
  .trstats,.ocards,.ogrid,.vgrid.facts,.entities,.whygrid,.grid3,.grid2,.fgrid{grid-template-columns:1fr!important}
  /* The two audience doors stay side by side at EVERY width — the choice between
     "for brands" and "for teams" only reads as a choice when both are visible at once. */
- .doors .grid{grid-template-columns:1fr 1fr!important;gap:12px}
+ .doors .grid{grid-template-columns:1fr!important;gap:12px}
  .door{padding:22px 18px;border-top-width:4px}
  .door h3{font-size:19px;line-height:1.18}
  .door p{font-size:13.5px;line-height:1.5;margin:9px 0 18px}
@@ -371,6 +374,12 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 }
 @media(prefers-reduced-motion:reduce){.wa{transition:none}.wa:hover,.wa:focus-visible{transform:none}}
 @media print{.wa{display:none}}
+
+
+
+
+
+
 
 
 
@@ -468,7 +477,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 <div id="loader"><svg fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg></div>
 <header><div class="wrap"><nav>
 <a class="logo" href="/de"><svg fill="none" viewBox="0 0 100 100"><path d="M12 16 H88 L44 92" stroke="#A88FD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></path><line stroke="#E0A83C" stroke-linecap="round" stroke-width="4" x1="8" x2="76" y1="60" y2="60"></line></svg>7th Apparel</a>
-<ul id="navlist"><li><a href="/de/for-brands">Für Marken</a></li><li><a href="/de/workwear-sports-kits">Arbeits- &amp; Teamkleidung</a></li><li><a href="/de/what-we-make">Was wir fertigen</a></li><li><a href="/de/our-factory">Unsere Fabrik</a></li><li><a href="/de/our-story">Über uns</a></li><li><a href="/de/how-it-works">Ablauf</a></li><li><a href="/de/pricing">Preise</a></li><li><a href="/de/faq">FAQ</a></li><li><a href="/de/compliance">Compliance</a></li><li><a href="/de/contact">Kontakt</a></li></ul>
+<ul id="navlist"><li><a href="/de/for-brands">Für Marken</a></li><li><a href="/de/workwear-sports-kits">Arbeits- &amp; Teamkleidung</a></li><li><a href="/de/company-swag">Merchandise</a></li><li><a href="/de/what-we-make">Was wir fertigen</a></li><li><a href="/de/our-factory">Unsere Fabrik</a></li><li><a href="/de/how-it-works">Ablauf</a></li><li><a href="/de/pricing">Preise</a></li><li><a href="/de/faq">FAQ</a></li><li><a href="/de/contact">Kontakt</a></li></ul>
 <button aria-controls="navlist" aria-expanded="false" aria-label="Menü" class="burger" id="burger"><span></span><span></span><span></span></button><div class="langwrap"><select class="langsel" id="langsel" aria-label="Sprache"><option value="/" data-l="en">EN</option><option value="/nl/" data-l="nl">NL</option><option value="/de/" data-l="de" selected>DE</option><option value="/pl/" data-l="pl">PL</option><option value="/fr/" data-l="fr">FR</option></select></div><a class="btn" href="/de/quote"><span class="ctaLong">Angebot anfordern</span><span class="ctaShort">Angebot</span></a></nav></div></header>
 <section class="hero"><div class="bgimg"><img alt="Nählinien auf unserer eigenen Produktionsfläche in Lahore" id="heroimg" src="/assets/floor-line-a.jpg"/></div>
 <div class="wrap inner"><div class="kicker">EUROPÄISCHE ANLAUFSTELLE · EIGENE PRODUKTIONSSTÄTTE</div>
@@ -482,6 +491,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 <h2 class="sr-only">Was wir tun</h2><section class="doors"><div class="wrap"><div class="grid">
 <div class="door"><span class="mono" style="color:var(--gold)">FÜR MARKEN</span><h3>Sie entwerfen. Wir fertigen.</h3><p>Starten Sie mit zehn Stück zum Anfassen, hundert zum Verkaufen oder hunderttausend zum Ausliefern. Wir erstellen das Tech Pack mit Ihnen, bemustern in zwei bis vier Wochen, und Ihre Designs bleiben schriftlich Ihre.</p><a class="btn" href="/de/for-brands">Launch · Grow · Scale →</a></div>
 <div class="door l"><span class="mono" style="color:var(--lilac)">ARBEITSKLEIDUNG &amp; TEAMBEKLEIDUNG</span><h3>Ihr Logo. Ihre Kleidung. Unsere Fabrik.</h3><p>Arbeitskleidung, Mitarbeiteruniformen und Trikots, zugeschnitten und genäht in Ihren Farben, mit Ihrem Logo und einem Stoff, den Sie aus den Optionen wählen, die wir Ihnen vorlegen. Zehn Polos für einen kleinen Verein oder zweitausend Uniformen für eine Kette.</p><a class="btn ghost" href="/de/workwear-sports-kits">Arbeitskleidung · Teambekleidung →</a></div>
+<div class="door s"><span class="mono" style="color:#F4F0FA">FIRMEN-MERCHANDISE</span><h3>Merchandise mit Logo, das man behält.</h3><p>Hoodies, T-Shirts, Polos und Geschenke in Ihren Farben, mit Ihrem Logo bestickt oder bedruckt — für Onboarding-Pakete, Events und Kunden. Ab zehn Stück pro Modell.</p><a class="btn ghost" href="/de/company-swag">Onboarding · Events · Geschenke →</a></div>
 </div></div></section>
 <section id="samplebox"><div class="wrap"><div class="sbox">
 <div class="sbleft">
@@ -662,7 +672,7 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 <div class="wrap"><div class="cta"><div><h2>Sagen Sie uns, was Sie fertigen lassen.</h2><p style="color:var(--pale);opacity:1;margin:10px 0 0;font-size:16px">Zehn Stück oder zehntausend. Aufgeschlüsseltes Angebot in 48 Stunden, geliefert bis vor Ihre Tür.</p></div><a class="btn" href="/de/quote">Angebot in 48 Stunden</a></div></div>
 <footer><div class="wrap"><div class="fgrid">
 <div><b style="font-family:'Space Grotesk';color:#fff">7th Apparel</b><br/>Wenn Ihre Marke auf unsere Produktion trifft.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · eingetragen 2023<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Niederlande · Showroom nach Vereinbarung<br/>Eigene Produktionsstätte: <a href="https://saeekamil.com/" rel="noopener noreferrer" target="_blank">Saee e Kamil (Pvt) Ltd</a></div>
-<div><b>Entdecken</b><br/><a href="/de/for-brands">Für Marken</a><br/><a href="/de/workwear-sports-kits">Arbeits- &amp; Teamkleidung</a><br/><a href="/de/workwear">Arbeitskleidung</a><br/><a href="/de/pricing">Preise</a><br/><a href="/de/compliance">Compliance</a></div>
+<div><b>Entdecken</b><br/><a href="/de/for-brands">Für Marken</a><br/><a href="/de/workwear-sports-kits">Arbeits- &amp; Teamkleidung</a><br/><a href="/de/company-swag">Merchandise</a><br/><a href="/de/workwear">Arbeitskleidung</a><br/><a href="/de/pricing">Preise</a><br/><a href="/de/compliance">Compliance</a><br/><a href="/de/terms">AGB</a> · <a href="/de/privacy">Datenschutz</a></div>
 <div><b>Kontakt</b><br/><a href="mailto:sameer.shahzad@7thapparel.com">sameer.shahzad@7thapparel.com</a><br/><a href="mailto:support@7thapparel.com">support@7thapparel.com</a><br/><a href="tel:+31684660186">+31 6 84 66 01 86</a><br/><a href="https://wa.me/31684660186" rel="noopener noreferrer" target="_blank">Per WhatsApp schreiben</a><br/><a href="/de/quote">Angebot in 48 Stunden</a></div>
 </div></div></footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>

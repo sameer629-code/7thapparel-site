@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup, NavigableString, Comment, Doctype
 
 PAGES = ["index","about","compliance","contact","faq","for-brands","workwear-sports-kits",
          "how-it-works","our-factory","our-story","pricing","quote",
-         "what-we-make","workwear"]
+         "what-we-make","workwear","company-swag","privacy","terms"]
 
 INLINE = {"a","em","strong","b","i","span","br","small","sup","sub","u","abbr",
           "mark","time","s","del","ins","cite","q","wbr","big","tt","font","label"}
