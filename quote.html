@@ -178,6 +178,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
 
 
+
+
 /*i18n-start*/
 /* ---- language switcher (added by tools/i18n/build.py) ---- */
 .langwrap{flex:0 0 auto;display:flex;align-items:center}
@@ -395,7 +397,8 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
   var lines=[]; for(var k in data){ if(k.charAt(0)!=='_') lines.push(k.toUpperCase()+': '+data[k]); }
   var body=lines.join('\n'), subj=data._subject;
-  if(copy) copy.value='To: '+TO+'\nSubject: '+subj+'\n\n'+body;
+  var copyText='To: '+TO+'\nSubject: '+subj+'\n\n'+body;
+  if(copy) copy.value=copyText;
 
   btn.disabled=true; var label=btn.textContent; btn.textContent=T.sending;
 
@@ -404,8 +407,10 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
    ok.hidden=false;
    ok.querySelector('h3').textContent = sent ? T.okH : T.failH;
    ok.querySelector('p').innerHTML = sent ? T.okP : T.failP;
-   ok.scrollIntoView({block:'center',behavior:'smooth'});
    if(sent){ f.reset(); }
+   // f.reset() clears #fcopy (it lives inside the form), so refill it after
+   if(copy) copy.value=copyText;
+   ok.scrollIntoView({block:'center',behavior:'smooth'});
   }
   function viaFormSubmit(){
    return fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)})
@@ -431,8 +436,11 @@ nav ul#navlist a{display:inline-block;padding:9px 2px;min-height:34px;line-heigh
 
  var cb=document.getElementById('fcopybtn');
  if(cb){ cb.textContent=T.copy; cb.addEventListener('click',function(){
-  copy.select();
-  try{ document.execCommand('copy'); cb.textContent=T.copied; setTimeout(function(){cb.textContent=T.copy;},2000);}catch(x){}
+  function flash(){ cb.textContent=T.copied; setTimeout(function(){cb.textContent=T.copy;},2000); }
+  function legacy(){ try{ copy.focus(); copy.select(); copy.setSelectionRange(0,copy.value.length); document.execCommand('copy'); flash(); }catch(x){} }
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+   navigator.clipboard.writeText(copy.value).then(flash,legacy);
+  }else{ legacy(); }
  }); }
 })();
 </script>
