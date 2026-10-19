@@ -279,6 +279,13 @@
   ],
   "kind": "html"
  },
+ "0a1d71f9371e": {
+  "en": "Sewing lines on our own production floor in Lahore",
+  "pages": [
+   "index"
+  ],
+  "kind": "attr:img:alt"
+ },
  "8f60dca90c6f": {
   "en": "Amsterdam waterfront on the IJ",
   "pages": [
@@ -292,13 +299,6 @@
    "index"
   ],
   "kind": "html"
- },
- "0a1d71f9371e": {
-  "en": "Sewing lines on our own production floor in Lahore",
-  "pages": [
-   "index"
-  ],
-  "kind": "attr:img:alt"
  },
  "2c08a7f94208": {
   "en": "<b>LAHORE</b> · our own production floor",
@@ -1231,6 +1231,20 @@
   ],
   "kind": "html"
  },
+ "d2bd6b4c4a79": {
+  "en": "Bank account",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
+ "4fbf6819050e": {
+  "en": "bunq · IBAN NL18 BUNQ 2216 6245 35 · BIC BUNQNL2A",
+  "pages": [
+   "index"
+  ],
+  "kind": "html"
+ },
  "53eb1352da0f": {
   "en": "You get",
   "pages": [
@@ -1629,8 +1643,8 @@
   ],
   "kind": "html"
  },
- "9616aadb29c9": {
-  "en": "<b style=\"font-family:'Space Grotesk';color:#fff\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+ "f76342c219df": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:#fff\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>IBAN NL18 BUNQ 2216 6245 35 · BIC BUNQNL2A<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
   "pages": [
    "index"
   ],
@@ -1643,8 +1657,8 @@
   ],
   "kind": "html"
  },
- "36c47521baf6": {
-  "en": "<b>Contact</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a>",
+ "c47638345845": {
+  "en": "<b>Contact</b><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a>",
   "pages": [
    "index"
   ],
@@ -1927,8 +1941,8 @@
   ],
   "kind": "html"
  },
- "3f02d5d50720": {
-  "en": "<b style=\"font-family:'Space Grotesk';color:var(--purple)\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
+ "d5e91bf53d8b": {
+  "en": "<b style=\"font-family:'Space Grotesk';color:var(--purple)\">7th Apparel</b><br/>When your brand syncs with our production.<br/><br/>7th Apparel · KVK 91485452<br/>vestiging 000057160791 · registered 2023<br/>IBAN NL18 BUNQ 2216 6245 35 · BIC BUNQNL2A<br/>Schaepmanlaan 29, 1421 VV Uithoorn<br/>Netherlands · showroom by appointment<br/>Own production house: <a href=\"https://saeekamil.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Saee e Kamil (Pvt) Ltd</a>",
   "pages": [
    "about",
    "compliance",
@@ -1971,8 +1985,8 @@
   ],
   "kind": "html"
  },
- "93507be216ba": {
-  "en": "<b>Contact</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a><br/><br/>",
+ "c994dd9bfef8": {
+  "en": "<b>Contact</b><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/><a href=\"tel:+31684660186\">+31 6 84 66 01 86</a><br/><a href=\"https://wa.me/31684660186\" rel=\"noopener noreferrer\" target=\"_blank\">WhatsApp us</a><br/><a href=\"/quote\">Quote in 48 hours</a><br/><br/>",
   "pages": [
    "about",
    "compliance",
@@ -2162,15 +2176,8 @@
   ],
   "kind": "html"
  },
- "54f435f3252f": {
-  "en": "<b>New enquiries and quotes</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a>",
-  "pages": [
-   "contact"
-  ],
-  "kind": "html"
- },
- "ea0a16952b82": {
-  "en": "<b>Existing orders and support</b><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a>",
+ "0829b3c78751": {
+  "en": "<b>New enquiries, quotes and existing orders</b><br/><a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a>",
   "pages": [
    "contact"
   ],
@@ -3468,29 +3475,29 @@
   ],
   "kind": "html"
  },
- "b9eea33f620f": {
-  "en": "Sameer Shahzad",
-  "pages": [
-   "our-story"
-  ],
-  "kind": "attr:img:alt"
- },
- "6038615f1a98": {
-  "en": "Chief Executive Officer",
+ "e7d129304c17": {
+  "en": "Hira Rashid",
   "pages": [
    "our-story"
   ],
   "kind": "html"
  },
- "f7b77eac6252": {
-  "en": "Runs the European company and the commercial side. Your quote, your terms and your escalation all end with him.",
+ "7d372defbf86": {
+  "en": "CEO & Co-founder",
   "pages": [
    "our-story"
   ],
   "kind": "html"
  },
- "6eafb0d27151": {
-  "en": "<a href=\"mailto:sameer.shahzad@7thapparel.com\">sameer.shahzad@7thapparel.com</a>",
+ "94b9c5a8fcd7": {
+  "en": "Runs the European company and the commercial side, and leads product development and sourcing. Your quote, your terms and your escalation all end with her.",
+  "pages": [
+   "our-story"
+  ],
+  "kind": "html"
+ },
+ "00a620cf318a": {
+  "en": "<a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a>",
   "pages": [
    "our-story"
   ],
@@ -3519,27 +3526,6 @@
  },
  "c18818e4c57a": {
   "en": "<a href=\"mailto:nadeem.qaiser@7thapparel.com\">nadeem.qaiser@7thapparel.com</a>",
-  "pages": [
-   "our-story"
-  ],
-  "kind": "html"
- },
- "e7d129304c17": {
-  "en": "Hira Rashid",
-  "pages": [
-   "our-story"
-  ],
-  "kind": "html"
- },
- "625fd572e03f": {
-  "en": "Co-founder",
-  "pages": [
-   "our-story"
-  ],
-  "kind": "html"
- },
- "a4a5d17cfaec": {
-  "en": "Product development and sourcing. Turns a sketch or a reference garment into a tech pack the floor can actually cut.",
   "pages": [
    "our-story"
   ],
@@ -4316,8 +4302,8 @@
   ],
   "kind": "html"
  },
- "1b961fec5201": {
-  "en": "<b>Or email</b><br/><a href=\"mailto:sameer.shahzad@7thapparel.com\"><b>sameer.shahzad@7thapparel.com</b></a><br/>Existing orders: <a href=\"mailto:support@7thapparel.com\">support@7thapparel.com</a><br/>Showroom: Uithoorn, near Amsterdam (by appointment)<br/><span class=\"mono\">7TH APPAREL · KVK 91485452</span>",
+ "78744a139e30": {
+  "en": "<b>Or email</b><br/><a href=\"mailto:support@7thapparel.com\"><b>support@7thapparel.com</b></a><br/>Showroom: Uithoorn, near Amsterdam (by appointment)<br/><span class=\"mono\">7TH APPAREL · KVK 91485452</span>",
   "pages": [
    "quote"
   ],
@@ -6145,6 +6131,13 @@
  },
  "152e9b6d1534": {
   "en": "Payment: 50% on order confirmation, 40% before shipment and 10% within 14 days of delivery, after you have inspected the goods.",
+  "pages": [
+   "terms"
+  ],
+  "kind": "html"
+ },
+ "b7692be1ce84": {
+  "en": "Pay only into our business account at bunq: IBAN NL18 BUNQ 2216 6245 35, BIC BUNQNL2A. We never change our bank details by email; if you receive different details, call us on +31 6 84 66 01 86 before paying.",
   "pages": [
    "terms"
   ],
