@@ -3,7 +3,7 @@
    7A Lead Tracker, emails the team and sends the customer a reply from support@.
    While it is empty, the quote form falls back to FormSubmit and WhatsApp links
    open directly (no pre-chat step). */
-window.SEVENA_LEADS_URL = '';
+window.SEVENA_LEADS_URL = 'https://script.google.com/macros/s/AKfycbwaVh_JwHpeg4vh82jyTx-_4Vm3rzwJ2q-d5RvrD1rsTxRWc4gAew44t5lLIZq_8ZiBqw/exec';
 
 /* WhatsApp pre-chat: one short step (name + what they need) before WhatsApp opens,
    so the chat is logged in the tracker with a reference the team can match.
